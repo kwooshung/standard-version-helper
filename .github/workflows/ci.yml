@@ -28,14 +28,6 @@ jobs:
       - name: build
         run: pnpm build
 
-      # 部署到 GitHub Pages
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
-
       # 安装 Octokit REST & semver
       - name: Install Octokit REST & semver
         run: pnpm add @octokit/rest semver -D
@@ -54,3 +46,12 @@ jobs:
         with:
           source-repo: 'git@github.com:kwooshung/standard-version-helper.git'
           destination-repo: 'git@gitee.com:kwooshung/standard-version-helper.git'
+
+      # 自动发布到 npm
+      - uses: actions/setup-node@main
+        with:
+          node-version: '14.0.0'
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
