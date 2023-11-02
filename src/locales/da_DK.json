@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Fejl ved udførelse af kommando: {0}",
+    "syncCompleted": "Synkronisering fuldført.",
+    "invalidChoice": "Ugyldigt valg",
+    "executionSucceeded": "Udførelse lykkedes",
+    "executionFailed": "Udførelse mislykkedes",
+    "backToMenu": "Tilbage",
+    "exit": "Afslut"
+  },
+  "loading": {
+    "revokingCurrent": "Annullerer nuværende version...",
+    "revokingVersion": "Annullerer version: v{0} ...",
+    "specificVersion": "Indstiller version til: v{0} ...",
+    "upgradingVersion": "Opgraderer {0} til: v{1} ..."
+  },
+  "version": {
+    "major": "Større version",
+    "minor": "Mindre version",
+    "patch": "Patch-version",
+    "tips": {
+      "firstTimePrompt": "Da du endnu ikke har udgivet en version, skal der foretages en førstegangsudgivelse.",
+      "failedToIncrement": "Kunne ikke øge versionsnummeret",
+      "invalidVersionField": "Versionsfeltet i package.json mangler eller er ugyldigt",
+      "enterInitialVersion": "Indtast dit startversionsnummer, standard er 0.0.1:",
+      "error": "Indtast et gyldigt semantisk versionsnummer, fx: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Hvad vil du gøre?",
+      "upgradeVersion": "Opgradér version",
+      "specificVersion": "Angiv version",
+      "revokeVersion": "Annullér version"
+    },
+    "upgrade": {
+      "prompt": "Hvilken version vil du opgradere?",
+      "confirmPush": "Vil du skubbe versionen til repositoriet?"
+    },
+    "specificVersion": {
+      "prompt": "Indtast versionsnummer:",
+      "confirm": "Din nuværende version er: v{0}, bekræft ændring til: v{1}?"
+    },
+    "revoke": {
+      "prompt": "Hvilken version vil du annullere?",
+      "currentVersion": "Nuværende version",
+      "specificVersion": "Angiv version"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Behold ændringer i filerne, annullér kun versionsnummeret"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Indtast versionsnummeret, du vil annullere:",
+      "retainChanges": "Behold ændringer i filerne, annullér kun versionsnummeret",
+      "confirm": "Din nuværende version er: v{0}, bekræft annullering af: v{1}?"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Vil du opdatere versionsnummeret i package.json: v{0} til den annullerede version v{1}?",
+      "failedToRetrieve": "Kunne ikke hente versionsnummeret fra det tidligere commit, versionsnummeret i package.json er midlertidigt ikke ændret. Ændr det manuelt, hvis det er nødvendigt."
+    }
+  }
+}

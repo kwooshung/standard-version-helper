@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Chyba při vykonávání příkazu: {0}",
+    "syncCompleted": "Synchronizace dokončena.",
+    "invalidChoice": "Neplatná volba",
+    "executionSucceeded": "Provedení úspěšné",
+    "executionFailed": "Provedení selhalo",
+    "backToMenu": "Zpět",
+    "exit": "Odejít"
+  },
+  "loading": {
+    "revokingCurrent": "Rušení aktuální verze...",
+    "revokingVersion": "Rušení verze: v{0} ...",
+    "specificVersion": "Nastavování verze na: v{0} ...",
+    "upgradingVersion": "Aktualizace {0} na: v{1} ..."
+  },
+  "version": {
+    "major": "Hlavní verze",
+    "minor": "Vedlejší verze",
+    "patch": "Opravná verze",
+    "tips": {
+      "firstTimePrompt": "Jelikož jste ještě nepublikovali žádnou verzi, je potřeba provést první publikaci.",
+      "failedToIncrement": "Nepodařilo se zvýšit číslo verze",
+      "invalidVersionField": "Pole verze v package.json chybí nebo je neplatné",
+      "enterInitialVersion": "Zadejte své počáteční číslo verze, výchozí je 0.0.1:",
+      "error": "Zadejte platné sémantické číslo verze, například: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Co chcete dělat?",
+      "upgradeVersion": "Aktualizovat verzi",
+      "specificVersion": "Specifikovat verzi",
+      "revokeVersion": "Zrušit verzi"
+    },
+    "upgrade": {
+      "prompt": "Kterou verzi chcete aktualizovat?",
+      "confirmPush": "Chcete poslat verzi do repozitáře?"
+    },
+    "specificVersion": {
+      "prompt": "Zadejte číslo verze:",
+      "confirm": "Vaše aktuální verze je: v{0}, potvrzujete změnu na: v{1}?"
+    },
+    "revoke": {
+      "prompt": "Kterou verzi chcete zrušit?",
+      "currentVersion": "Aktuální verze",
+      "specificVersion": "Specifikovat verzi"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Ponechat změny v souborech a zrušit pouze číslo verze"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Zadejte číslo verze, které chcete zrušit:",
+      "retainChanges": "Ponechat změny v souborech a zrušit pouze číslo verze",
+      "confirm": "Vaše aktuální verze je: v{0}, potvrzujete zrušení: v{1}?"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Chcete aktualizovat číslo verze v package.json: v{0} na zrušenou verzi v{1}?",
+      "failedToRetrieve": "Nepodařilo se načíst číslo verze z předchozího commitu, číslo verze v package.json nebylo dočasně změněno. Pokud je to potřeba, upravte to manuálně."
+    }
+  }
+}

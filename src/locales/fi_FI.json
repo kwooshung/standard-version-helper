@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Komentoa ei voi suorittaa: {0}",
+    "syncCompleted": "Synkronointi valmis.",
+    "invalidChoice": "Virheellinen valinta",
+    "executionSucceeded": "Suoritus onnistui",
+    "executionFailed": "Suoritus epäonnistui",
+    "backToMenu": "Palaa valikkoon",
+    "exit": "Poistu"
+  },
+  "loading": {
+    "revokingCurrent": "Perutaan nykyistä versiota...",
+    "revokingVersion": "Perutaan versiota: v{0}...",
+    "specificVersion": "Asetetaan versioksi: v{0}...",
+    "upgradingVersion": "Päivitetään {0} versioon: v{1}..."
+  },
+  "version": {
+    "major": "Pääversio",
+    "minor": "Aliversio",
+    "patch": "Paikkaversio",
+    "tips": {
+      "firstTimePrompt": "Et ole vielä julkaissut versiota, joten sinun täytyy tehdä ensimmäinen julkaisu.",
+      "failedToIncrement": "Versiota ei voitu lisätä",
+      "invalidVersionField": "package.json-tiedoston versiokenttä puuttuu tai on virheellinen",
+      "enterInitialVersion": "Anna alkuperäinen versiosi, oletusarvo 0.0.1:",
+      "error": "Anna kelvollinen semanttinen versio, esimerkiksi: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Mitä aiot tehdä",
+      "upgradeVersion": "Päivitä versio",
+      "specificVersion": "Määritä versio",
+      "revokeVersion": "Peruuta versio"
+    },
+    "upgrade": {
+      "prompt": "Minkä version aiot päivittää",
+      "confirmPush": "Haluatko työntää version varastoon"
+    },
+    "specificVersion": {
+      "prompt": "Anna versionumero:",
+      "confirm": "Nykyinen versiosi on: v{0}, vahvista että asetat version: v{1}"
+    },
+    "revoke": {
+      "prompt": "Minkä version aiot peruuttaa",
+      "currentVersion": "Nykyinen versio",
+      "specificVersion": "Määritä versio"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Säilytä tiedostomuutokset, peruuta vain versionumero"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Anna peruutettava versionumero:",
+      "retainChanges": "Säilytä tiedostomuutokset, peruuta vain versionumero",
+      "confirm": "Nykyinen versiosi on: v{0}, vahvista peruuttaminen: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Haluatko päivittää package.json-tiedoston versionumeron: v{0} peruutetun versionumeroon v{1}",
+      "failedToRetrieve": "Aiemmasta sitoutumisesta ei voitu noutaa versiota, joten package.json-tiedoston versiota ei ole toistaiseksi muutettu. Jos tarvetta, tee muutokset manuaalisesti."
+    }
+  }
+}

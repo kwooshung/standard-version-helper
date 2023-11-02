@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Execuția comenzii a eșuat: {0}",
+    "syncCompleted": "Sincronizare finalizată.",
+    "invalidChoice": "Opțiune invalidă",
+    "executionSucceeded": "Execuție reușită",
+    "executionFailed": "Execuție eșuată",
+    "backToMenu": "Înapoi",
+    "exit": "Ieșire"
+  },
+  "loading": {
+    "revokingCurrent": "Anulare versiune curentă în curs...",
+    "revokingVersion": "Anulare versiune: v{0} ...",
+    "specificVersion": "Se stabilește versiunea la: v{0} ...",
+    "upgradingVersion": "Actualizare {0} la: v{1} ..."
+  },
+  "version": {
+    "major": "Versiune majoră",
+    "minor": "Versiune minoră",
+    "patch": "Versiune de corecție",
+    "tips": {
+      "firstTimePrompt": "Deoarece nu ați publicat încă o versiune, este necesară efectuarea primei publicări.",
+      "failedToIncrement": "Nu s-a putut incrementa numărul de versiune",
+      "invalidVersionField": "Câmpul de versiune din fișierul package.json lipsește sau este invalid",
+      "enterInitialVersion": "Vă rugăm să introduceți versiunea inițială, de exemplu, 0.0.1:",
+      "error": "Vă rugăm să introduceți o versiune semantică validă, de exemplu, {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Ce doriți să faceți",
+      "upgradeVersion": "Actualizați versiunea",
+      "specificVersion": "Versiune specifică",
+      "revokeVersion": "Anulați versiunea"
+    },
+    "upgrade": {
+      "prompt": "La care versiune doriți să faceți upgrade",
+      "confirmPush": "Doriți să confirmați încărcarea versiunii în depozit"
+    },
+    "specificVersion": {
+      "prompt": "Vă rugăm să introduceți numărul versiunii:",
+      "confirm": "Versiunea actuală este: v{0}, confirmați stabilirea versiunii la: v{1}"
+    },
+    "revoke": {
+      "prompt": "La care versiune doriți să faceți anularea",
+      "currentVersion": "Versiunea curentă",
+      "specificVersion": "Versiune specifică"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Păstrați modificările la fișiere și anulați doar numărul de versiune"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Vă rugăm să introduceți numărul versiunii pe care doriți să o anulați:",
+      "retainChanges": "Păstrați modificările la fișiere și anulați doar numărul de versiune",
+      "confirm": "Versiunea actuală este: v{0}, confirmați anularea la: v{1} "
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Doriți să actualizați fișierul package.json cu versiunea: v{0} la versiunea anulată v{1}",
+      "failedToRetrieve": "Nu s-a putut obține numărul de versiune din commit-urile anterioare, fișierul package.json nu a fost modificat temporar. Dacă este necesar, faceți modificările manual."
+    }
+  }
+}

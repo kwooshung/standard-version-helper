@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Falha na execução do comando: {0}",
+    "syncCompleted": "Sincronização concluída.",
+    "invalidChoice": "Escolha inválida",
+    "executionSucceeded": "Execução bem-sucedida",
+    "executionFailed": "Execução falhou",
+    "backToMenu": "Voltar",
+    "exit": "Sair"
+  },
+  "loading": {
+    "revokingCurrent": "A reverter a versão atual...",
+    "revokingVersion": "A reverter a versão: v{0} ...",
+    "specificVersion": "A definir a versão para: v{0} ...",
+    "upgradingVersion": "A atualizar {0} para: v{1} ..."
+  },
+  "version": {
+    "major": "Versão principal",
+    "minor": "Versão secundária",
+    "patch": "Versão de correção",
+    "tips": {
+      "firstTimePrompt": "Uma vez que ainda não lançou uma versão, é necessário fazer o primeiro lançamento.",
+      "failedToIncrement": "Não foi possível incrementar o número da versão",
+      "invalidVersionField": "Campo de versão em package.json em falta ou inválido",
+      "enterInitialVersion": "Por favor, introduza a sua versão inicial, por exemplo, 0.0.1:",
+      "error": "Por favor, introduza um número de versão semântica válido, por exemplo, {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "O que pretende fazer",
+      "upgradeVersion": "Atualizar versão",
+      "specificVersion": "Versão específica",
+      "revokeVersion": "Reverter versão"
+    },
+    "upgrade": {
+      "prompt": "Qual versão deseja atualizar",
+      "confirmPush": "Deseja confirmar o envio da versão para o repositório"
+    },
+    "specificVersion": {
+      "prompt": "Por favor, introduza o número da versão:",
+      "confirm": "A sua versão atual é: v{0}, confirma a definição da versão para: v{1}"
+    },
+    "revoke": {
+      "prompt": "Qual versão deseja reverter",
+      "currentVersion": "Versão atual",
+      "specificVersion": "Versão específica"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Manter alterações aos ficheiros e apenas reverter o número da versão"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Por favor, introduza o número da versão a reverter:",
+      "retainChanges": "Manter alterações aos ficheiros e apenas reverter o número da versão",
+      "confirm": "A sua versão atual é: v{0}, confirma a reversão para: v{1} "
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Deseja atualizar o ficheiro package.json com a versão: v{0} para a versão revertida v{1}",
+      "failedToRetrieve": "Não foi possível recuperar o número da versão a partir de commits anteriores, o ficheiro package.json não foi modificado temporariamente. Se necessário, faça a modificação manualmente."
+    }
+  }
+}

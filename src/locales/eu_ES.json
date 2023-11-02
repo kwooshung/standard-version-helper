@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Error al ejecutar el comando: {0}",
+    "syncCompleted": "Sincronización completada.",
+    "invalidChoice": "Elección no válida",
+    "executionSucceeded": "Ejecución exitosa",
+    "executionFailed": "Ejecución fallida",
+    "backToMenu": "Volver",
+    "exit": "Salir"
+  },
+  "loading": {
+    "revokingCurrent": "Revocando la versión actual...",
+    "revokingVersion": "Revocando la versión: v{0} ...",
+    "specificVersion": "Estableciendo la versión a: v{0} ...",
+    "upgradingVersion": "Actualizando {0} a: v{1} ..."
+  },
+  "version": {
+    "major": "Versión mayor",
+    "minor": "Versión menor",
+    "patch": "Versión de parche",
+    "tips": {
+      "firstTimePrompt": "Como es la primera vez, necesita publicar una versión.",
+      "failedToIncrement": "No se pudo incrementar el número de versión",
+      "invalidVersionField": "El campo de versión en package.json falta o es inválido",
+      "enterInitialVersion": "Introduzca su versión inicial, por defecto 0.0.1:",
+      "error": "Por favor, introduzca un número de versión semántico válido, como: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "¿Qué te gustaría hacer?",
+      "upgradeVersion": "Actualizar versión",
+      "specificVersion": "Especificar versión",
+      "revokeVersion": "Revocar versión"
+    },
+    "upgrade": {
+      "prompt": "¿Qué versión te gustaría actualizar?",
+      "confirmPush": "¿Desea empujar la versión al repositorio?"
+    },
+    "specificVersion": {
+      "prompt": "Por favor, introduzca el número de versión:",
+      "confirm": "Su versión actual es: v{0}, confirme para cambiar a: v{1}"
+    },
+    "revoke": {
+      "prompt": "¿Qué versión te gustaría revocar?",
+      "currentVersion": "Versión actual",
+      "specificVersion": "Especificar versión"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Conservar los cambios en los archivos, solo revocar el número de versión"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Por favor, introduzca el número de versión a revocar:",
+      "retainChanges": "Conservar los cambios en los archivos, solo revocar el número de versión",
+      "confirm": "Su versión actual es: v{0}, confirme para revocar: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "¿Desea actualizar el número de versión en package.json de v{0} a v{1} después de revocar?",
+      "failedToRetrieve": "No se pudo recuperar el número de versión de los commits anteriores, no se ha modificado temporalmente el número de versión en package.json. Modifíquelo manualmente si es necesario."
+    }
+  }
+}

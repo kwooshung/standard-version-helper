@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Komut başarısız: {0}",
+    "syncCompleted": "Senkronizasyon tamamlandı.",
+    "invalidChoice": "Geçersiz seçenek",
+    "executionSucceeded": "Başarıyla çalıştırıldı",
+    "executionFailed": "Çalıştırma başarısız",
+    "backToMenu": "Menüye dön",
+    "exit": "Çıkış"
+  },
+  "loading": {
+    "revokingCurrent": "Geçerli sürüm geri alınıyor...",
+    "revokingVersion": "Sürüm geri alınıyor: v{0} ...",
+    "specificVersion": "Sürüm belirleme: v{0} ...",
+    "upgradingVersion": "{0} sürümünü yükseltme: v{1} ..."
+  },
+  "version": {
+    "major": "Ana sürüm",
+    "minor": "Alt sürüm",
+    "patch": "Yama sürümü",
+    "tips": {
+      "firstTimePrompt": "Henüz bir sürüm yayınlamadığınızdan ilk kez sürüm oluşturmanız gerekmektedir.",
+      "failedToIncrement": "Sürüm numarası artırılamıyor",
+      "invalidVersionField": "package.json dosyasındaki sürüm alanı eksik veya geçersiz",
+      "enterInitialVersion": "Başlangıç sürüm numarasını girin, varsayılan 0.0.1: ",
+      "error": "Geçerli bir semantik sürüm numarası giriniz, örneğin: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Ne yapmayı planlıyorsunuz",
+      "upgradeVersion": "Sürümü yükselt",
+      "specificVersion": "Belirli sürüm",
+      "revokeVersion": "Sürümü geri al"
+    },
+    "upgrade": {
+      "prompt": "Hangi sürümü yükseltmek istersiniz",
+      "confirmPush": "Sürümü depoya göndermek istediğinizden emin misiniz"
+    },
+    "specificVersion": {
+      "prompt": "Sürüm numarasını girin: ",
+      "confirm": "Mevcut sürümünüz: v{0}, belirtilen sürüm numarasına v{1} olarak değiştirilsin mi"
+    },
+    "revoke": {
+      "prompt": "Hangi sürümü geri almak istersiniz",
+      "currentVersion": "Mevcut sürüm",
+      "specificVersion": "Belirli sürüm"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Dosyalar üzerindeki değişiklikleri koruyun, sadece sürüm numarasını geri alın"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Geri almak istediğiniz sürüm numarasını girin: ",
+      "retainChanges": "Dosyalar üzerindeki değişiklikleri koruyun, sadece sürüm numarasını geri alın",
+      "confirm": "Mevcut sürümünüz: v{0}, v{1} sürümünü geri almak istediğinizden emin misiniz"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "package.json dosyasındaki sürüm numarasını geri alma sonrası v{0} olarak güncellemek ister misiniz",
+      "failedToRetrieve": "Önceki bir taahhütten sürüm numarası alınamadı, package.json dosyasındaki sürüm numarası değiştirilemedi. Gerekiyorsa manuel olarak değiştirin."
+    }
+  }
+}
