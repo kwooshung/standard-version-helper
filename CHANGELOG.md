@@ -1,8 +1,18 @@
-# Changelog
+## 🎉 v0.0.2 `2023-11-02`
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### ⚙️ 配置
 
-### [0.0.2](https://github.com/kwooshung/standard-version-helper/compare/v0.0.1...v0.0.2) (2023-11-02)
+- 稍作修改的配置，看看能否生成bin ([0aea3c8](https://github.com/kwooshung/standard-version-helper/commit/0aea3c8))
+
+### 🐛 修复
+
+- 修复了git命令的问题 ([f434f4f](https://github.com/kwooshung/standard-version-helper/commit/f434f4f))
+
+### 🛠️ 依赖更新
+
+- 删除了自己已删除的包，也就是当前项目的包，不然无法合并 ([f84266a](https://github.com/kwooshung/standard-version-helper/commit/f84266a))
+
+---
 
 ## 🎉 v0.0.1 `2023-11-02`
 
