@@ -11,8 +11,8 @@ import { i18n } from './locales/index';
  */
 const executeCommand = (command: string): Buffer => {
   try {
-    return child_process.execSync(command, { stdio: 'inherit' });
-    // return child_process.execSync(`echo "code: ${command}"`, { stdio: 'inherit' });
+    return child_process.execSync(command);
+    // return child_process.execSync(`echo "code: ${command}"`);
     // return Buffer.from('');
   } catch (error) {
     console.error(i18n('common.error', command));

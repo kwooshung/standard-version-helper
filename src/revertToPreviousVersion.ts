@@ -25,7 +25,7 @@ const revertToPreviousVersion = (reference: string, packageJsonRef: IPackageJson
         type: 'confirm',
         name: 'shouldUpdate',
         message: i18n('menus.revertToPreviousVersion.updatePackageJson', currentVersion, previousVersion),
-        default: false
+        default: true
       }
     ];
 
