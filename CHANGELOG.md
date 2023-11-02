@@ -1,3 +1,15 @@
+## 🎉 v0.0.7 `2023-11-02`
+
+### ✨ 特性
+
+- 支持命令了，可以直接执行了 ([07fe35d](https://github.com/kwooshung/standard-version-helper/commit/07fe35d))
+
+### 🚧 开发中
+
+- add files comments ([f9f0551](https://github.com/kwooshung/standard-version-helper/commit/f9f0551))
+
+---
+
 ## 🎉 v0.0.6 `2023-11-02`
 
 - 没有特别说明
