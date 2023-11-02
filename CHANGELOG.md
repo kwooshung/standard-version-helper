@@ -1,8 +1,14 @@
-# Changelog
+## 🎉 v0.0.7 `2023-11-02`
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### ✨ 特性
 
-### [0.0.7](https://github.com/kwooshung/standard-version-helper/compare/v0.0.6...v0.0.7) (2023-11-02)
+- 支持命令了，可以直接执行了 ([07fe35d](https://github.com/kwooshung/standard-version-helper/commit/07fe35d))
+
+### 🚧 开发中
+
+- add files comments ([f9f0551](https://github.com/kwooshung/standard-version-helper/commit/f9f0551))
+
+---
 
 ## 🎉 v0.0.6 `2023-11-02`
 
