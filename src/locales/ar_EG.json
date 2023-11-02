@@ -12,7 +12,7 @@
     "revokingCurrent": "جارِ إلغاء الإصدار الحالي...",
     "revokingVersion": "جارِ إلغاء الإصدار: v{0} ...",
     "specificVersion": "جارِ تحديد الإصدار: v{0} ...",
-    "upgradingVersion": "جارِ ترقية {0} إلى: v{1} ..."
+    "upgradingVersion": "جارِ ترقية v{0} إلى: v{1} ..."
   },
   "version": {
     "major": "الإصدار الرئيسي",
@@ -23,7 +23,7 @@
       "failedToIncrement": "تعذر زيادة رقم الإصدار",
       "invalidVersionField": "حقل الإصدار في ملف package.json مفقود أو غير صالح",
       "enterInitialVersion": "الرجاء إدخال رقم الإصدار الأولي، الافتراضي هو 0.0.1:",
-      "error": "الرجاء إدخال رقم إصدار صحيح، مثل: {0}"
+      "error": "الرجاء إدخال رقم إصدار صحيح، مثل: v{0}"
     }
   },
   "menus": {

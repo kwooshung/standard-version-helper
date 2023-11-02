@@ -12,7 +12,7 @@
     "revokingCurrent": "正在撤銷當前版本...",
     "revokingVersion": "撤銷版本：v{0} ...",
     "specificVersion": "正在將版本指定為：v{0} ...",
-    "upgradingVersion": "正在升級{0}為：v{1} ..."
+    "upgradingVersion": "正在升級v{0}為：v{1} ..."
   },
   "version": {
     "major": "主要版本",
@@ -23,7 +23,7 @@
       "failedToIncrement": "無法增加版本號",
       "invalidVersionField": "package.json 中的版本字段缺失或無效",
       "enterInitialVersion": "請輸入你的初始版本號，默认 0.0.1：",
-      "error": "請輸入一個有效的語義版本號，例如：{0}"
+      "error": "請輸入一個有效的語義版本號，例如：v{0}"
     }
   },
   "menus": {

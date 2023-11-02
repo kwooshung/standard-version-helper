@@ -12,7 +12,7 @@
     "revokingCurrent": "Membatalkan versi semasa...",
     "revokingVersion": "Membatalkan versi: v{0} ...",
     "specificVersion": "Menukar kepada versi: v{0} ...",
-    "upgradingVersion": "Menaik tarafkan {0} kepada: v{1} ..."
+    "upgradingVersion": "Menaik tarafkan v{0} kepada: v{1} ..."
   },
   "version": {
     "major": "Versi Utama",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Gagal menambah nombor versi",
       "invalidVersionField": "Bidang versi dalam fail package.json hilang atau tidak sah",
       "enterInitialVersion": "Sila masukkan nombor versi awal anda, lalai 0.0.1:",
-      "error": "Sila masukkan nombor versi semantik yang sah, contohnya: {0}"
+      "error": "Sila masukkan nombor versi semantik yang sah, contohnya: v{0}"
     }
   },
   "menus": {

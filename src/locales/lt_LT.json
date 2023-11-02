@@ -12,7 +12,7 @@
     "revokingCurrent": "Atšaukiama dabartinė versija...",
     "revokingVersion": "Atšaukiama versija: v{0} ...",
     "specificVersion": "Nustatoma versija: v{0} ...",
-    "upgradingVersion": "Atnaujinama versija {0} į: v{1} ..."
+    "upgradingVersion": "Atnaujinama versija v{0} į: v{1} ..."
   },
   "version": {
     "major": "Svarbus leidimas",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Nepavyko padidinti versijos numerio",
       "invalidVersionField": "package.json faile trūksta arba netinkamas versijos laukas",
       "enterInitialVersion": "Įveskite pradinį versijos numerį, numatytasis 0.0.1:",
-      "error": "Įveskite galiojantį semantinės versijos numerį, pvz.: {0}"
+      "error": "Įveskite galiojantį semantinės versijos numerį, pvz.: v{0}"
     }
   },
   "menus": {

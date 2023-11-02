@@ -12,7 +12,7 @@
     "revokingCurrent": "Anulare versiune curentă în curs...",
     "revokingVersion": "Anulare versiune: v{0} ...",
     "specificVersion": "Se stabilește versiunea la: v{0} ...",
-    "upgradingVersion": "Actualizare {0} la: v{1} ..."
+    "upgradingVersion": "Actualizare v{0} la: v{1} ..."
   },
   "version": {
     "major": "Versiune majoră",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Nu s-a putut incrementa numărul de versiune",
       "invalidVersionField": "Câmpul de versiune din fișierul package.json lipsește sau este invalid",
       "enterInitialVersion": "Vă rugăm să introduceți versiunea inițială, de exemplu, 0.0.1:",
-      "error": "Vă rugăm să introduceți o versiune semantică validă, de exemplu, {0}"
+      "error": "Vă rugăm să introduceți o versiune semantică validă, de exemplu, v{0}"
     }
   },
   "menus": {

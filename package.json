@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/standard-version-helper",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "title": "Standard Version Helper",
   "description": "standard-version 帮助工具，可以在控制台中提供简单的菜单选择。",
   "private": false,
@@ -41,12 +41,12 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": [
-    "dist/"
-  ],
   "bin": {
-    "standard-version-helper": "node dist/index.mjs"
+    "standard-version-helper": "./dist/index.mjs"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "husky install",
     "_build": "tsup src/index.ts --clean && tsup src/index.ts --format cjs,esm --dts --minify",

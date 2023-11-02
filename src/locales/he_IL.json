@@ -12,7 +12,7 @@
     "revokingCurrent": "מבטל גרסה נוכחית...",
     "revokingVersion": "מבטל גרסה: v{0} ...",
     "specificVersion": "מציין גרסה: v{0} ...",
-    "upgradingVersion": "משדרג {0} ל: v{1} ..."
+    "upgradingVersion": "משדרג v{0} ל: v{1} ..."
   },
   "version": {
     "major": "גרסה עיקרית",
@@ -23,7 +23,7 @@
       "failedToIncrement": "לא הצליח להוסיף מספר גרסה",
       "invalidVersionField": "שדה הגרסה בקובץ package.json חסר או לא חוקי",
       "enterInitialVersion": "אנא הזן את מספר הגרסה הראשונית שלך, ברירת מחדל 0.0.1:",
-      "error": "אנא הזן מספר גרסה סמנטי תקף, לדוגמא: {0}"
+      "error": "אנא הזן מספר גרסה סמנטי תקף, לדוגמא: v{0}"
     }
   },
   "menus": {

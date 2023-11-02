@@ -12,7 +12,7 @@
     "revokingCurrent": "Ag cealú an leagan reatha...",
     "revokingVersion": "Ag cealú leagan: v{0} ...",
     "specificVersion": "Ag socraigh leagan: v{0} ...",
-    "upgradingVersion": "Ag uasghrádú {0} go: v{1} ..."
+    "upgradingVersion": "Ag uasghrádú v{0} go: v{1} ..."
   },
   "version": {
     "major": "Leagan mór",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Níorbh fhéidir uimhir an leagan a mhéadú",
       "invalidVersionField": "Tá réimse an leagan i package.json in easnamh nó neamhbhailí",
       "enterInitialVersion": "Iontráil do uimhir leagan tosaigh, 0.0.1 mar réamhshocraí:",
-      "error": "Iontráil uimhir leagan atá bailí, mar shampla: {0}"
+      "error": "Iontráil uimhir leagan atá bailí, mar shampla: v{0}"
     }
   },
   "menus": {

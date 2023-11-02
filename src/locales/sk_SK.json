@@ -12,7 +12,7 @@
     "revokingCurrent": "Zrušenie aktuálnej verzie...",
     "revokingVersion": "Zrušenie verzie: v{0} ...",
     "specificVersion": "Nastavenie verzie na: v{0} ...",
-    "upgradingVersion": "Aktualizácia {0} na: v{1} ..."
+    "upgradingVersion": "Aktualizácia v{0} na: v{1} ..."
   },
   "version": {
     "major": "Hlavná verzia",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Nepodarilo sa zvýšiť číslo verzie",
       "invalidVersionField": "Chýba alebo je neplatné pole verzie v súbore package.json",
       "enterInitialVersion": "Zadajte vašu počiatočnú verziu, predvolená hodnota je 0.0.1:",
-      "error": "Zadajte platné číslo verzie podľa semantickej verzie, napríklad: {0}"
+      "error": "Zadajte platné číslo verzie podľa semantickej verzie, napríklad: v{0}"
     }
   },
   "menus": {

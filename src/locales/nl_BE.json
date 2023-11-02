@@ -12,7 +12,7 @@
     "revokingCurrent": "Huidige versie intrekken...",
     "revokingVersion": "Versie intrekken: v{0}...",
     "specificVersion": "Specifieke versie instellen: v{0}...",
-    "upgradingVersion": "Upgraden naar versie v{1} wordt uitgevoerd: {0}..."
+    "upgradingVersion": "Upgraden naar versie v{1} wordt uitgevoerd: v{0}..."
   },
   "version": {
     "major": "Belangrijke versie",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Kan versienummer niet verhogen",
       "invalidVersionField": "Versieveld ontbreekt of is ongeldig in package.json",
       "enterInitialVersion": "Voer uw initiële versienummer in, standaard 0.0.1:",
-      "error": "Voer een geldige semantische versie in, bijvoorbeeld: {0}"
+      "error": "Voer een geldige semantische versie in, bijvoorbeeld: v{0}"
     }
   },
   "menus": {

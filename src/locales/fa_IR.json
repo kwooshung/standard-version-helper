@@ -12,7 +12,7 @@
     "revokingCurrent": "ابطال نسخه کنونی...",
     "revokingVersion": "ابطال نسخه: v{0} ...",
     "specificVersion": "تنظیم نسخه به: v{0} ...",
-    "upgradingVersion": "ارتقای {0} به: v{1} ..."
+    "upgradingVersion": "ارتقای v{0} به: v{1} ..."
   },
   "version": {
     "major": "نسخه اصلی",
@@ -23,7 +23,7 @@
       "failedToIncrement": "افزایش شماره نسخه انجام نشد",
       "invalidVersionField": "فیلد نسخه در package.json گم‌شده یا نامعتبر است",
       "enterInitialVersion": "لطفا نسخه اولیه خود را وارد کنید، پیش‌فرض 0.0.1:",
-      "error": "لطفا یک شماره نسخه معنایی معتبر وارد کنید، مثل: {0}"
+      "error": "لطفا یک شماره نسخه معنایی معتبر وارد کنید، مثل: v{0}"
     }
   },
   "menus": {

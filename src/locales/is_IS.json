@@ -12,7 +12,7 @@
     "revokingCurrent": "Afturkalla núverandi útgáfu...",
     "revokingVersion": "Afturkalla útgáfu: v{0} ...",
     "specificVersion": "Staðfesta útgáfu sem: v{0} ...",
-    "upgradingVersion": "Uppfæra {0} í: v{1} ..."
+    "upgradingVersion": "Uppfæra v{0} í: v{1} ..."
   },
   "version": {
     "major": "Hávaða",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Ekki var hægt að auka útgáfunúmerið",
       "invalidVersionField": "Vantar eða er ógilt útgáfunúmer í package.json",
       "enterInitialVersion": "Sláðu inn upphaflega útgáfunúmerið þitt, sjálfgefið er 0.0.1:",
-      "error": "Sláðu inn gilt samhengisútgáfunúmer, til dæmis: {0}"
+      "error": "Sláðu inn gilt samhengisútgáfunúmer, til dæmis: v{0}"
     }
   },
   "menus": {

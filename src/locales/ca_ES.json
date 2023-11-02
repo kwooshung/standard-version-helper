@@ -12,7 +12,7 @@
     "revokingCurrent": "Anulant la versió actual...",
     "revokingVersion": "Anulant la versió: v{0} ...",
     "specificVersion": "Establint la versió a: v{0} ...",
-    "upgradingVersion": "Actualitzant {0} a: v{1} ..."
+    "upgradingVersion": "Actualitzant v{0} a: v{1} ..."
   },
   "version": {
     "major": "Versió principal",
@@ -23,7 +23,7 @@
       "failedToIncrement": "No s'ha pogut incrementar el número de versió",
       "invalidVersionField": "El camp de versió a package.json és absent o no vàlid",
       "enterInitialVersion": "Introdueix el teu número de versió inicial, per defecte 0.0.1:",
-      "error": "Introdueix un número de versió semàntic vàlid, per exemple: {0}"
+      "error": "Introdueix un número de versió semàntic vàlid, per exemple: v{0}"
     }
   },
   "menus": {

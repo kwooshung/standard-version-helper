@@ -12,7 +12,7 @@
     "revokingCurrent": "Geçerli sürüm geri alınıyor...",
     "revokingVersion": "Sürüm geri alınıyor: v{0} ...",
     "specificVersion": "Sürüm belirleme: v{0} ...",
-    "upgradingVersion": "{0} sürümünü yükseltme: v{1} ..."
+    "upgradingVersion": "v{0} sürümünü yükseltme: v{1} ..."
   },
   "version": {
     "major": "Ana sürüm",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Sürüm numarası artırılamıyor",
       "invalidVersionField": "package.json dosyasındaki sürüm alanı eksik veya geçersiz",
       "enterInitialVersion": "Başlangıç sürüm numarasını girin, varsayılan 0.0.1: ",
-      "error": "Geçerli bir semantik sürüm numarası giriniz, örneğin: {0}"
+      "error": "Geçerli bir semantik sürüm numarası giriniz, örneğin: v{0}"
     }
   },
   "menus": {

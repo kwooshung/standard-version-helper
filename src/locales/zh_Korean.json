@@ -12,7 +12,7 @@
     "revokingCurrent": "현재 버전 취소 중...",
     "revokingVersion": "버전 취소: v{0} ...",
     "specificVersion": "특정 버전으로 설정 중: v{0} ...",
-    "upgradingVersion": "{0} 버전을 v{1}으로 업그레이드 중 ..."
+    "upgradingVersion": "v{0} 버전을 v{1}으로 업그레이드 중 ..."
   },
   "version": {
     "major": "주요 버전",
@@ -23,7 +23,7 @@
       "failedToIncrement": "버전 번호를 증가시킬 수 없습니다",
       "invalidVersionField": "package.json 파일의 버전 필드가 누락되었거나 잘못되었습니다",
       "enterInitialVersion": "초기 버전 번호를 입력하세요. 기본값은 0.0.1입니다:",
-      "error": "유효한 의미 있는 버전 번호를 입력하세요. 예: {0}"
+      "error": "유효한 의미 있는 버전 번호를 입력하세요. 예: v{0}"
     }
   },
   "menus": {

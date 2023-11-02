@@ -12,7 +12,7 @@
     "revokingCurrent": "Pašreizējā versija tiek atsaukta...",
     "revokingVersion": "Atsaukšanas versija: v{0} ...",
     "specificVersion": "Norādīt versiju: v{0} ...",
-    "upgradingVersion": "Jaunināšana versijai {0} uz: v{1} ..."
+    "upgradingVersion": "Jaunināšana versijai v{0} uz: v{1} ..."
   },
   "version": {
     "major": "Galvenais versijas numurs",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Neizdevās palielināt versijas numuru",
       "invalidVersionField": "package.json failā trūkst vai ir nederīgs versijas lauks",
       "enterInitialVersion": "Lūdzu, ievadiet sākotnējo versijas numuru, noklusējuma vērtība ir 0.0.1:",
-      "error": "Lūdzu, ievadiet derīgu semantiskās versijas numuru, piemēram: {0}"
+      "error": "Lūdzu, ievadiet derīgu semantiskās versijas numuru, piemēram: v{0}"
     }
   },
   "menus": {

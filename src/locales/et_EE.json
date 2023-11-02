@@ -12,7 +12,7 @@
     "revokingCurrent": "Praeguse versiooni tühistamine...",
     "revokingVersion": "Versiooni tühistamine: v{0} ...",
     "specificVersion": "Versiooni määramine: v{0} ...",
-    "upgradingVersion": "Uuendamine {0} versiooniks: v{1} ..."
+    "upgradingVersion": "Uuendamine v{0} versiooniks: v{1} ..."
   },
   "version": {
     "major": "Peamine versioon",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Versiooninumbri suurendamine ebaõnnestus",
       "invalidVersionField": "package.json failis on versiooniväli puudu või vigane",
       "enterInitialVersion": "Sisestage oma algne versioon, vaikimisi 0.0.1:",
-      "error": "Palun sisestage kehtiv semantiline versiooninumber, näiteks: {0}"
+      "error": "Palun sisestage kehtiv semantiline versiooninumber, näiteks: v{0}"
     }
   },
   "menus": {

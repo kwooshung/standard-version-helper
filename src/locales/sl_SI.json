@@ -12,7 +12,7 @@
     "revokingCurrent": "Preklic trenutne različice...",
     "revokingVersion": "Preklic različice: v{0} ...",
     "specificVersion": "Nastavitev različice na: v{0} ...",
-    "upgradingVersion": "Posodabljanje {0} na različico: v{1} ..."
+    "upgradingVersion": "Posodabljanje v{0} na različico: v{1} ..."
   },
   "version": {
     "major": "Glavna različica",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Ni mogoče povečati različice",
       "invalidVersionField": "Manjka ali je neveljavno polje različice v package.json",
       "enterInitialVersion": "Vnesite začetno različico, privzeto 0.0.1:",
-      "error": "Vnesite veljavno semantično različico, na primer: {0}"
+      "error": "Vnesite veljavno semantično različico, na primer: v{0}"
     }
   },
   "menus": {

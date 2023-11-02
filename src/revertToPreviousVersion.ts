@@ -3,7 +3,7 @@ import inquirer from 'inquirer';
 import { i18n } from './locales';
 import { IPackageJson } from './interface';
 import { executeCommand } from './command';
-import { writePackageJson } from './packageJson';
+import { readPackageJson, writePackageJson } from './packageJson';
 
 /**
  * 回滚版本
@@ -18,7 +18,8 @@ const revertToPreviousVersion = (reference: string, packageJsonRef: IPackageJson
   const previousVersion = previousCommitPackageJson.version;
 
   if (previousVersion) {
-    const currentVersion = packageJsonRef.data.version;
+    const packageJsonInfo = readPackageJson();
+    const currentVersion = packageJsonInfo.data.version;
 
     const questions = [
       {

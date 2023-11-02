@@ -12,7 +12,7 @@
     "revokingCurrent": "Aktuális verzió visszavonása...",
     "revokingVersion": "Verzió visszavonása: v{0} ...",
     "specificVersion": "Verzió beállítása: v{0} ...",
-    "upgradingVersion": "{0} frissítése erre: v{1} ..."
+    "upgradingVersion": "v{0} frissítése erre: v{1} ..."
   },
   "version": {
     "major": "Fő verzió",
@@ -23,7 +23,7 @@
       "failedToIncrement": "A verziószám növelése sikertelen",
       "invalidVersionField": "A package.json fájl verzió mezője hiányzik vagy érvénytelen",
       "enterInitialVersion": "Kérjük, adja meg kezdeti verziószámát, alapértelmezett: 0.0.1:",
-      "error": "Kérjük, adjon meg egy érvényes szemantikai verziószámot, például: {0}"
+      "error": "Kérjük, adjon meg egy érvényes szemantikai verziószámot, például: v{0}"
     }
   },
   "menus": {
