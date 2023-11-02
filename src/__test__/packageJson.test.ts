@@ -1,4 +1,12 @@
-// 引入相关的模块和方法
+/**
+ * package.json 读写操作模块测试
+ * @description package.json 读写操作模块测试，用于提供 package.json 读写操作模块测试支持
+ * @author KwooShung
+ * @module packageJson.test
+ * @createat 2023-11-02 15:00:00
+ * @updateat 2023-11-01 13:21:33
+ */
+
 import fs from 'fs';
 import { readPackageJson, writePackageJson } from '../packageJson';
 

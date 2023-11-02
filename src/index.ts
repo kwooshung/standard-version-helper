@@ -1,5 +1,14 @@
 #!/usr/bin/env node
 
+/**
+ * 入口文件
+ * @description 入口文件，用于提供菜单选项
+ * @author KwooShung
+ * @module index
+ * @createat 2023-11-02 15:00:00
+ * @updateat 2023-11-01 13:21:33
+ */
+
 import semver from 'semver';
 import inquirer from 'inquirer';
 

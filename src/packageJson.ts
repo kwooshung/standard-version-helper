@@ -1,3 +1,12 @@
+/**
+ * package.json 读写操作模块
+ * @description package.json 读写操作模块，用于提供 package.json 读写操作支持
+ * @author KwooShung
+ * @module packageJson
+ * @createat 2023-11-02 15:00:00
+ * @updateat 2023-11-01 13:21:33
+ */
+
 import fs from 'fs';
 import detectIndent from 'detect-indent';
 import { IPackageJson } from './interface';

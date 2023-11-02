@@ -1,3 +1,12 @@
+/**
+ * 语言包
+ * @description 语言包模块，用于提供多语言支持
+ * @author KwooShung
+ * @module locales
+ * @createat 2023-11-02 15:00:00
+ * @updateat 2023-11-01 13:21:33
+ */
+
 import ar_EG from './ar_EG.json';
 import az_AZ from './az_AZ.json';
 import bg_BG from './bg_BG.json';

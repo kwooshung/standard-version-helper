@@ -1,3 +1,12 @@
+/**
+ * 命令行模块测试
+ * @description 命令行模块测试，用于提供命令行模块测试支持
+ * @author KwooShung
+ * @module command.test
+ * @createat 2023-11-02 15:00:00
+ * @updateat 2023-11-01 13:21:33
+ */
+
 import ora from 'ora';
 import child_process from 'child_process';
 import { executeCommand, executeCommandWithLoading, getParam } from '../command';

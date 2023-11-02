@@ -1,3 +1,12 @@
+/**
+ * 命令行模块
+ * @description 命令行模块，用于提供命令行相关功能
+ * @author KwooShung
+ * @module command
+ * @createat 2023-11-02 15:00:00
+ * @updateat 2023-11-01 13:21:33
+ */
+
 import ora from 'ora';
 import child_process from 'child_process';
 
