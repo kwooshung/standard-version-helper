@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "명령어 실행 실패: {0}",
+    "syncCompleted": "동기화 완료됨.",
+    "invalidChoice": "잘못된 선택",
+    "executionSucceeded": "실행 성공",
+    "executionFailed": "실행 실패",
+    "backToMenu": "뒤로",
+    "exit": "종료"
+  },
+  "loading": {
+    "revokingCurrent": "현재 버전 취소 중...",
+    "revokingVersion": "버전 취소: v{0} ...",
+    "specificVersion": "특정 버전으로 설정 중: v{0} ...",
+    "upgradingVersion": "{0} 버전을 v{1}으로 업그레이드 중 ..."
+  },
+  "version": {
+    "major": "주요 버전",
+    "minor": "부 버전",
+    "patch": "패치 버전",
+    "tips": {
+      "firstTimePrompt": "버전을 아직 출시하지 않았으므로 처음으로 출시해야 합니다.",
+      "failedToIncrement": "버전 번호를 증가시킬 수 없습니다",
+      "invalidVersionField": "package.json 파일의 버전 필드가 누락되었거나 잘못되었습니다",
+      "enterInitialVersion": "초기 버전 번호를 입력하세요. 기본값은 0.0.1입니다:",
+      "error": "유효한 의미 있는 버전 번호를 입력하세요. 예: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "무엇을 하시겠습니까",
+      "upgradeVersion": "버전 업그레이드",
+      "specificVersion": "특정 버전",
+      "revokeVersion": "버전 취소"
+    },
+    "upgrade": {
+      "prompt": "어떤 버전을 업그레이드 하시겠습니까",
+      "confirmPush": "버전을 저장소에 푸시하시겠습니까"
+    },
+    "specificVersion": {
+      "prompt": "버전 번호를 입력하세요:",
+      "confirm": "현재 버전은 v{0}이며, 지정된 버전으로 설정하시겠습니까: v{1}"
+    },
+    "revoke": {
+      "prompt": "어떤 버전을 취소하시겠습니까",
+      "currentVersion": "현재 버전",
+      "specificVersion": "특정 버전"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "파일 변경 사항을 유지하고 버전 번호만 취소하시겠습니까"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "취소하려는 버전 번호를 입력하세요:",
+      "retainChanges": "파일 변경 사항을 유지하고 버전 번호만 취소하시겠습니까",
+      "confirm": "현재 버전은 v{0}이며, 취소하시겠습니까: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "package.json 파일의 버전 번호를 v{0}에서 취소 후 버전 번호 v{1}로 업데이트 하시겠습니까",
+      "failedToRetrieve": "이전 커밋에서 버전 번호를 검색할 수 없으므로 package.json 파일을 수동으로 수정해야 합니다."
+    }
+  }
+}

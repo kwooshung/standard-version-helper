@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Parancs végrehajtása sikertelen: {0}",
+    "syncCompleted": "Szinkronizálás befejezve.",
+    "invalidChoice": "Érvénytelen választás",
+    "executionSucceeded": "Végrehajtás sikeres",
+    "executionFailed": "Végrehajtás sikertelen",
+    "backToMenu": "Vissza",
+    "exit": "Kilépés"
+  },
+  "loading": {
+    "revokingCurrent": "Aktuális verzió visszavonása...",
+    "revokingVersion": "Verzió visszavonása: v{0} ...",
+    "specificVersion": "Verzió beállítása: v{0} ...",
+    "upgradingVersion": "{0} frissítése erre: v{1} ..."
+  },
+  "version": {
+    "major": "Fő verzió",
+    "minor": "Alverzió",
+    "patch": "Javítás verzió",
+    "tips": {
+      "firstTimePrompt": "Mivel még nem adott ki verziót, szükséges az első kiadás.",
+      "failedToIncrement": "A verziószám növelése sikertelen",
+      "invalidVersionField": "A package.json fájl verzió mezője hiányzik vagy érvénytelen",
+      "enterInitialVersion": "Kérjük, adja meg kezdeti verziószámát, alapértelmezett: 0.0.1:",
+      "error": "Kérjük, adjon meg egy érvényes szemantikai verziószámot, például: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Mit szeretne tenni",
+      "upgradeVersion": "Verzió frissítése",
+      "specificVersion": "Verzió megadása",
+      "revokeVersion": "Verzió visszavonása"
+    },
+    "upgrade": {
+      "prompt": "Melyik verziót szeretné frissíteni",
+      "confirmPush": "Szeretné elküldeni a verziót a tárhelyre"
+    },
+    "specificVersion": {
+      "prompt": "Kérjük, adja meg a verziószámot:",
+      "confirm": "Az aktuális verziószáma: v{0}, megerősíti a megadott verziószámra történő váltást: v{1}"
+    },
+    "revoke": {
+      "prompt": "Melyik verziót szeretné visszavonni",
+      "currentVersion": "Aktuális verzió",
+      "specificVersion": "Verzió megadása"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "A fájlok módosításainak megtartása, csak a verziószám visszavonása"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Kérjük, adja meg a visszavonni kívánt verziószámot:",
+      "retainChanges": "A fájlok módosításainak megtartása, csak a verziószám visszavonása",
+      "confirm": "Az aktuális verziószáma: v{0}, megerősíti a visszavonást: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Frissíti a package.json fájlban lévő verziószámot: v{0} a visszavonás utáni verziószámra: v{1}",
+      "failedToRetrieve": "Nem sikerült lekérni a verziószámot az előző commitból, ideiglenesen nem módosítottuk a package.json fájl verziószámát. Ha szükséges, kézzel módosítsa."
+    }
+  }
+}

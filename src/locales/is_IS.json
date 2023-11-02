@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Að keyra skipun mistókst: {0}",
+    "syncCompleted": "Samstilling lokið.",
+    "invalidChoice": "Ógild valkostur",
+    "executionSucceeded": "Keyrslan lokið með góðum árangri",
+    "executionFailed": "Keyrslan mistókst",
+    "backToMenu": "Til baka í valmynd",
+    "exit": "Hætta"
+  },
+  "loading": {
+    "revokingCurrent": "Afturkalla núverandi útgáfu...",
+    "revokingVersion": "Afturkalla útgáfu: v{0} ...",
+    "specificVersion": "Staðfesta útgáfu sem: v{0} ...",
+    "upgradingVersion": "Uppfæra {0} í: v{1} ..."
+  },
+  "version": {
+    "major": "Hávaða",
+    "minor": "Lávaða",
+    "patch": "Lagaútgáfa",
+    "tips": {
+      "firstTimePrompt": "Þar sem þú hefur aldrei gefið út útgáfu áður, þarftu að gera fyrstu útgáfuna.",
+      "failedToIncrement": "Ekki var hægt að auka útgáfunúmerið",
+      "invalidVersionField": "Vantar eða er ógilt útgáfunúmer í package.json",
+      "enterInitialVersion": "Sláðu inn upphaflega útgáfunúmerið þitt, sjálfgefið er 0.0.1:",
+      "error": "Sláðu inn gilt samhengisútgáfunúmer, til dæmis: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Hvað viltu gera",
+      "upgradeVersion": "Uppfæra útgáfu",
+      "specificVersion": "Tilgreina útgáfu",
+      "revokeVersion": "Afturkalla útgáfu"
+    },
+    "upgrade": {
+      "prompt": "Hvaða útgáfu viltu uppfæra",
+      "confirmPush": "Viltu staðfesta að pusha útgáfuna í geymslu"
+    },
+    "specificVersion": {
+      "prompt": "Sláðu inn útgáfunúmer:",
+      "confirm": "Núverandi útgáfan þín er: v{0}, staðfestu að setja þá sem v{1}"
+    },
+    "revoke": {
+      "prompt": "Hvaða útgáfu viltu afturkalla",
+      "currentVersion": "Núverandi útgáfa",
+      "specificVersion": "Tilgreind útgáfa"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Varðveitir breytingar á skrám og afturkallar einungis útgáfunúmerið"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Sláðu inn útgáfunúmerið sem þú vilt afturkalla:",
+      "retainChanges": "Varðveitir breytingar á skrám og afturkallar einungis útgáfunúmerið",
+      "confirm": "Núverandi útgáfan þín er: v{0}, staðfestu að afturkalla: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Viltu staðfesta að uppfæra package.json skrána með útgáfunúmerinu: v{0} eftir afturkall að: v{1}",
+      "failedToRetrieve": "Gat ekki sótt útgáfunúmerið úr fyrra skjalinu, package.json skrána hefur ekki verið breytt tímabundið. Ef þörf krefur, breyttu henni handvirkt."
+    }
+  }
+}

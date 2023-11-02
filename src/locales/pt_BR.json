@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Erro ao executar o comando: {0}",
+    "syncCompleted": "Sincronização concluída.",
+    "invalidChoice": "Escolha inválida",
+    "executionSucceeded": "Execução bem-sucedida",
+    "executionFailed": "Falha na execução",
+    "backToMenu": "Voltar",
+    "exit": "Sair"
+  },
+  "loading": {
+    "revokingCurrent": "Revogando versão atual...",
+    "revokingVersion": "Revogando versão: v{0} ...",
+    "specificVersion": "Definindo versão específica: v{0} ...",
+    "upgradingVersion": "Atualizando {0} para: v{1} ..."
+  },
+  "version": {
+    "major": "Versão principal",
+    "minor": "Versão secundária",
+    "patch": "Versão de correção",
+    "tips": {
+      "firstTimePrompt": "Como você ainda não publicou nenhuma versão, é necessário fazer a primeira publicação.",
+      "failedToIncrement": "Não foi possível incrementar o número da versão",
+      "invalidVersionField": "O campo de versão no arquivo package.json está ausente ou inválido",
+      "enterInitialVersion": "Digite a sua versão inicial, padrão 0.0.1:",
+      "error": "Digite uma versão semântica válida, por exemplo: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "O que você deseja fazer",
+      "upgradeVersion": "Atualizar versão",
+      "specificVersion": "Especificar versão",
+      "revokeVersion": "Revogar versão"
+    },
+    "upgrade": {
+      "prompt": "Qual versão você deseja atualizar",
+      "confirmPush": "Deseja confirmar o envio da versão para o repositório"
+    },
+    "specificVersion": {
+      "prompt": "Digite o número da versão:",
+      "confirm": "Sua versão atual é: v{0}, confirma a definição para o número da versão: v{1}"
+    },
+    "revoke": {
+      "prompt": "Qual versão você deseja revogar",
+      "currentVersion": "Versão atual",
+      "specificVersion": "Versão específica"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Mantenha as alterações nos arquivos, apenas revogue o número da versão"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Digite o número da versão a ser revogada:",
+      "retainChanges": "Mantenha as alterações nos arquivos, apenas revogue o número da versão",
+      "confirm": "Sua versão atual é: v{0}, confirma a revogação: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Deseja atualizar o arquivo package.json com a versão de {0} para a versão revogada {1}",
+      "failedToRetrieve": "Não foi possível recuperar a versão do commit anterior. O número da versão no arquivo package.json não foi alterado temporariamente. Se necessário, faça a modificação manualmente."
+    }
+  }
+}

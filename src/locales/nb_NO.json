@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Feil ved utførelse av kommando: {0}",
+    "syncCompleted": "Synkronisering fullført.",
+    "invalidChoice": "Ugyldig valg",
+    "executionSucceeded": "Utført vellykket",
+    "executionFailed": "Utførelse mislyktes",
+    "backToMenu": "Tilbake",
+    "exit": "Avslutt"
+  },
+  "loading": {
+    "revokingCurrent": "Trekker tilbake gjeldende versjon...",
+    "revokingVersion": "Trekker tilbake versjon: v{0} ...",
+    "specificVersion": "Angir versjon som: v{0} ...",
+    "upgradingVersion": "Oppgraderer versjon {0} til: v{1} ..."
+  },
+  "version": {
+    "major": "Hovedversjon",
+    "minor": "Underversjon",
+    "patch": "Lappversjon",
+    "tips": {
+      "firstTimePrompt": "Siden du ikke har publisert noen versjoner ennå, må du gjøre den første publiseringen.",
+      "failedToIncrement": "Kan ikke øke versjonsnummeret",
+      "invalidVersionField": "Versjonsfeltet i package.json mangler eller er ugyldig",
+      "enterInitialVersion": "Vennligst skriv inn din første versjon, som standard er 0.0.1:",
+      "error": "Vennligst oppgi en gyldig semantisk versjon, for eksempel: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Hva ønsker du å gjøre",
+      "upgradeVersion": "Oppgrader versjonen",
+      "specificVersion": "Angi versjon",
+      "revokeVersion": "Trekke tilbake versjonen"
+    },
+    "upgrade": {
+      "prompt": "Hvilken versjon vil du oppgradere",
+      "confirmPush": "Vil du bekrefte opplastingen til lageret"
+    },
+    "specificVersion": {
+      "prompt": "Vennligst skriv inn versjonsnummer:",
+      "confirm": "Din nåværende versjon er: v{0}, bekreft å angi versjon som: v{1}"
+    },
+    "revoke": {
+      "prompt": "Hvilken versjon vil du trekke tilbake",
+      "currentVersion": "Gjeldende versjon",
+      "specificVersion": "Angi versjon"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Behold endringer i filene, bare trekke tilbake versjonsnummeret"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Vennligst skriv inn versjonen du vil trekke tilbake:",
+      "retainChanges": "Behold endringer i filene, bare trekke tilbake versjonsnummeret",
+      "confirm": "Din nåværende versjon er: v{0}, bekreft å trekke tilbake: v{1} "
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Vil du oppdatere versjonen i package.json-filen til: v{0} etter tilbakekalling av versjonen til v{1}",
+      "failedToRetrieve": "Kan ikke hente versjonsnummer fra tidligere innsendinger, oppdaterer ikke versjonen i package.json midlertidig. Hvis nødvendig, vennligst oppdater manuelt."
+    }
+  }
+}

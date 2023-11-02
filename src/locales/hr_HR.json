@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Izvođenje naredbe nije uspjelo: {0}",
+    "syncCompleted": "Sinkronizacija dovršena.",
+    "invalidChoice": "Nevaljan izbor",
+    "executionSucceeded": "Izvođenje uspješno",
+    "executionFailed": "Izvođenje nije uspjelo",
+    "backToMenu": "Povratak",
+    "exit": "Izlaz"
+  },
+  "loading": {
+    "revokingCurrent": "Poništavanje trenutne verzije...",
+    "revokingVersion": "Poništavanje verzije: v{0} ...",
+    "specificVersion": "Postavljanje verzije na: v{0} ...",
+    "upgradingVersion": "Nadogradnja {0} na: v{1} ..."
+  },
+  "version": {
+    "major": "Glavna verzija",
+    "minor": "Manja verzija",
+    "patch": "Verzija zakrpe",
+    "tips": {
+      "firstTimePrompt": "Pošto još niste objavili verziju, potrebno je prvo objaviti.",
+      "failedToIncrement": "Povećavanje broja verzije nije uspjelo",
+      "invalidVersionField": "Polje verzije u package.json nedostaje ili je nevažeće",
+      "enterInitialVersion": "Unesite svoju početnu verziju, zadana je 0.0.1:",
+      "error": "Unesite valjanu semantičku verziju, na primjer: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Što planirate učiniti",
+      "upgradeVersion": "Nadogradnja verzije",
+      "specificVersion": "Odredi verziju",
+      "revokeVersion": "Poništi verziju"
+    },
+    "upgrade": {
+      "prompt": "Koju verziju planirate nadograditi",
+      "confirmPush": "Želite li poslati verziju u repozitorij"
+    },
+    "specificVersion": {
+      "prompt": "Unesite broj verzije:",
+      "confirm": "Vaša trenutna verzija je: v{0}, potvrdite postavljanje na određeni broj verzije: v{1}"
+    },
+    "revoke": {
+      "prompt": "Koju verziju planirate poništiti",
+      "currentVersion": "Trenutna verzija",
+      "specificVersion": "Odredi verziju"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Zadržite promjene u datoteci, samo poništite broj verzije"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Unesite broj verzije koji želite poništiti:",
+      "retainChanges": "Zadržite promjene u datoteci, samo poništite broj verzije",
+      "confirm": "Vaša trenutna verzija je: v{0}, potvrdite poništavanje: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Želite li ažurirati broj verzije u package.json datoteci: v{0} na broj verzije nakon poništavanja v{1}",
+      "failedToRetrieve": "Nije moguće dohvatiti broj verzije iz prethodne predaje, privremeno nije promijenjen broj verzije u package.json datoteci. Ako je potrebno, promijenite ručno."
+    }
+  }
+}

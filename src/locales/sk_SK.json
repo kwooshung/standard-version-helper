@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Chyba pri vykonávaní príkazu: {0}",
+    "syncCompleted": "Synchronizácia dokončená.",
+    "invalidChoice": "Neplatná voľba",
+    "executionSucceeded": "Vykonané úspešne",
+    "executionFailed": "Vykonanie zlyhalo",
+    "backToMenu": "Späť",
+    "exit": "Ukončiť"
+  },
+  "loading": {
+    "revokingCurrent": "Zrušenie aktuálnej verzie...",
+    "revokingVersion": "Zrušenie verzie: v{0} ...",
+    "specificVersion": "Nastavenie verzie na: v{0} ...",
+    "upgradingVersion": "Aktualizácia {0} na: v{1} ..."
+  },
+  "version": {
+    "major": "Hlavná verzia",
+    "minor": "Vedľajšia verzia",
+    "patch": "Opravná verzia",
+    "tips": {
+      "firstTimePrompt": "Pretože ste ešte nevydali žiadnu verziu, musíte najprv vydať prvú verziu.",
+      "failedToIncrement": "Nepodarilo sa zvýšiť číslo verzie",
+      "invalidVersionField": "Chýba alebo je neplatné pole verzie v súbore package.json",
+      "enterInitialVersion": "Zadajte vašu počiatočnú verziu, predvolená hodnota je 0.0.1:",
+      "error": "Zadajte platné číslo verzie podľa semantickej verzie, napríklad: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Čo chcete urobiť",
+      "upgradeVersion": "Aktualizovať verziu",
+      "specificVersion": "Určiť verziu",
+      "revokeVersion": "Zrušiť verziu"
+    },
+    "upgrade": {
+      "prompt": "Ktorú verziu chcete aktualizovať",
+      "confirmPush": "Chcete potvrdiť odoslanie verzie do úložiska"
+    },
+    "specificVersion": {
+      "prompt": "Zadajte verziu:",
+      "confirm": "Vaša aktuálna verzia je: v{0}, chcete potvrdiť nastavenie na verziu: v{1}"
+    },
+    "revoke": {
+      "prompt": "Ktorú verziu chcete zrušiť",
+      "currentVersion": "Aktuálna verzia",
+      "specificVersion": "Určiť verziu"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Ponechať zmeny v súboroch a len zrušiť číslo verzie"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Zadajte verziu, ktorú chcete zrušiť:",
+      "retainChanges": "Ponechať zmeny v súboroch a len zrušiť číslo verzie",
+      "confirm": "Vaša aktuálna verzia je: v{0}, chcete potvrdiť zrušenie: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Chcete aktualizovať súbor package.json na verziu: v{0} po zrušení verzie na v{1}",
+      "failedToRetrieve": "Nepodarilo sa získať číslo verzie z predchádzajúcej zmeny, pre dočasné vynechanie aktualizácie súboru package.json."
+    }
+  }
+}

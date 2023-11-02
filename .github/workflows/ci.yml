@@ -1,0 +1,56 @@
+name: ci
+
+# 当推送到 main分支时 触发此工作流
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@main
+
+      # 全局安装 pnpm
+      - name: install pnpm
+        run: npm install -g pnpm
+
+      # 使用 pnpm 安装依赖
+      - name: install dependencies
+        run: pnpm install
+
+      # 使用 pnpm 构建
+      - name: build
+        run: pnpm build
+
+      # 部署到 GitHub Pages
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+
+      # 安装 Octokit REST & semver
+      - name: Install Octokit REST & semver
+        run: pnpm add @octokit/rest semver -D
+
+      # 自动发布
+      - name: Auto Release
+        run: node .github/scripts/auto-release.cjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 同步到 Gitee
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          source-repo: 'git@github.com:kwooshung/React-Component-Template.git'
+          destination-repo: 'git@gitee.com:kwooshung/react-component-template.git'

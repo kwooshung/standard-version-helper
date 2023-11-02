@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Komandos vykdymas nepavyko: {0}",
+    "syncCompleted": "Sinchronizacija baigta.",
+    "invalidChoice": "Netinkamas pasirinkimas",
+    "executionSucceeded": "Vykdymas pavyko",
+    "executionFailed": "Vykdymas nepavyko",
+    "backToMenu": "Grįžti",
+    "exit": "Išeiti"
+  },
+  "loading": {
+    "revokingCurrent": "Atšaukiama dabartinė versija...",
+    "revokingVersion": "Atšaukiama versija: v{0} ...",
+    "specificVersion": "Nustatoma versija: v{0} ...",
+    "upgradingVersion": "Atnaujinama versija {0} į: v{1} ..."
+  },
+  "version": {
+    "major": "Svarbus leidimas",
+    "minor": "Mažas leidimas",
+    "patch": "Pataisymų leidimas",
+    "tips": {
+      "firstTimePrompt": "Kadangi dar nebuvo leidimų, reikia pirmojo leidimo.",
+      "failedToIncrement": "Nepavyko padidinti versijos numerio",
+      "invalidVersionField": "package.json faile trūksta arba netinkamas versijos laukas",
+      "enterInitialVersion": "Įveskite pradinį versijos numerį, numatytasis 0.0.1:",
+      "error": "Įveskite galiojantį semantinės versijos numerį, pvz.: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Ką norite atlikti",
+      "upgradeVersion": "Atnaujinti versiją",
+      "specificVersion": "Nurodyti versiją",
+      "revokeVersion": "Atšaukti versiją"
+    },
+    "upgrade": {
+      "prompt": "Kurią versiją norite atnaujinti",
+      "confirmPush": "Ar norite siųsti versiją į saugyklą"
+    },
+    "specificVersion": {
+      "prompt": "Įveskite versijos numerį:",
+      "confirm": "Jūsų dabartinė versija yra: v{0}, patvirtinkite nurodytą versiją: v{1}"
+    },
+    "revoke": {
+      "prompt": "Kurią versiją norite atšaukti",
+      "currentVersion": "Dabartinė versija",
+      "specificVersion": "Nurodyta versija"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Išlaikyti failų pakeitimus, atšaukiant tik versijos numerį"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Įveskite atšaukiamos versijos numerį:",
+      "retainChanges": "Išlaikyti failų pakeitimus, atšaukiant tik versijos numerį",
+      "confirm": "Jūsų dabartinė versija yra: v{0}, patvirtinkite atšaukimą: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Ar norite atnaujinti package.json failo versijos numerį iš: v{0} į atšauktą versiją v{1}",
+      "failedToRetrieve": "Nepavyko gauti versijos numerio iš ankstesnio įrašo, laikinai nebuvo pakeistas package.json failo versijos numeris. Jei reikia, tai reikės atnaujinti rankiniu būdu."
+    }
+  }
+}

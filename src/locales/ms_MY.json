@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Gagal menjalankan perintah: {0}",
+    "syncCompleted": "Penyegerakan selesai.",
+    "invalidChoice": "Pilihan tidak sah",
+    "executionSucceeded": "Pengeluaran berjaya",
+    "executionFailed": "Pengeluaran gagal",
+    "backToMenu": "Kembali",
+    "exit": "Keluar"
+  },
+  "loading": {
+    "revokingCurrent": "Membatalkan versi semasa...",
+    "revokingVersion": "Membatalkan versi: v{0} ...",
+    "specificVersion": "Menukar kepada versi: v{0} ...",
+    "upgradingVersion": "Menaik tarafkan {0} kepada: v{1} ..."
+  },
+  "version": {
+    "major": "Versi Utama",
+    "minor": "Versi Minor",
+    "patch": "Versi Pembaikan",
+    "tips": {
+      "firstTimePrompt": "Kerana anda belum pernah menerbitkan versi, anda perlu menerbitkan versi pertama.",
+      "failedToIncrement": "Gagal menambah nombor versi",
+      "invalidVersionField": "Bidang versi dalam fail package.json hilang atau tidak sah",
+      "enterInitialVersion": "Sila masukkan nombor versi awal anda, lalai 0.0.1:",
+      "error": "Sila masukkan nombor versi semantik yang sah, contohnya: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Apa yang anda ingin lakukan",
+      "upgradeVersion": "Naik taraf versi",
+      "specificVersion": "Versi tertentu",
+      "revokeVersion": "Batalkan versi"
+    },
+    "upgrade": {
+      "prompt": "Versi mana yang ingin anda naik taraf",
+      "confirmPush": "Adakah anda ingin mendorong versi ke repositori"
+    },
+    "specificVersion": {
+      "prompt": "Sila masukkan nombor versi:",
+      "confirm": "Versi semasa anda ialah: v{0}, anda pasti mahu menukar ke versi: v{1}"
+    },
+    "revoke": {
+      "prompt": "Versi mana yang ingin anda batalkan",
+      "currentVersion": "Versi Semasa",
+      "specificVersion": "Versi Tertentu"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Simpan perubahan fail, hanya batalkan nombor versi"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Sila masukkan nombor versi yang ingin anda batalkan:",
+      "retainChanges": "Simpan perubahan fail, hanya batalkan nombor versi",
+      "confirm": "Versi semasa anda ialah: v{0}, anda pasti mahu batalkan: v{1}"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Adakah anda ingin mengemaskini nombor versi dalam fail package.json kepada v{0} selepas pembatalan",
+      "failedToRetrieve": "Gagal mengambil nombor versi daripada komit sebelumnya, nombor versi dalam fail package.json tidak diubah buat sementara. Jika perlu, sila ubah secara manual."
+    }
+  }
+}

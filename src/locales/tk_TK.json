@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Komanda bütinleýär: {0}",
+    "syncCompleted": "Senkronlaşdyrma tamamlandy.",
+    "invalidChoice": "Ýalňyş saýlanys",
+    "executionSucceeded": "Üstünlikli amala aşyryldy",
+    "executionFailed": "Amala aşyrma bütinleýär",
+    "backToMenu": "Menüge gaýt",
+    "exit": "Çyk"
+  },
+  "loading": {
+    "revokingCurrent": "Häzirki boýunça ýazygy ýoky etmekde...",
+    "revokingVersion": "Boýunça ýazygy ýok etmek: v{0} ...",
+    "specificVersion": "Boýunça ýazygy bellemek: v{0} ...",
+    "upgradingVersion": "{0} boýunça ýazygy ýok etmek: v{1} ..."
+  },
+  "version": {
+    "major": "Esas boýunça",
+    "minor": "Aşagy boýunça",
+    "patch": "Tamamlayjy boýunça",
+    "tips": {
+      "firstTimePrompt": "Siz ähli-ähli ýazygy ýoklamanan boýunça sürüm geçirmeli bolýarsyňyz.",
+      "failedToIncrement": "Sürüm belgisi ýok edilip bolmady",
+      "invalidVersionField": "package.json faýlynda sürüm sahasy ýok ýa-da ýalňyşdyr",
+      "enterInitialVersion": "Başlaýyş sürüm belgisi girizi, defolt 0.0.1: ",
+      "error": "Semantik sürüm belgisi giriziň, maslaýýnda: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Sizi näme etmek isleýärsiňiz",
+      "upgradeVersion": "Sürümi ýok etmek",
+      "specificVersion": "Bellik sürüm",
+      "revokeVersion": "Sürümi ýok etmek"
+    },
+    "upgrade": {
+      "prompt": "Näme sürümi ýok etmek isleýärsiňiz",
+      "confirmPush": "Sürümi ýadagarnama goýmak isleýärsiňizmi"
+    },
+    "specificVersion": {
+      "prompt": "Sürüm belgisini girizi: ",
+      "confirm": "Häzirki sürümiňiz: v{0}, bellik sürüm belgisi v{1} bolup özgertmek isleýärsiňizmi"
+    },
+    "revoke": {
+      "prompt": "Näme sürümi ýok etmek isleýärsiňiz",
+      "currentVersion": "Häzirki sürüm",
+      "specificVersion": "Bellik sürüm"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Üýtgeşmeleri saklaň, yalňyşdan ýazgyny ýok etmek"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Ýok etmek isleýän sürüm belgisini girizi: ",
+      "retainChanges": "Üýtgeşmeleri saklaň, yalňyşdan ýazgyny ýok etmek",
+      "confirm": "Häzirki sürümiňiz: v{0}, v{1} sürüm belgisini ýok etmek isleýärsiňizmi"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "package.json faýlyndaky sürüm belgisi: v{0} ýok etden soňra güncelleýärmimi",
+      "failedToRetrieve": "Öňki goşandydan sürüm belgisi alynmady, package.json faýlyndaky sürüm belgisi üýtgedilmedi. Iň al daslykda üýtgetmeli."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Error en executar l'ordre: {0}",
+    "syncCompleted": "Sincronització completada.",
+    "invalidChoice": "Selecció no vàlida",
+    "executionSucceeded": "Execució exitosa",
+    "executionFailed": "Execució fallida",
+    "backToMenu": "Tornar",
+    "exit": "Sortir"
+  },
+  "loading": {
+    "revokingCurrent": "Anulant la versió actual...",
+    "revokingVersion": "Anulant la versió: v{0} ...",
+    "specificVersion": "Establint la versió a: v{0} ...",
+    "upgradingVersion": "Actualitzant {0} a: v{1} ..."
+  },
+  "version": {
+    "major": "Versió principal",
+    "minor": "Versió secundària",
+    "patch": "Versió de correcció",
+    "tips": {
+      "firstTimePrompt": "Com que no has publicat cap versió, cal fer una publicació inicial.",
+      "failedToIncrement": "No s'ha pogut incrementar el número de versió",
+      "invalidVersionField": "El camp de versió a package.json és absent o no vàlid",
+      "enterInitialVersion": "Introdueix el teu número de versió inicial, per defecte 0.0.1:",
+      "error": "Introdueix un número de versió semàntic vàlid, per exemple: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Què vols fer?",
+      "upgradeVersion": "Actualitzar versió",
+      "specificVersion": "Especificar versió",
+      "revokeVersion": "Anul·lar versió"
+    },
+    "upgrade": {
+      "prompt": "Quina versió vols actualitzar?",
+      "confirmPush": "Vols publicar la versió al repositori?"
+    },
+    "specificVersion": {
+      "prompt": "Introdueix el número de versió:",
+      "confirm": "La teva versió actual és: v{0}, confirmes canviar a: v{1}?"
+    },
+    "revoke": {
+      "prompt": "Quina versió vols anul·lar?",
+      "currentVersion": "Versió actual",
+      "specificVersion": "Especificar versió"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Conserva els canvis als fitxers, només anul·la el número de versió"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Introdueix el número de versió a anul·lar:",
+      "retainChanges": "Conserva els canvis als fitxers, només anul·la el número de versió",
+      "confirm": "La teva versió actual és: v{0}, confirmes anul·lar: v{1}?"
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Vols actualitzar el número de versió a package.json: v{0} a la versió anul·lada v{1}?",
+      "failedToRetrieve": "No s'ha pogut recuperar el número de versió de la commit anterior, no s'ha modificat temporalment el número de versió a package.json. Si és necessari, modifica'l manualment."
+    }
+  }
+}

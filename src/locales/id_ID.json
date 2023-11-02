@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Gagal menjalankan perintah: {0}",
+    "syncCompleted": "Sinkronisasi selesai.",
+    "invalidChoice": "Pilihan tidak valid",
+    "executionSucceeded": "Berhasil menjalankan",
+    "executionFailed": "Gagal menjalankan",
+    "backToMenu": "Kembali",
+    "exit": "Keluar"
+  },
+  "loading": {
+    "revokingCurrent": "Membatalkan versi saat ini...",
+    "revokingVersion": "Membatalkan versi: v{0} ...",
+    "specificVersion": "Menentukan versi: v{0} ...",
+    "upgradingVersion": "Mengupgrade {0} menjadi: v{1} ..."
+  },
+  "version": {
+    "major": "Versi utama",
+    "minor": "Versi minor",
+    "patch": "Versi perbaikan",
+    "tips": {
+      "firstTimePrompt": "Karena Anda belum pernah melakukan publikasi versi sebelumnya, Anda perlu melakukan publikasi pertama.",
+      "failedToIncrement": "Tidak dapat meningkatkan nomor versi",
+      "invalidVersionField": "Bidang versi dalam package.json hilang atau tidak valid",
+      "enterInitialVersion": "Masukkan nomor versi awal Anda, default 0.0.1:",
+      "error": "Harap masukkan nomor versi semantik yang valid, contoh: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Apa yang ingin Anda lakukan",
+      "upgradeVersion": "Mengupgrade versi",
+      "specificVersion": "Menentukan versi",
+      "revokeVersion": "Membatalkan versi"
+    },
+    "upgrade": {
+      "prompt": "Versi mana yang ingin Anda upgrade",
+      "confirmPush": "Apakah Anda ingin mendorong versi ke repositori"
+    },
+    "specificVersion": {
+      "prompt": "Masukkan nomor versi:",
+      "confirm": "Nomor versi Anda saat ini adalah: v{0}, konfirmasikan untuk menggantinya dengan versi yang ditentukan: v{1}"
+    },
+    "revoke": {
+      "prompt": "Versi mana yang ingin Anda batalkan",
+      "currentVersion": "Versi saat ini",
+      "specificVersion": "Versi yang ditentukan"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Pertahankan perubahan file, hanya batalkan nomor versi"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Masukkan nomor versi yang ingin dibatalkan:",
+      "retainChanges": "Pertahankan perubahan file, hanya batalkan nomor versi",
+      "confirm": "Nomor versi Anda saat ini adalah: v{0}, konfirmasikan untuk membatalkan: v{1} "
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Apakah Anda ingin memperbarui file package.json dengan nomor versi: v{0} setelah dibatalkan menjadi v{1}",
+      "failedToRetrieve": "Tidak dapat mengambil nomor versi dari pengiriman sebelumnya, file package.json belum diubah sementara. Jika perlu, harap ubah secara manual."
+    }
+  }
+}

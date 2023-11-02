@@ -1,0 +1,62 @@
+{
+  "common": {
+    "error": "Utförandet misslyckades: {0}",
+    "syncCompleted": "Synkroniseringen är slutförd.",
+    "invalidChoice": "Ogiltigt val",
+    "executionSucceeded": "Utförandet lyckades",
+    "executionFailed": "Utförandet misslyckades",
+    "backToMenu": "Tillbaka",
+    "exit": "Avsluta"
+  },
+  "loading": {
+    "revokingCurrent": "Återkallar nuvarande version...",
+    "revokingVersion": "Återkallar version: v{0} ...",
+    "specificVersion": "Inställning av version till: v{0} ...",
+    "upgradingVersion": "Uppgraderar {0} till version: v{1} ..."
+  },
+  "version": {
+    "major": "Huvudversion",
+    "minor": "Mindre version",
+    "patch": "Patchversion",
+    "tips": {
+      "firstTimePrompt": "Eftersom du inte har publicerat någon version tidigare måste du först publicera en.",
+      "failedToIncrement": "Kunde inte öka versionsnumret",
+      "invalidVersionField": "Versionsfältet i package.json saknas eller är ogiltigt",
+      "enterInitialVersion": "Ange din initiala version, standard är 0.0.1:",
+      "error": "Ange en giltig semantisk versionsnummer, till exempel: {0}"
+    }
+  },
+  "menus": {
+    "main": {
+      "prompt": "Vad vill du göra",
+      "upgradeVersion": "Uppgradera versionen",
+      "specificVersion": "Ange version",
+      "revokeVersion": "Återkalla version"
+    },
+    "upgrade": {
+      "prompt": "Vilken version vill du uppgradera",
+      "confirmPush": "Vill du bekräfta publiceringen av versionen till arkivet"
+    },
+    "specificVersion": {
+      "prompt": "Ange version:",
+      "confirm": "Din nuvarande version är: v{0}, vill du bekräfta inställningen till version: v{1}"
+    },
+    "revoke": {
+      "prompt": "Vilken version vill du återkalla",
+      "currentVersion": "Nuvarande version",
+      "specificVersion": "Ange version"
+    },
+    "revokeCurrentVersion": {
+      "prompt": "Behåll ändringarna i filerna och återkalla endast versionen"
+    },
+    "revokeSpecificVersion": {
+      "prompt": "Ange versionen du vill återkalla:",
+      "retainChanges": "Behåll ändringarna i filerna och återkalla endast versionen",
+      "confirm": "Din nuvarande version är: v{0}, vill du bekräfta återkallelsen av versionen: v{1} "
+    },
+    "revertToPreviousVersion": {
+      "updatePackageJson": "Vill du uppdatera package.json-filen med versionen: v{0} till versionen efter återkallelsen i v{1}",
+      "failedToRetrieve": "Kunde inte hämta versionen från tidigare inlägg, det finns för närvarande ingen ändring av versionen i package.json-filen. Uppdatera manuellt om det behövs."
+    }
+  }
+}
