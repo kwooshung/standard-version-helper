@@ -12,7 +12,7 @@
     "revokingCurrent": "Rušení aktuální verze...",
     "revokingVersion": "Rušení verze: v{0} ...",
     "specificVersion": "Nastavování verze na: v{0} ...",
-    "upgradingVersion": "Aktualizace {0} na: v{1} ..."
+    "upgradingVersion": "Aktualizace v{0} na: v{1} ..."
   },
   "version": {
     "major": "Hlavní verze",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Nepodařilo se zvýšit číslo verze",
       "invalidVersionField": "Pole verze v package.json chybí nebo je neplatné",
       "enterInitialVersion": "Zadejte své počáteční číslo verze, výchozí je 0.0.1:",
-      "error": "Zadejte platné sémantické číslo verze, například: {0}"
+      "error": "Zadejte platné sémantické číslo verze, například: v{0}"
     }
   },
   "menus": {

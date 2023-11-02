@@ -12,7 +12,7 @@
     "revokingCurrent": "Đang thu hồi phiên bản hiện tại...",
     "revokingVersion": "Thu hồi phiên bản: v{0} ...",
     "specificVersion": "Đang chỉ định phiên bản: v{0} ...",
-    "upgradingVersion": "Đang nâng cấp {0} lên phiên bản: v{1} ..."
+    "upgradingVersion": "Đang nâng cấp v{0} lên phiên bản: v{1} ..."
   },
   "version": {
     "major": "Phiên bản chính",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Không thể tăng số phiên bản",
       "invalidVersionField": "Thiếu hoặc không hợp lệ trường phiên bản trong package.json",
       "enterInitialVersion": "Vui lòng nhập phiên bản ban đầu của bạn, mặc định là 0.0.1:",
-      "error": "Vui lòng nhập một số phiên bản ngữ nghĩa hợp lệ, ví dụ: {0}"
+      "error": "Vui lòng nhập một số phiên bản ngữ nghĩa hợp lệ, ví dụ: v{0}"
     }
   },
   "menus": {

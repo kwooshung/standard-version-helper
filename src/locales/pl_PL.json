@@ -12,7 +12,7 @@
     "revokingCurrent": "Cofanie bieżącej wersji...",
     "revokingVersion": "Cofanie wersji: v{0} ...",
     "specificVersion": "Ustawianie konkretnej wersji: v{0} ...",
-    "upgradingVersion": "Aktualizowanie wersji {0} do: v{1} ..."
+    "upgradingVersion": "Aktualizowanie wersji v{0} do: v{1} ..."
   },
   "version": {
     "major": "Wersja główna",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Nie można zwiększyć numeru wersji",
       "invalidVersionField": "Pole wersji w pliku package.json jest brakujące lub nieprawidłowe",
       "enterInitialVersion": "Proszę podać początkowy numer wersji, domyślnie 0.0.1:",
-      "error": "Proszę podać prawidłowy numer wersji semantycznej, na przykład: {0}"
+      "error": "Proszę podać prawidłowy numer wersji semantycznej, na przykład: v{0}"
     }
   },
   "menus": {
@@ -55,7 +55,7 @@
       "confirm": "Twoja obecna wersja to: v{0}, czy potwierdzasz cofnięcie: v{1}"
     },
     "revertToPreviousVersion": {
-      "updatePackageJson": "Czy chcesz zaktualizować numer wersji w pliku package.json z {0} na cofniętą wersję {1}",
+      "updatePackageJson": "Czy chcesz zaktualizować numer wersji w pliku package.json z v{0} na cofniętą wersję v{1}",
       "failedToRetrieve": "Nie można pobrać numeru wersji z poprzedniego zatwierdzenia. Numer wersji w pliku package.json nie został tymczasowo zmieniony. W razie potrzeby dokonaj ręcznej modyfikacji."
     }
   }

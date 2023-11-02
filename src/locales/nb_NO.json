@@ -12,7 +12,7 @@
     "revokingCurrent": "Trekker tilbake gjeldende versjon...",
     "revokingVersion": "Trekker tilbake versjon: v{0} ...",
     "specificVersion": "Angir versjon som: v{0} ...",
-    "upgradingVersion": "Oppgraderer versjon {0} til: v{1} ..."
+    "upgradingVersion": "Oppgraderer versjon v{0} til: v{1} ..."
   },
   "version": {
     "major": "Hovedversjon",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Kan ikke øke versjonsnummeret",
       "invalidVersionField": "Versjonsfeltet i package.json mangler eller er ugyldig",
       "enterInitialVersion": "Vennligst skriv inn din første versjon, som standard er 0.0.1:",
-      "error": "Vennligst oppgi en gyldig semantisk versjon, for eksempel: {0}"
+      "error": "Vennligst oppgi en gyldig semantisk versjon, for eksempel: v{0}"
     }
   },
   "menus": {

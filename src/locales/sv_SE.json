@@ -12,7 +12,7 @@
     "revokingCurrent": "Återkallar nuvarande version...",
     "revokingVersion": "Återkallar version: v{0} ...",
     "specificVersion": "Inställning av version till: v{0} ...",
-    "upgradingVersion": "Uppgraderar {0} till version: v{1} ..."
+    "upgradingVersion": "Uppgraderar v{0} till version: v{1} ..."
   },
   "version": {
     "major": "Huvudversion",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Kunde inte öka versionsnumret",
       "invalidVersionField": "Versionsfältet i package.json saknas eller är ogiltigt",
       "enterInitialVersion": "Ange din initiala version, standard är 0.0.1:",
-      "error": "Ange en giltig semantisk versionsnummer, till exempel: {0}"
+      "error": "Ange en giltig semantisk versionsnummer, till exempel: v{0}"
     }
   },
   "menus": {

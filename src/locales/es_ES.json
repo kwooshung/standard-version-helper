@@ -12,7 +12,7 @@
     "revokingCurrent": "Revocando la versión actual...",
     "revokingVersion": "Revocando la versión: v{0} ...",
     "specificVersion": "Estableciendo la versión a: v{0} ...",
-    "upgradingVersion": "Actualizando {0} a: v{1} ..."
+    "upgradingVersion": "Actualizando v{0} a: v{1} ..."
   },
   "version": {
     "major": "Versión principal",
@@ -23,7 +23,7 @@
       "failedToIncrement": "No se pudo incrementar el número de versión",
       "invalidVersionField": "El campo de versión en package.json falta o es inválido",
       "enterInitialVersion": "Por favor, introduce tu número de versión inicial, por defecto 0.0.1:",
-      "error": "Por favor, introduce un número de versión semántica válido, como: {0}"
+      "error": "Por favor, introduce un número de versión semántica válido, como: v{0}"
     }
   },
   "menus": {

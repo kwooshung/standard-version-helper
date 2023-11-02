@@ -12,7 +12,7 @@
     "revokingCurrent": "現在のバージョンを取り消しています...",
     "revokingVersion": "バージョンを取り消しています：v{0} ...",
     "specificVersion": "バージョンを指定しています：v{0} ...",
-    "upgradingVersion": "{0}をv{1}にアップグレードしています..."
+    "upgradingVersion": "v{0}をv{1}にアップグレードしています..."
   },
   "version": {
     "major": "メジャーバージョン",
@@ -23,7 +23,7 @@
       "failedToIncrement": "バージョン番号を増やすことができません",
       "invalidVersionField": "package.json のバージョンフィールドが不足しているか無効です",
       "enterInitialVersion": "初期バージョン番号を入力してください。デフォルトは 0.0.1：",
-      "error": "有効なセマンティックバージョン番号を入力してください。例：{0}"
+      "error": "有効なセマンティックバージョン番号を入力してください。例：v{0}"
     }
   },
   "menus": {

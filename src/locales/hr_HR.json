@@ -12,7 +12,7 @@
     "revokingCurrent": "Poništavanje trenutne verzije...",
     "revokingVersion": "Poništavanje verzije: v{0} ...",
     "specificVersion": "Postavljanje verzije na: v{0} ...",
-    "upgradingVersion": "Nadogradnja {0} na: v{1} ..."
+    "upgradingVersion": "Nadogradnja v{0} na: v{1} ..."
   },
   "version": {
     "major": "Glavna verzija",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Povećavanje broja verzije nije uspjelo",
       "invalidVersionField": "Polje verzije u package.json nedostaje ili je nevažeće",
       "enterInitialVersion": "Unesite svoju početnu verziju, zadana je 0.0.1:",
-      "error": "Unesite valjanu semantičku verziju, na primjer: {0}"
+      "error": "Unesite valjanu semantičku verziju, na primjer: v{0}"
     }
   },
   "menus": {

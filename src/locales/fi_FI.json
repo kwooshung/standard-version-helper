@@ -12,7 +12,7 @@
     "revokingCurrent": "Perutaan nykyistä versiota...",
     "revokingVersion": "Perutaan versiota: v{0}...",
     "specificVersion": "Asetetaan versioksi: v{0}...",
-    "upgradingVersion": "Päivitetään {0} versioon: v{1}..."
+    "upgradingVersion": "Päivitetään v{0} versioon: v{1}..."
   },
   "version": {
     "major": "Pääversio",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Versiota ei voitu lisätä",
       "invalidVersionField": "package.json-tiedoston versiokenttä puuttuu tai on virheellinen",
       "enterInitialVersion": "Anna alkuperäinen versiosi, oletusarvo 0.0.1:",
-      "error": "Anna kelvollinen semanttinen versio, esimerkiksi: {0}"
+      "error": "Anna kelvollinen semanttinen versio, esimerkiksi: v{0}"
     }
   },
   "menus": {

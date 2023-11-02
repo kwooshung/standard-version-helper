@@ -1,25 +1,20 @@
-# Changelog
+## 🎉 v0.0.6 `2023-11-02`
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+- 没有特别说明
 
-### [0.0.6](https://github.com/kwooshung/standard-version-helper/compare/v0.0.5...v0.0.6) (2023-11-02)
+---
 
-### [0.0.4](https://github.com/kwooshung/standard-version-helper/compare/v0.0.3...v0.0.4) (2023-11-02)
+## 🎉 v0.0.5 `2023-11-02`
 
-### [0.0.3](https://github.com/kwooshung/standard-version-helper/compare/v0.0.2...v0.0.3) (2023-11-02)
+- 没有特别说明
 
-### [0.0.3](https://github.com/kwooshung/standard-version-helper/compare/v0.0.2...v0.0.3) (2023-11-02)
-
-### [0.0.3](https://github.com/kwooshung/standard-version-helper/compare/v0.0.2...v0.0.3) (2023-11-02)
-
-### [0.0.2](https://github.com/kwooshung/standard-version-helper/compare/v0.0.1...v0.0.2) (2023-11-02)
-
-### [0.0.2](https://github.com/kwooshung/standard-version-helper/compare/v0.0.1...v0.0.2) (2023-11-02)
+---
 
 ## 🎉 v0.0.2 `2023-11-02`
 
 ### ⚙️ 配置
 
+- 看样子必须先更新并提交内容，再打tag ([26c30ff](https://github.com/kwooshung/standard-version-helper/commit/26c30ff))
 - 稍作修改的配置，看看能否生成bin ([0aea3c8](https://github.com/kwooshung/standard-version-helper/commit/0aea3c8))
 
 ### 🐛 修复

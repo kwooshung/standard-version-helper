@@ -1,8 +1,10 @@
+#!/usr/bin/env node
+
 import semver from 'semver';
 import inquirer from 'inquirer';
 
 import { i18n, set as i18nSet } from './locales';
-import { executeCommandWithLoading, getParam } from './command';
+import { executeCommand, executeCommandWithLoading, getParam } from './command';
 import revertToPreviousVersion from './revertToPreviousVersion';
 import { readPackageJson, writePackageJson } from './packageJson';
 
@@ -46,7 +48,7 @@ const revokeSpecificVersionMenu = async (): Promise<void> => {
     {
       type: 'confirm',
       name: 'retainChanges',
-      message: i18n('menus.revokeSpecificVersion.retainChanges')
+      message: `${i18n('menus.revokeSpecificVersion.retainChanges')}: v${currentVersion}`
     }
   ]);
 
@@ -54,17 +56,17 @@ const revokeSpecificVersionMenu = async (): Promise<void> => {
     {
       type: 'confirm',
       name: 'confirmRevoke',
-      message: i18n('menus.revokeSpecificVersion.confirm', currentVersion, specificVersion.version, retainChanges ? 'Keep changes' : "Don't keep changes")
+      message: i18n('menus.revokeSpecificVersion.confirm', currentVersion, specificVersion.version)
     }
   ]);
 
   if (confirmRevoke) {
-    const command = (retainChanges ? '' : `git reset --hard ${specificVersion}~1 && `) + `git tag -d v${specificVersion} && git push --force && git push origin :refs/tags/v${specificVersion}`;
+    const command = (retainChanges ? `git tag -d v${currentVersion}` : `git reset --hard~1`) + ` && git push --force && git push origin :refs/tags/v${specificVersion.version}`;
     executeCommandWithLoading(command, i18n('loading.revokingVersion', specificVersion.version));
 
     // 如果保留更改，则需要将 package.json 中的版本号更新为指定版本的前一个版本
     if (retainChanges) {
-      revertToPreviousVersion(`${specificVersion.version}~1`, packageJson);
+      revertToPreviousVersion(`v${specificVersion.version}~1`, packageJson);
     }
   } else {
     await revokeVersionMenu();
@@ -80,6 +82,10 @@ const revokeCurrentVersionMenu = async (): Promise<void> => {
   const packageJsonInfo = readPackageJson();
   const currentVersion = packageJsonInfo.data.version;
 
+  const previousCommitPackageJsonBuffer = executeCommand(`git show HEAD~1:package.json`);
+  const previousCommitPackageJson = JSON.parse(previousCommitPackageJsonBuffer.toString());
+  const previousVersion = previousCommitPackageJson.version;
+
   if (typeof currentVersion !== 'string') {
     console.error(i18n('version.tips.invalidVersionField'));
     return;
@@ -89,11 +95,11 @@ const revokeCurrentVersionMenu = async (): Promise<void> => {
     {
       type: 'confirm',
       name: 'retainChanges',
-      message: i18n('menus.revokeCurrentVersion.prompt')
+      message: `${i18n('menus.revokeCurrentVersion.prompt')}: v${currentVersion} > v${previousVersion}`
     }
   ]);
 
-  const command = `git tag -d v${currentVersion} && git push --force && git push origin :refs/tags/v${currentVersion}`;
+  const command = (retainChanges ? `git tag -d v${currentVersion}` : `git reset --hard~1 && `) + `git push --force && git push origin :refs/tags/v${previousVersion}`;
   executeCommandWithLoading(command, i18n('loading.revokingCurrent'));
 
   // 如果保留更改，则需要将 package.json 中的版本号更新为先前的版本
@@ -161,9 +167,17 @@ const specificVersionMenu = async (): Promise<void> => {
   ]);
 
   if (confirmSpecificVersion) {
+    const { shouldPush } = await inquirer.prompt([
+      {
+        type: 'confirm',
+        name: 'shouldPush',
+        message: i18n('menus.upgrade.confirmPush')
+      }
+    ]);
+
     packageJson.data.version = forcedVersion;
     writePackageJson(packageJson);
-    executeCommandWithLoading(`git tag v${forcedVersion}`, i18n('loading.specificVersion', forcedVersion));
+    executeCommandWithLoading(`npx standard-version --release-as ${forcedVersion}${shouldPush ? ' && git push --follow-tags' : ''}`, i18n('loading.specificVersion', forcedVersion));
   } else {
     await mainMenu();
   }
@@ -194,9 +208,9 @@ const upgradeVersionMenu = async (): Promise<void> => {
       name: 'upgradeType',
       message: prompt,
       choices: [
-        { name: `1. ${i18n('version.major')}: ${currentVersion} > ${nextMajorVersion}`, value: '1' },
-        { name: `2. ${i18n('version.minor')}: ${currentVersion} > ${nextMinorVersion}`, value: '2' },
-        { name: `3. ${i18n('version.patch')}: ${currentVersion} > ${nextPatchVersion}`, value: '3' },
+        { name: `1. ${i18n('version.major')}: v${currentVersion} > v${nextMajorVersion}`, value: '1' },
+        { name: `2. ${i18n('version.minor')}: v${currentVersion} > v${nextMinorVersion}`, value: '2' },
+        { name: `3. ${i18n('version.patch')}: v${currentVersion} > v${nextPatchVersion}`, value: '3' },
         { name: `4. ${i18n('common.backToMenu')}`, value: '4' }
       ]
     }

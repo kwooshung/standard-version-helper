@@ -12,7 +12,7 @@
     "revokingCurrent": "Häzirki boýunça ýazygy ýoky etmekde...",
     "revokingVersion": "Boýunça ýazygy ýok etmek: v{0} ...",
     "specificVersion": "Boýunça ýazygy bellemek: v{0} ...",
-    "upgradingVersion": "{0} boýunça ýazygy ýok etmek: v{1} ..."
+    "upgradingVersion": "v{0} boýunça ýazygy ýok etmek: v{1} ..."
   },
   "version": {
     "major": "Esas boýunça",
@@ -23,7 +23,7 @@
       "failedToIncrement": "Sürüm belgisi ýok edilip bolmady",
       "invalidVersionField": "package.json faýlynda sürüm sahasy ýok ýa-da ýalňyşdyr",
       "enterInitialVersion": "Başlaýyş sürüm belgisi girizi, defolt 0.0.1: ",
-      "error": "Semantik sürüm belgisi giriziň, maslaýýnda: {0}"
+      "error": "Semantik sürüm belgisi giriziň, maslaýýnda: v{0}"
     }
   },
   "menus": {
