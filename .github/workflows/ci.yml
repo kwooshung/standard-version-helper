@@ -52,5 +52,5 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
         with:
-          source-repo: 'git@github.com:kwooshung/React-Component-Template.git'
-          destination-repo: 'git@gitee.com:kwooshung/react-component-template.git'
+          source-repo: 'git@github.com:kwooshung/standard-version-helper.git'
+          destination-repo: 'git@gitee.com:kwooshung/standard-version-helper.git'
