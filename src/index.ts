@@ -163,7 +163,7 @@ const specificVersionMenu = async (): Promise<void> => {
   if (confirmSpecificVersion) {
     packageJson.data.version = forcedVersion;
     writePackageJson(packageJson);
-    executeCommandWithLoading(`git add . && git commit -m "chore: force version to ${forcedVersion}" && git tag v${forcedVersion}`, i18n('loading.specificVersion', forcedVersion));
+    executeCommandWithLoading(`git tag v${forcedVersion}`, i18n('loading.specificVersion', forcedVersion));
   } else {
     await mainMenu();
   }
@@ -231,7 +231,7 @@ const upgradeVersionMenu = async (): Promise<void> => {
   ]);
 
   const params = getParam('cmds');
-  const command = `standard-version --release-as ${releaseType}${params && ` && ${params}`}${shouldPush ? ' && git push --follow-tags' : ''}`;
+  const command = `npx standard-version --release-as ${releaseType}${params && ` && ${params}`}${shouldPush ? ' && git push --follow-tags' : ''}`;
   executeCommandWithLoading(command, i18n('loading.upgradingVersion', i18n(`version.${releaseType}`), nextVersion));
 };
 
@@ -241,6 +241,7 @@ const upgradeVersionMenu = async (): Promise<void> => {
  * @returns {Promise<void>} 无返回值
  */
 const publishVersionMenu = async (): Promise<void> => {
+  console.clear();
   i18nSet(getParam('locale'));
   const { action } = await inquirer.prompt([
     {
@@ -267,7 +268,7 @@ const publishVersionMenu = async (): Promise<void> => {
       await revokeVersionMenu();
       break;
     case '4':
-      await mainMenu();
+      console.clear();
       return;
   }
 };
@@ -278,6 +279,7 @@ const publishVersionMenu = async (): Promise<void> => {
  * @returns {Promise<void>} 无返回值
  */
 const firstTimePublish = async (): Promise<void> => {
+  console.clear();
   const { initialVersion } = await inquirer.prompt([
     {
       type: 'input',
@@ -300,10 +302,9 @@ const firstTimePublish = async (): Promise<void> => {
   ]);
 
   if (shouldPush) {
-    executeCommandWithLoading(
-      `git add . && git commit -m "chore: initial release ${initialVersion}" && git tag v${initialVersion} && git push --follow-tags`,
-      i18n('loading.forcingVersion', initialVersion)
-    );
+    executeCommandWithLoading(`npx standard-version --release-as ${initialVersion} && git push --follow-tags`, i18n('loading.forcingVersion', initialVersion));
+  } else {
+    executeCommandWithLoading(`npx standard-version --release-as ${initialVersion}`, i18n('loading.forcingVersion', initialVersion));
   }
 };
 
@@ -313,7 +314,6 @@ const firstTimePublish = async (): Promise<void> => {
  * @returns {Promise<void>} 无返回值
  */
 const mainMenu = async (): Promise<void> => {
-  console.clear();
   // 如果能够获取到 tag，则说明已经发布过版本
   if (executeCommandWithLoading('git tag', i18n('loading.revokingCurrent')).toString().trim()) {
     publishVersionMenu();

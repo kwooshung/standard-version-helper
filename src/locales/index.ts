@@ -190,7 +190,7 @@ function i18n(key: string, ...params: string[]): string {
 function set(locale: string): void {
   // 使用映射对象进行查找，如果找不到则默认使用中文
   currentLocale = locales[locale] || zh_CN;
-  if (!locales[locale]) {
+  if (locale && !locales[locale]) {
     console.warn(`警告: 不支持的语言 ${locale}，将使用默认语言包 zh_CN。\nUnsupported locale: ${locale}, fallback to zh_CN.`);
   }
 }

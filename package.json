@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/standard-version-helper",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "title": "Standard Version Helper",
   "description": "standard-version 帮助工具，可以在控制台中提供简单的菜单选择。",
   "private": false,
@@ -45,7 +45,7 @@
     "dist/"
   ],
   "bin": {
-    "standard-version-helper": "node ./dist/index.mjs"
+    "standard-version-helper": "node dist/index.mjs"
   },
   "scripts": {
     "prepare": "husky install",
@@ -57,7 +57,8 @@
     "test:ci": "jest --ci",
     "commit": "pnpm changelog && git add . && cz-customizable",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 && node plugin-customizable.cjs",
-    "release": "node ./dist/index.mjs -locale zh_Yi -cmd pnpm changelog"
+    "release:dev": "node ./dist/index.mjs -cmd pnpm changelog",
+    "release": "standard-version-helper -locale zh_CN -cmd pnpm changelog"
   },
   "config": {
     "cz-customizable": {
@@ -81,6 +82,7 @@
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "@commitlint/config-conventional": "^18.1.0",
+    "@kwooshung/standard-version-helper": "^1.0.0",
     "@swc/core": "^1.3.95",
     "@swc/jest": "^0.2.29",
     "@types/i18n": "^0.13.8",
