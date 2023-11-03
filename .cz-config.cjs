@@ -3,24 +3,7 @@ module.exports = {
   // https://gitmoji.dev/ emoji表情
   releaseCommitMessageFormat: 'release: 🎉 v{{currentTag}}',
   types: require('./tools/commitTypes.cjs'),
-  scopes: [
-    ['components', '组件相关'],
-    ['hooks', 'hook 相关'],
-    ['utils', 'utils 相关'],
-    ['arco-design', '对 arco-design 的调整'],
-    ['styles', '样式相关'],
-    ['deps', '项目依赖'],
-    ['test', '测试相关'],
-    ['config', '配置相关'],
-    ['changelog', '更新日志'],
-    ['auth', '对 auth 修改'],
-    ['egg', '小彩蛋，小惊喜'],
-    ['experiments', '实验性功能'],
-    ['workflows', '工作流相关文件更改'],
-    ['other', '其他修改'],
-    // 如果选择 custom，后面会让你再输入一个自定义的 scope。也可以不设置此项，把后面的 allowCustomScopes 设置为 true
-    ['custom', '以上都不是？我要自定义']
-  ].map(([value, description]) => {
+  scopes: require('./tools/commitScopes.cjs').map(([value, description]) => {
     return {
       value,
       name: `${value.padEnd(30)} (${description})`
@@ -35,7 +18,7 @@ module.exports = {
     footer: '关联关闭的issue，例如：#31, #34(可选):',
     confirmCommit: '确定提交说明?'
   },
-  allowCustomScopes: true,
+  allowCustomScopes: false,
   allowBreakingChanges: [':sparkles: feat', ':bug: fix'],
   subjectLimit: 100
 };

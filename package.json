@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/standard-version-helper",
-  "version": "0.0.12",
+  "version": "0.1.1",
   "title": "Standard Version Helper",
   "description": "standard-version 帮助工具，可以在控制台中提供简单的菜单选择。",
   "private": false,
@@ -55,10 +55,11 @@
     "test": "jest --coverage --verbose",
     "test:ci": "jest --coverage --ci",
     "test:watch": "jest --coverage --verbose --watch",
+    "translate": "node ./tools/translate.mjs",
     "commit": "pnpm changelog && git add . && cz-customizable",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 && node plugin-customizable.cjs",
     "release:dev": "node ./dist/index.mjs -cmd pnpm changelog",
-    "release": "standard-version-helper -cmd pnpm changelog"
+    "release": "standard-version-helper --cmd pnpm changelog"
   },
   "config": {
     "cz-customizable": {
@@ -85,6 +86,7 @@
     "@kwooshung/standard-version-helper": "^0.0.7",
     "@swc/core": "^1.3.95",
     "@swc/jest": "^0.2.29",
+    "@translate-tools/core": "^1.0.0",
     "@types/i18n": "^0.13.8",
     "@types/inquirer": "^9.0.6",
     "@types/jest": "^29.5.7",
@@ -106,7 +108,6 @@
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
-    "google-translate-api": "^2.3.0",
     "husky": "^8.0.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",

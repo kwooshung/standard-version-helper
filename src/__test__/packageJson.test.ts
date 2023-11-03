@@ -13,9 +13,7 @@ import { readPackageJson, writePackageJson } from '../packageJson';
 // 使用 jest.mock 来模拟 fs 模块
 jest.mock('fs');
 
-jest.mock('detect-indent', () => ({
-  default: () => ({ indent: '  ' })
-}));
+jest.mock('detect-indent', () => ({ default: () => ({ indent: '  ' }) }));
 
 // 开始编写测试用例
 describe('测试 readPackageJson 和 writePackageJson 函数', () => {

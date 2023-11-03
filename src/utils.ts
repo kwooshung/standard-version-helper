@@ -18,7 +18,7 @@ import { i18n } from './locales';
  * @returns {boolean | string} 验证结果
  */
 const versionValidate = (input: string): boolean | string => {
-  const semverRegex = /^(\d+)\.(\d+)\.(\d+)(?:-([a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))?(?:\+([a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))?$/;
+  const semverRegex = /^(\d+)\.(\d+)\.(\d+)(?:-([\w-]+(?:\.[\w-]+)*))?(?:\+([\w-]+(?:\.[\w-]+)*))?$/;
   if (semverRegex.test(input)) {
     return true;
   }
