@@ -19,7 +19,7 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 
 <p align="center">
     <span>English</span> | 
-    <a href="README.zh-CN.md">中文</a>
+    <a href="https://github.com/kwooshung/standard-version-helper/blob/main/README.zh-CN.md">中文</a>
 </p>
 </div>
 
