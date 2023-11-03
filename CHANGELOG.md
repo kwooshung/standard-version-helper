@@ -2,10 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.1.5](https://github.com/kwooshung/standard-version-helper/compare/v1.1.4...v1.1.5) (2023-11-03)
+## [1.2.0](https://github.com/kwooshung/standard-version-helper/compare/v1.1.5...v1.2.0) (2023-11-03)
+
+## 🎉 v## 1.2.0 `2023-11-03)`
+- 没有特别说明
+
+---
 
 ## 🎉 v1.1.5 `2023-11-03`
-- 没有特别说明
+### 🍻 发布：发布新版本
+- fix pnpm.lock bugs ([02edec9](https://github.com/kwooshung/standard-version-helper/commit/02edec9))
 
 ---
 

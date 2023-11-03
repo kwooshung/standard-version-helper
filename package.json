@@ -1,8 +1,8 @@
 {
   "name": "@kwooshung/standard-version-helper",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "title": "Standard Version Helper",
-  "description": "standard-version 帮助工具，可以在控制台中提供简单的菜单选择。",
+  "description": "'standard-version' is a utility tool that offers a straightforward menu selection in the console.",
   "private": false,
   "tags": [
     "kwooshung",
