@@ -44,6 +44,10 @@ jobs:
           source-repo: 'git@github.com:kwooshung/standard-version-helper.git'
           destination-repo: 'git@gitee.com:kwooshung/standard-version-helper.git'
 
+      # 使用 pnpm 构建
+      - name: build
+        run: pnpm build
+
       # 安装 Octokit REST & semver
       - name: Install Octokit REST & semver
         run: pnpm add @octokit/rest semver -D

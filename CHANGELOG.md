@@ -1,4 +1,7 @@
-## 🎉 v1.1.3 `2023-11-03`
+## 🎉 v1.1.2 `2023-11-03`
+### 🍻 发布：发布新版本
+- update config ([ee7e8aa](https://github.com/kwooshung/standard-version-helper/commit/ee7e8aa))
+
 ### 📚 文档：变更的只有文档
 - update README.md link ([5b489bf](https://github.com/kwooshung/standard-version-helper/commit/5b489bf))
 
