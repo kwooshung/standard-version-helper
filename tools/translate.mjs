@@ -106,7 +106,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
  */
 const formatDate = () => {
   const date = new Date();
-  `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')} ${date.getHours().toString().padStart(2, '0')}:${date
+  return `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')} ${date.getHours().toString().padStart(2, '0')}:${date
     .getMinutes()
     .toString()
     .padStart(2, '0')}:${date.getSeconds().toString().padStart(2, '0')}`;
@@ -177,14 +177,11 @@ async function translateJSON(inputPath, outputPath, fromLang, toLang, langName) 
     content = JSON.stringify(translatedContent, null, 2);
   }
 
-  const now = new Date();
-  const createAt = formatDate(now);
-
   const tsContent = `/**
  * ${langName}：${toLang}
  * @description ${langName}语言包
  * @author KwooShung，Google Translate
- * @createat ${createAt}
+ * @createat ${formatDate()}
  */
 
 export default ${content};

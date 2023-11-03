@@ -58,7 +58,7 @@ yarn add standard-version standard-version-helper -D
 pnpm add standard-version standard-version-helper -D
 ```
 
-## 简单演示
+## 菜单演示
 
 假设您当前的项目版本是：`v2.0.0`；
 
@@ -107,24 +107,6 @@ pnpm add standard-version standard-version-helper -D
   │ │ │ │ │ │ └── 当前版本更新为：1.4.9
   │ │ │ │ │ └── 否
   │ │ │ │ └── 否
-  │ │ │ └── 确认撤销
-  │ │ │ └── 是否将 package.json 文件中的版本号：v2.0.0 更新为撤销后的版本号 v1.4.9？
-  │ │ │ ├── 是
-  │ │ │ │ └── 当前版本更新为：1.4.9
-  │ │ │ └── 否
-  │ └── 返回上一级
+  │ └── 返回
   └── 退出
 ```
-
-蒙古族 - Mongolian
-藏族 - Tibetan
-维吾尔族 - Uighur
-哈萨克族 - Kazakh
-柯尔克孜族 - Kyrgyz
-朝鲜族 - Korean
-彝族 - Yi
-傣族 - Dai
-拉祜族 - Lahu
-景颇族 - Jingpo
-锡伯族 - Xibo
-俄罗斯族 - Russian
