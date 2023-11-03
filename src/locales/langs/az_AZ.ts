@@ -2,7 +2,7 @@
  * 阿塞拜疆语：az_AZ
  * @description 阿塞拜疆语语言包
  * @author KwooShung，Google Translate
- * @createat undefined
+ * @createat 2023-11-03 19:58:59
  */
 
 export default {

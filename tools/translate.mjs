@@ -12,8 +12,7 @@ const specialLangs = {
   zh_CN: '简体中文',
   zh_HK: '香港繁体',
   zh_MO: '澳门繁体',
-  zh_TW: '台湾省繁体',
-  zh_SG: '新加坡中文'
+  zh_TW: '台湾省繁体'
 };
 
 /**
@@ -161,9 +160,10 @@ async function translateStrings(fromLang, toLang, obj, translatedInx = 0) {
  * @param {string} fromLang 源语言
  * @param {string} toLang 目标语言
  * @param {string} langName 语言名称
+ * @param {boolean} [isTranslator=true] 是否使用翻译器
  * @returns {Promise<void>} 翻译结果
  */
-async function translateJSON(inputPath, outputPath, fromLang, toLang, langName) {
+async function translateJSON(inputPath, outputPath, fromLang, toLang, langName, isTranslator = true) {
   let content;
 
   if (fromLang === toLang || specialLangs[toLang]) {
@@ -180,7 +180,7 @@ async function translateJSON(inputPath, outputPath, fromLang, toLang, langName) 
   const tsContent = `/**
  * ${langName}：${toLang}
  * @description ${langName}语言包
- * @author KwooShung，Google Translate
+ * @author KwooShung${isTranslator ? '，Google Translate' : ''}
  * @createat ${formatDate()}
  */
 
@@ -231,6 +231,14 @@ const formatJSONByESlint = () => {
         const outputPath = path.join(srcDir, `${langCode}.ts`);
         await translateJSON(path.join(templateDir, inputFile), outputPath, fromLang, langCode, langName);
         console.log(`翻译版本：${langName} 已保存至 ${outputPath}`);
+        console.log('\n--------------------------------\n');
+      }
+
+      for (const [langCode, langName] of Object.entries(specialLangs)) {
+        console.log(`翻译中：${langName}...`);
+        const outputPath = path.join(srcDir, `${langCode}.ts`);
+        await translateJSON(path.join(templateDir, inputFile), outputPath, fromLang, langCode, langName, false);
+        console.log(`未翻译版本：${langName} 已保存至 ${outputPath}`);
         console.log('\n--------------------------------\n');
       }
 

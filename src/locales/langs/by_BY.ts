@@ -2,7 +2,7 @@
  * 白俄罗斯语：by_BY
  * @description 白俄罗斯语语言包
  * @author KwooShung，Google Translate
- * @createat undefined
+ * @createat 2023-11-03 19:59:23
  */
 
 export default {

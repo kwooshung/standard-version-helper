@@ -2,7 +2,7 @@
  * 加泰罗尼亚语：ca_ES
  * @description 加泰罗尼亚语语言包
  * @author KwooShung，Google Translate
- * @createat undefined
+ * @createat 2023-11-03 19:59:31
  */
 
 export default {

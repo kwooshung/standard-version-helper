@@ -11,9 +11,7 @@ import ora from 'ora';
 import child_process from 'child_process';
 import { executeCommand, executeCommandWithLoading, getParam } from '../command';
 
-jest.mock('child_process', () => ({
-  execSync: jest.fn()
-}));
+jest.mock('child_process', () => ({ execSync: jest.fn() }));
 
 jest.mock('ora', () => {
   return jest.fn().mockReturnValue({
@@ -68,7 +66,7 @@ describe('工具函数测试', () => {
 
   describe('getParam 函数', () => {
     it('应返回正确的命令行参数值', () => {
-      process.argv = ['node', 'script.js', '-key', 'value'];
+      process.argv = ['node', 'script.js', '--key', 'value'];
       expect(getParam('key')).toBe('value');
     });
 
@@ -78,7 +76,7 @@ describe('工具函数测试', () => {
     });
 
     it('如果参数值以"-"开始，应返回空字符串', () => {
-      process.argv = ['node', 'script.js', '-key', '-value'];
+      process.argv = ['node', 'script.js', '--key', '--value'];
       expect(getParam('key')).toBe('');
     });
   });

@@ -41,7 +41,7 @@ import ja_JP from './langs/ja_JP';
 import ka_GE from './langs/ka_GE';
 import kk_KZ from './langs/kk_KZ';
 import km_KH from './langs/km_KH';
-import kmr_I from './langs/kmr_I';
+import kmr_IQ from './langs/kmr_IQ';
 import kn_IN from './langs/kn_IN';
 import ko_KR from './langs/ko_KR';
 import lt_LT from './langs/lt_LT';
@@ -75,7 +75,6 @@ import vi_VN from './langs/vi_VN';
 import zh_CN from './langs/zh_CN';
 import zh_HK from './langs/zh_HK';
 import zh_MO from './langs/zh_MO';
-import zh_SG from './langs/zh_SG';
 import zh_TW from './langs/zh_TW';
 
 // 创建一个映射对象，将语言代码映射到对应的语言包
@@ -114,7 +113,7 @@ const locales = {
   ka_GE,
   kk_KZ,
   km_KH,
-  kmr_I,
+  kmr_IQ,
   kn_IN,
   ko_KR,
   lt_LT,
@@ -148,7 +147,6 @@ const locales = {
   zh_CN,
   zh_HK,
   zh_MO,
-  zh_SG,
   zh_TW
 };
 

@@ -55,13 +55,18 @@ const executeCommandWithLoading = (command: string, loadingMessage: string): Buf
  * @returns {string} 参数值
  */
 const getParam = (key: string): string => {
-  const argIndex = process.argv.indexOf(`-${key}`);
+  const argIndex = process.argv.indexOf(`--${key}`);
 
   if (argIndex !== -1 && argIndex < process.argv.length - 1) {
-    const potentialValue = process.argv[argIndex + 1];
-    if (!potentialValue.startsWith('-')) {
-      return potentialValue.toString();
+    const args = process.argv.slice(argIndex + 1);
+    let endOfValueIndex = args.findIndex((arg) => arg.startsWith('--'));
+
+    if (endOfValueIndex === -1) {
+      endOfValueIndex = args.length;
     }
+
+    const value = args.slice(0, endOfValueIndex).join(' ');
+    return value;
   }
 
   return '';

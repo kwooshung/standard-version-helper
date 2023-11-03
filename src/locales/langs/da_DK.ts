@@ -2,7 +2,7 @@
  * 丹麦语：da_DK
  * @description 丹麦语语言包
  * @author KwooShung，Google Translate
- * @createat undefined
+ * @createat 2023-11-03 19:59:48
  */
 
 export default {

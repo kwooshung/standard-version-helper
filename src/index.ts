@@ -176,7 +176,7 @@ const upgradeVersionMenu = async (): Promise<void> => {
   }
 
   const shouldPush = await questionPush('menus.upgrade.confirmPush');
-  const params = getParam('cmds');
+  const params = getParam('cmd');
   const command = `npx standard-version --release-as ${releaseType}${params && ` && ${params}`}${shouldPush ? ' && git push --follow-tags' : ''}`;
   executeCommandWithLoading(command, i18n('loading.upgradingVersion', i18n(`version.${releaseType}`), currentVersion, nextVersion));
 };

@@ -13,7 +13,7 @@ describe('国际化功能测试', () => {
   describe('设置语言包', () => {
     it('应该能够正确设置存在的语言包', () => {
       set('en_US');
-      expect(i18n('common.exit')).toBe('Exit');
+      expect(i18n('common.exit')).toBe('quit');
     });
 
     it('在尝试设置不存在的语言包时，应该默认使用中文', () => {

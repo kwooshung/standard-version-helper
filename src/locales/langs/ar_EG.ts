@@ -2,7 +2,7 @@
  * 阿拉伯语：ar_EG
  * @description 阿拉伯语语言包
  * @author KwooShung，Google Translate
- * @createat undefined
+ * @createat 2023-11-03 19:58:51
  */
 
 export default {

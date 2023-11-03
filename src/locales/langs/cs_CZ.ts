@@ -2,7 +2,7 @@
  * 捷克语：cs_CZ
  * @description 捷克语语言包
  * @author KwooShung，Google Translate
- * @createat undefined
+ * @createat 2023-11-03 19:59:40
  */
 
 export default {

@@ -2,7 +2,7 @@
  * 孟加拉语（孟加拉国）：bn_BD
  * @description 孟加拉语（孟加拉国）语言包
  * @author KwooShung，Google Translate
- * @createat undefined
+ * @createat 2023-11-03 19:59:15
  */
 
 export default {
