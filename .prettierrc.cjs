@@ -26,6 +26,7 @@ module.exports = {
   arrowParens: 'always',
   // 每个文件格式化的范围是文件的全部内容
   rangeStart: 0,
+  // 需要格式化和检查的代码结束偏移值（从尾部开始）
   rangeEnd: Infinity,
   // 不需要写文件开头的 @prettier
   requirePragma: false,
