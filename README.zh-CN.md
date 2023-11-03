@@ -18,7 +18,7 @@
 [![Gitee Repo](https://img.shields.io/badge/Gitee-standard--version--helper-165dff?logo=gitee)](https://gitee.com/kwooshung/standard-version-helper/)
 
 <p align="center">
-    <a href="https://github.com/kwooshung/standard-version-helper">English</a> |   
+    <a href="README.md">English</a> |   
     <span>中文</span>
 </p>
 </div>
