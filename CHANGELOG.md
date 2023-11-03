@@ -1,8 +1,10 @@
-# Changelog
+## 🎉 v1.0.3 `2023-11-03`
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 
-### [1.0.3](https://github.com/kwooshung/standard-version-helper/compare/v1.0.2...v1.0.3) (2023-11-03)
+- update workflows ([b7c8a6f](https://github.com/kwooshung/standard-version-helper/commit/b7c8a6f))
+
+---
 
 ## 🎉 v1.0.2 `2023-11-03`
 
