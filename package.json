@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/standard-version-helper",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "title": "Standard Version Helper",
   "description": "standard-version 帮助工具，可以在控制台中提供简单的菜单选择。",
   "private": false,
