@@ -1,3 +1,25 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.0.4](https://github.com/kwooshung/standard-version-helper/compare/v1.0.3...v1.0.4) (2023-11-03)
+
+## 🎉 v1.0.4 `2023-11-03`
+
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
+
+- update workflows ([c4f4571](https://github.com/kwooshung/standard-version-helper/commit/c4f4571))
+
+---
+
+## 🎉 v1.0.3 `2023-11-03`
+
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
+
+- update workflows ([b7c8a6f](https://github.com/kwooshung/standard-version-helper/commit/b7c8a6f))
+
+---
+
 ## 🎉 v1.0.2 `2023-11-03`
 
 ### 📂 文件操作：添加、删除、移动文件
