@@ -1,3 +1,9 @@
+## 🎉 v1.1.4 `2023-11-03`
+### 🍻 发布：发布新版本
+- update ([20efa4b](https://github.com/kwooshung/standard-version-helper/commit/20efa4b))
+
+---
+
 ## 🎉 v1.1.3 `2023-11-03`
 ### 🍻 发布：发布新版本
 - update version ([96e8178](https://github.com/kwooshung/standard-version-helper/commit/96e8178))
