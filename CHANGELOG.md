@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.1.5](https://github.com/kwooshung/standard-version-helper/compare/v1.1.4...v1.1.5) (2023-11-03)
+
 ## 🎉 v1.1.5 `2023-11-03`
 - 没有特别说明
 
@@ -142,4 +148,3 @@
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
-
