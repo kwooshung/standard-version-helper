@@ -1,13 +1,14 @@
-# Changelog
+## 🎉 v1.1.2 `2023-11-03`
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+- 没有特别说明
 
-### [1.1.1](https://github.com/kwooshung/standard-version-helper/compare/v1.1.0...v1.1.1) (2023-11-03)
+---
 
 ## 🎉 v1.1.1 `2023-11-03`
 
 ### 🍻 发布：发布新版本
 
+- update readme.md link ([0422523](https://github.com/kwooshung/standard-version-helper/commit/0422523))
 - upgrade Version ([7023af6](https://github.com/kwooshung/standard-version-helper/commit/7023af6))
 
 ### 📚 文档：变更的只有文档

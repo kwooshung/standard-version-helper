@@ -19,7 +19,7 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 
 <p align="center">
     <span>English</span> | 
-    <a href="https://github.com/kwooshung/standard-version-helper/blob/main/README.zh-CN.md">中文</a>
+    <a href="README.zh-CN.md">中文</a>
 </p>
 </div>
 
@@ -28,7 +28,7 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 - I am tired of command line version upgrades and have to remember commands, parameters, and various rules every time. These are all things I don't want to remember. I just want to focus on business development, so I developed this tool.
 - Since there is a 'standard version', why not have another help tool?
 
-## 特点
+## Features
 
 - **No need to remember** commands
 - **No need to remember** parameters
@@ -42,7 +42,7 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 - Newbie friendly
 - Improve veteran work efficiency
 
-## 菜单演示
+## Menu Preivew
 
 Assume that your current project version is: `v2.0.0`;
 
@@ -117,7 +117,7 @@ pnpm add standard-version standard-version-helper -D
 
 ## recommend
 
-### 在 `package.json` 中添加 `scripts` 脚本，如下：
+### Add the `scripts` script in `package.json` as follows:
 
 ```json
 {
