@@ -2,9 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.0.4](https://github.com/kwooshung/standard-version-helper/compare/v1.0.3...v1.0.4) (2023-11-03)
+## [1.1.0](https://github.com/kwooshung/standard-version-helper/compare/v1.0.4...v1.1.0) (2023-11-03)
+
+## 🎉 v## 1.1.0 `2023-11-03)`
+
+### 📚 文档：变更的只有文档
+
+- english Link ([d0543a8](https://github.com/kwooshung/standard-version-helper/commit/d0543a8))
+
+---
 
 ## 🎉 v1.0.4 `2023-11-03`
+
+### 🍻 发布：发布新版本
+
+- upgrade 1.0.4 ([bc7d035](https://github.com/kwooshung/standard-version-helper/commit/bc7d035))
 
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 
