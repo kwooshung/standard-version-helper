@@ -1,11 +1,11 @@
-# Changelog
+## 🎉 v1.2.3 `2023-11-03`
+- 没有特别说明
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [1.2.2](https://github.com/kwooshung/standard-version-helper/compare/v1.2.1...v1.2.2) (2023-11-03)
+---
 
 ## 🎉 v1.2.2 `2023-11-03`
-- 没有特别说明
+### 📚 文档：变更的只有文档
+- update Format ([0f83dad](https://github.com/kwooshung/standard-version-helper/commit/0f83dad))
 
 ---
 
@@ -163,3 +163,4 @@ All notable changes to this project will be documented in this file. See [standa
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
+
