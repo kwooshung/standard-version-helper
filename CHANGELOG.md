@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.1.1](https://github.com/kwooshung/standard-version-helper/compare/v0.1.0...v0.1.1) (2023-11-03)
+
 ## 🎉 v## 0.1.0 `2023-11-03)`
 
 ### ✨ 特性：新的特性
