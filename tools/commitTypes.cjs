@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-module.exports = module.exports = [
+module.exports = [
   { value: '🎉 init', name: '初始：初始提交' },
   { value: '✨ feat', name: '特性：新的特性' },
   { value: '🐛 fix', name: '修复：修复Bug' },
@@ -10,7 +10,7 @@ module.exports = module.exports = [
   { value: '💩 optimize', name: '优化：代码优化' },
   { value: '⚰️ dead', name: '删除：废弃代码' },
   { value: '🔒 security', name: '安全性更新：安全性修复或更新' },
-  { value: '🛠️ deps', name: '依赖更新：更新依赖库或包' },
+  { value: '🔗 deps', name: '依赖更新：更新依赖库或包' },
   { value: '⚙️ config', name: '配置：配置文件的更改' },
   { value: '📡 deploy', name: '部署：与项目部署相关的更改' },
   { value: '📦 build', name: '打包：打包发布' },
@@ -21,15 +21,15 @@ module.exports = module.exports = [
   { value: '♿ a11y', name: '可访问性：提升产品的可访问性' },
   { value: '✅ test', name: '测试：添加一个测试' },
   { value: '🚧 wip', name: '开发中：尚未完成' },
-  { value: '🛠️ workflows', name: '工作流：CI 配置、脚本，等工作流相关文件更改' },
   { value: '🚀 chore', name: '工具：开发工具变动 (构建、脚手架工具等)' },
+  { value: '🔄 workflows', name: '工作流：CI 配置、脚本，等工作流相关文件更改' },
   { value: '💻 dev', name: '开发环境：开发工具、环境配置更改' },
   { value: '🏭 prod', name: '生产环境：生产环境配置更改' },
   { value: '⏪ revert', name: '回滚：代码回退' },
   { value: '⌛ merge', name: '合并：合并代码' },
   { value: '📝 changelog', name: '更新日志：更新 changelog' },
   { value: '⚗️ experiments', name: '实验性：实验性功能，可能存在错误等未知问题' },
-  { value: '©️ license', name: '版权或许可证：添加或更新许可证' },
+  { value: '📜 license', name: '版权或许可证：添加或更新许可证' },
   { value: '👀 review', name: '代码审查：修改代码审查建议' },
   { value: '🥚 egg', name: '彩蛋：小惊喜' },
   { value: '🌐 network', name: '网络：网络请求、通信相关的更改' },

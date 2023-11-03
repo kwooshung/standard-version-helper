@@ -63,10 +63,6 @@
 
 - 修复了git命令的问题 ([f434f4f](https://github.com/kwooshung/standard-version-helper/commit/f434f4f))
 
-### 🛠️ 依赖更新：更新依赖库或包
-
-- 删除了自己已删除的包，也就是当前项目的包，不然无法合并 ([f84266a](https://github.com/kwooshung/standard-version-helper/commit/f84266a))
-
 ---
 
 ## 🎉 v0.0.1 `2023-11-02`
@@ -76,9 +72,3 @@
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
-
-### 🛠️ 工作流：CI 配置、脚本，等工作流相关文件更改
-
-- 尝试同步自动同步到 npm.js 中 ([ee47b39](https://github.com/kwooshung/standard-version-helper/commit/ee47b39))
-- 发布包，设置公开包 ([113175f](https://github.com/kwooshung/standard-version-helper/commit/113175f))
-- 同步gitee仓库地址写错了 ([e3813ae](https://github.com/kwooshung/standard-version-helper/commit/e3813ae))
