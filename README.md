@@ -1,8 +1,10 @@
 <div align="center">
 
+# Standard Version Helper
+
 It is based on [standard version](https://github.com/conventional-changelog/standard-version/)The help tool can provide simple menu selection in the console.
 
-![GitHub License](https://img.shields.io/github/license/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
+[![GitHub License](https://img.shields.io/github/license/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)](LICENSE)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/standard-version-helper?labelColor=272e3b&color=00b42A&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
@@ -10,15 +12,15 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![GitHub issues](https://img.shields.io/github/issues/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
-![NPM Version](https://img.shields.io/npm/v/@kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
-![Npm.js Downloads/Week](https://img.shields.io/npm/dw/%40kwooshung%2Fstandard-version-helper?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)
+[![NPM Version](https://img.shields.io/npm/v/@kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/standard-version-helper)
+[![Npm.js Downloads/Week](https://img.shields.io/npm/dw/%40kwooshung%2Fstandard-version-helper?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/standard-version-helper)
 [![Github CI/CD](https://github.com/kwooshung/standard-version-helper/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/standard-version-helper/actions/)
 [![Coverage](https://img.shields.io/coveralls/github/kwooshung/standard-version-helper?label=Coverage&labelColor=272e3b&color=00b42A)](https://coveralls.io/github/kwooshung/standard-version-helper/)
 [![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/standard-version-helper/maintainability/)
 [![Gitee Repo](https://img.shields.io/badge/Gitee-standard--version--helper-165dff?logo=gitee)](https://gitee.com/kwooshung/standard-version-helper/)
 
 <p align="center">
-    <span>English</span> | 
+    <a href="README.md">English</a> | 
     <a href="README.zh-CN.md">中文</a>
 </p>
 </div>
@@ -39,8 +41,8 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 - **No need to remember** Version number minor rules
 - **No need to remember** version number patch rules
 - You are not afraid of making mistakes in version number, there are verification prompts
+- Increase work efficiency
 - Newbie friendly
-- Improve veteran work efficiency
 
 ## Menu Preivew
 
