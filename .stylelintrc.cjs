@@ -4,7 +4,7 @@ module.exports = {
   plugins: [
     'stylelint-order'
   ],
-  extends: ['stylelint-config-standard'], // 这是官方推荐的方式
+  extends: ['stylelint-config-standard'],
   ignoreFiles: [
     './coverage/**/*.css'
   ],

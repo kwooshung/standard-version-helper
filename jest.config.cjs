@@ -1,8 +1,7 @@
-/* eslint-disable no-undef */
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   transform: {
-    '^.+\\.(ts|tsx)$': ['@swc/jest']
+    '^.+\\.(js|ts)$': ['@swc/jest']
   }
 };

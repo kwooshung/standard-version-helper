@@ -1,5 +1,5 @@
 {
-         "*.{js,jsx,ts,tsx}": ["npx prettier --write", "npx eslint --fix"],
-               "*.{json,md}": ["npx prettier --write"],
-    "*.test.{js,jsx,ts,tsx}": ["npx jest --findRelatedTests"]
+  "*.{js,jsx,ts,tsx}": ["npx prettier --write", "npx eslint --fix"],
+           "*.{json}": ["npx prettier --write"],
+     "*.test.{js,ts}": ["npx jest --findRelatedTests"]
 }
