@@ -100,19 +100,19 @@
 ### npm
 
 ```bash
-npm install standard-version standard-version-helper --save-dev
+npm install standard-version @kwooshung/standard-version-helper --save-dev
 ```
 
 ### yarn
 
 ```bash
-yarn add standard-version standard-version-helper -D
+yarn add standard-version @kwooshung/standard-version-helper -D
 ```
 
 ### pnpm
 
 ```bash
-pnpm add standard-version standard-version-helper -D
+pnpm add standard-version @kwooshung/standard-version-helper -D
 ```
 
 ## 推荐适用方法
