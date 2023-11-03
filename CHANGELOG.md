@@ -2,10 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.1.3](https://github.com/kwooshung/standard-version-helper/compare/v1.1.2...v1.1.3) (2023-11-03)
+### [1.1.4](https://github.com/kwooshung/standard-version-helper/compare/v1.1.3...v1.1.4) (2023-11-03)
+
+## 🎉 v1.1.4 `2023-11-03`
+### 🍻 发布：发布新版本
+- update ([20efa4b](https://github.com/kwooshung/standard-version-helper/commit/20efa4b))
+
+---
 
 ## 🎉 v1.1.3 `2023-11-03`
-- 没有特别说明
+### 🍻 发布：发布新版本
+- update version ([96e8178](https://github.com/kwooshung/standard-version-helper/commit/96e8178))
 
 ---
 
