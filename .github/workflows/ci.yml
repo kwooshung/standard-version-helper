@@ -24,6 +24,17 @@ jobs:
       - name: install dependencies
         run: pnpm install
 
+      # 使用 pnpm 执行测试
+      - name: run tests
+        run: pnpm test:ci
+
+      # 上传覆盖率报告到 Coveralls
+      - name: Coveralls
+        uses: coverallsapp/github-action@v2
+        with:
+          parallel: true
+          path-to-lcov: coverage/lcov.info
+
       # 使用 pnpm 构建
       - name: build
         run: pnpm build
@@ -57,3 +68,14 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+  finish:
+    needs: build-and-deploy
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Coveralls Finished
+        uses: coverallsapp/github-action@main
+        with:
+          parallel-finished: true
+          carryforward: 'run-1,run-2'

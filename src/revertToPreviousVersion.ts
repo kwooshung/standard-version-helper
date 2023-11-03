@@ -6,12 +6,10 @@
  * @createat 2023-11-02 15:00:00
  * @updateat 2023-11-01 13:21:33
  */
-
-import inquirer from 'inquirer';
-
 import { i18n } from './locales';
 import { IPackageJson } from './interface';
 import { executeCommand } from './command';
+import { questionCommon } from './utils';
 import { readPackageJson, writePackageJson } from './packageJson';
 
 /**
@@ -21,7 +19,7 @@ import { readPackageJson, writePackageJson } from './packageJson';
  * @param {IPackageJson} packageJsonRef package.json 文件的引用
  * @returns {void} 无返回值
  */
-const revertToPreviousVersion = (reference: string, packageJsonRef: IPackageJson): void => {
+const revertToPreviousVersion = async (reference: string, packageJsonRef: IPackageJson): Promise<void> => {
   const previousCommitPackageJsonBuffer = executeCommand(`git show ${reference}:package.json`);
   const previousCommitPackageJson = JSON.parse(previousCommitPackageJsonBuffer.toString());
   const previousVersion = previousCommitPackageJson.version;
@@ -30,22 +28,12 @@ const revertToPreviousVersion = (reference: string, packageJsonRef: IPackageJson
     const packageJsonInfo = readPackageJson();
     const currentVersion = packageJsonInfo.data.version;
 
-    const questions = [
-      {
-        type: 'confirm',
-        name: 'shouldUpdate',
-        message: i18n('menus.revertToPreviousVersion.updatePackageJson', currentVersion, previousVersion),
-        default: true
-      }
-    ];
+    const shouldUpdate = await questionCommon('confirm', 'shouldUpdate', i18n('menus.revertToPreviousVersion.updatePackageJson', currentVersion, previousVersion), undefined, undefined, true);
 
-    inquirer.prompt(questions).then((answers) => {
-      const { shouldUpdate } = answers;
-      if (shouldUpdate) {
-        packageJsonRef.data.version = previousVersion;
-        writePackageJson(packageJsonRef);
-      }
-    });
+    if (shouldUpdate.shouldUpdate) {
+      packageJsonRef.data.version = previousVersion;
+      writePackageJson(packageJsonRef);
+    }
   } else {
     console.error(i18n('menus.revertToPreviousVersion.failedToRetrieve'));
   }
