@@ -1,8 +1,10 @@
-# Changelog
+## 🎉 v1.0.2 `2023-11-03`
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### 📂 文件操作：添加、删除、移动文件
 
-### [1.0.2](https://github.com/kwooshung/standard-version-helper/compare/v1.0.1...v1.0.2) (2023-11-03)
+- delete misc files ([dde1615](https://github.com/kwooshung/standard-version-helper/commit/dde1615))
+
+---
 
 ## 🎉 v1.0.1 `2023-11-03`
 
