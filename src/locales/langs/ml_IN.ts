@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'നിലവിലെ പതിപ്പ് അസാധുവാക്കലാണ് ...',
     revokingVersion: 'പുനരുജ്ജീവദ്ധമായ പതിപ്പ്: v{0} ...',
     specificVersion: 'IVES: v{0} ...',
-    upgradingVersion: 'അപ്ഗ്രേഡ്v{0}: v{1} > v{2} ...'
+    upgradingVersion: 'അപ്ഗ്രേഡ്{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'പ്രധാന പതിപ്പ്',

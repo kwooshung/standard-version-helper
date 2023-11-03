@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Aktuální verze je zrušena ...',
     revokingVersion: 'Revizibilní verze: v{0} ...',
     specificVersion: 'Určete verzi jako: v{0} ...',
-    upgradingVersion: 'Upgradev{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Upgrade{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Hlavní verze',

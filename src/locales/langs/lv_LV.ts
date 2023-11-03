@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Pašreizējā versija tiek atsaukta ...',
     revokingVersion: 'Pārskatāma versija: v{0} ...',
     specificVersion: 'Norādiet versiju kā: v{0} ...',
-    upgradingVersion: 'Jauninietv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Jauniniet{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Galvenā versija',

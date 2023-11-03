@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Phiên bản hiện tại đang bị thu hồi ...',
     revokingVersion: 'Phiên bản xem xét lại: v{0} ...',
     specificVersion: 'Chỉ định phiên bản là: v{0} ...',
-    upgradingVersion: 'Nâng cấpv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Nâng cấp{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Phiên bản chính',

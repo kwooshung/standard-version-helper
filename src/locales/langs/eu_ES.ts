@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Egungo bertsioa baliogabetzen ari da ...',
     revokingVersion: 'Bertsio berrikusgarria: v{0} ...',
     specificVersion: 'Zehaztu bertsioa: v{0} ...',
-    upgradingVersion: 'Bertsio berrituv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Bertsio berritu{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Bertsio nagusia',

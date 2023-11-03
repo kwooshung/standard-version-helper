@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'S’està revocant la versió actual ...',
     revokingVersion: 'Versió revisible: v{0} ...',
     specificVersion: 'Especifiqueu la versió com: v{0} ...',
-    upgradingVersion: 'Actualitzacióv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Actualització{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Versió principal',

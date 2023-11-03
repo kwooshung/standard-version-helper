@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'ಪ್ರಸ್ತುತ ಆವೃತ್ತಿಯನ್ನು ಹಿಂತೆಗೆದುಕೊಳ್ಳಲಾಗುತ್ತಿದೆ ...',
     revokingVersion: 'ಮರುಹಂಚಿಕೆ ಆವೃತ್ತಿ: v{0} ...',
     specificVersion: 'ಆವೃತ್ತಿಯನ್ನು ಹೀಗೆ ಸೂಚಿಸಿ: v{0} ...',
-    upgradingVersion: 'v{0}: v{1} > v{2} ...'
+    upgradingVersion: '{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'ಮುಖ್ಯ ಆವೃತ್ತಿ',

@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'მიმდინარე ვერსია გაუქმებულია ...',
     revokingVersion: 'გადასინჯული ვერსია: v{0} ...',
     specificVersion: 'მიუთითეთ ვერსია: v{0} ...',
-    upgradingVersion: 'განახლებაv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'განახლება{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'მთავარი ვერსია',

@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'موجودہ ورژن منسوخ کیا جارہا ہے ...',
     revokingVersion: 'نظرثانی والا ورژن: v{0} ...',
     specificVersion: 'ورژن کی وضاحت کریں جیسے: v{0} ...',
-    upgradingVersion: 'اپ گریڈv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'اپ گریڈ{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'مرکزی ورژن',

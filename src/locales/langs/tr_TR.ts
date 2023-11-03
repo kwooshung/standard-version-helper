@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Mevcut sürüm iptal ediliyor ...',
     revokingVersion: 'Revize edilebilir Sürüm: v{0} ...',
     specificVersion: 'Sürümü şu şekilde belirtin: v{0} ...',
-    upgradingVersion: 'Yükseltmev{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Yükseltme{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Ana versiyon',

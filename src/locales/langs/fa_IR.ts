@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'نسخه فعلی در حال لغو است ...',
     revokingVersion: 'نسخه قابل تجدید نظر: v{0} ...',
     specificVersion: 'نسخه را به عنوان: v{0} ... مشخص کنید ...',
-    upgradingVersion: 'ارتقاءv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'ارتقاء{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'نسخه اصلی',

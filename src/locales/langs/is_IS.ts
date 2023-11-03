@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Verið er að afturkalla núverandi útgáfu ...',
     revokingVersion: 'Revisible útgáfa: v{0} ...',
     specificVersion: 'Tilgreindu útgáfuna sem: v{0} ...',
-    upgradingVersion: 'Uppfærðuv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Uppfærðu{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Aðalútgáfa',

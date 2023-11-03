@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'កំណែបច្ចុប្បន្នកំពុងត្រូវបានដកហូតវិញ ...',
     revokingVersion: 'កំណែដែលអាចពិនិត្យឡើងវិញបាន: v{0} ...',
     specificVersion: 'បញ្ជាក់កំណែជា: v{0} ...',
-    upgradingVersion: 'ធ្វើឱ្យប្រសើរឡើងv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'ធ្វើឱ្យប្រសើរឡើង{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'កំណែសំខាន់',

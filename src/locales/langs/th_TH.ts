@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'เวอร์ชันปัจจุบันถูกเพิกถอน ...',
     revokingVersion: 'เวอร์ชันที่ผ่านการแก้ไขได้: v{0} ...',
     specificVersion: 'ระบุเวอร์ชันเป็น: v{0} ...',
-    upgradingVersion: 'อัปเกรดv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'อัปเกรด{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'เวอร์ชันหลัก',

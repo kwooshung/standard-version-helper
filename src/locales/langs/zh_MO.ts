@@ -19,7 +19,7 @@ export default {
     revokingCurrent: '正在撤銷當前版本...',
     revokingVersion: '撤銷版本：v{0} ...',
     specificVersion: '正在將版本指定為：v{0} ...',
-    upgradingVersion: '正在升級v{0}：v{1} > v{2} ...'
+    upgradingVersion: '正在升級{0}：v{1} > v{2} ...'
   },
   version: {
     major: '主要版本',

@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Versi semasa sedang dibatalkan ...',
     revokingVersion: 'Versi Revisible: v{0} ...',
     specificVersion: 'Tentukan versi sebagai: v{0} ...',
-    upgradingVersion: 'Naik tarafv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Naik taraf{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Versi utama',

@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Dabartinė versija atšaukiama ...',
     revokingVersion: 'Peržiūrėkite versiją: v{0} ...',
     specificVersion: 'Nurodykite versiją kaip: v{0} ...',
-    upgradingVersion: 'Atnaujinimasv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Atnaujinimas{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Pagrindinė versija',

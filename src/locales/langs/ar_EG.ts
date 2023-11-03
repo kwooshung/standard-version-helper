@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'يتم إلغاء الإصدار الحالي ...',
     revokingVersion: 'الإصدار المرئي: v{0} ...',
     specificVersion: 'حدد الإصدار على النحو التالي: v{0} ...',
-    upgradingVersion: 'الترقيةv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'الترقية{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'النسخة الرئيسية',

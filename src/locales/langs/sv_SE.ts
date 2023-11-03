@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Den nuvarande versionen återkallas ...',
     revokingVersion: 'Överenslig version: v{0} ...',
     specificVersion: 'Ange versionen som: v{0} ...',
-    upgradingVersion: 'Uppgraderingv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Uppgradering{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Huvudversion',

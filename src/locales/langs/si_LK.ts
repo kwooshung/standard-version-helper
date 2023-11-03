@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'වත්මන් අනුවාදය අවලංගු කරන ...',
     revokingVersion: 'සංශෝධනය කළ හැකි අනුවාදය: v{0} ...',
     specificVersion: 'අනුවාදය මෙසේ සඳහන් කරන්න: v{0} ...',
-    upgradingVersion: 'යාවත්කාලීන කිරීමv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'යාවත්කාලීන කිරීම{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'ප්රධාන අනුවාදය',

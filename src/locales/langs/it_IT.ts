@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'La versione attuale viene revocata ...',
     revokingVersion: 'Versione revisibile: v{0} ...',
     specificVersion: 'Specifica la versione come: v{0} ...',
-    upgradingVersion: 'Aggiornav{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Aggiorna{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Versione principale',

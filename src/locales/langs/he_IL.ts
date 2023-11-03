@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'הגרסה הנוכחית מבוטלת ...',
     revokingVersion: 'גרסה בלתי אפשרית: v{0} ...',
     specificVersion: 'ציין את הגרסה כ: v{0} ...',
-    upgradingVersion: 'שדרגv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'שדרג{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'גרסה ראשית',

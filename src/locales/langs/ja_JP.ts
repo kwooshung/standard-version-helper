@@ -19,7 +19,7 @@ export default {
     revokingCurrent: '現在のバージョンは取り消されています...',
     revokingVersion: '再検討可能なバージョン：v{0} ...',
     specificVersion: 'バージョンを指定します：v{0} ...',
-    upgradingVersion: 'アップグレードv{0}：v{1} > v{2} ...'
+    upgradingVersion: 'アップグレード{0}：v{1} > v{2} ...'
   },
   version: {
     major: 'メインバージョン',

@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'A jelenlegi verziót visszavonják ...',
     revokingVersion: 'Megújítható verzió: v{0} ...',
     specificVersion: 'Adja meg a verziót: v{0} ...',
-    upgradingVersion: 'Frissítsev{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Frissítse{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Fő változat',

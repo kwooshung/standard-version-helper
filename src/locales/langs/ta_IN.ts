@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'தற்போதைய பதிப்பு ரத்து செய்யப்படுகிறது ...',
     revokingVersion: 'மறுபரிசீலனை பதிப்பு: v{0} ...',
     specificVersion: 'பதிப்பை இவ்வாறு குறிப்பிடவும்: v{0} ...',
-    upgradingVersion: 'v{0}: v{1} > v{2} ...'
+    upgradingVersion: '{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'முதன்மை பதிப்பு',

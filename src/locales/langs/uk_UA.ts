@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Поточна версія скасовується ...',
     revokingVersion: 'Переглянута версія: v{0} ...',
     specificVersion: 'Вкажіть версію як: v{0} ...',
-    upgradingVersion: 'Оновленняv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Оновлення{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Основна версія',

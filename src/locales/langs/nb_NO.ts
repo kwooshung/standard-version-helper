@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Den nåværende versjonen blir opphevet ...',
     revokingVersion: 'Revisible versjon: v{0} ...',
     specificVersion: 'Spesifiser versjonen som: v{0} ...',
-    upgradingVersion: 'Oppgraderv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Oppgrader{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Hovedversjon',

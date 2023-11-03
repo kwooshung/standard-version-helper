@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Trenutna različica se prekliče ...',
     revokingVersion: 'Revidible različica: v{0} ...',
     specificVersion: 'Navedite različico kot: v{0} ...',
-    upgradingVersion: 'Nadgraditev{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Nadgradite{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Glavna različica',

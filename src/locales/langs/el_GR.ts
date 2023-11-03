@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Η τρέχουσα έκδοση ανακαλείται ...',
     revokingVersion: 'Αναθετική έκδοση: v{0} ...',
     specificVersion: 'Καθορίστε την έκδοση ως: v{0} ...',
-    upgradingVersion: 'Αναβάθμισηv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Αναβάθμιση{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Κύρια έκδοση',

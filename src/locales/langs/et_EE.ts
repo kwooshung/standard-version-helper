@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Praegune versioon tühistatakse ...',
     revokingVersion: 'Versiooniline versioon: v{0} ...',
     specificVersion: 'Määrake versioon järgmiselt: v{0} ...',
-    upgradingVersion: 'Täiendusv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Täiendus{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Põhiversioon',

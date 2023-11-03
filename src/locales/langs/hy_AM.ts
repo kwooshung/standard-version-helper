@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Ներկայիս վարկածը ուժը կորցրած է ճանաչվում ...',
     revokingVersion: 'Վերանայվող տարբերակը. V {0 ...',
     specificVersion: 'Նշեք վարկածը որպես v {0 ...',
-    upgradingVersion: 'Թարմացումv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Թարմացում{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Հիմնական տարբերակը',

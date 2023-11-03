@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'वर्तमान संस्करण खारेज भइरहेको छ ...',
     revokingVersion: 'पुन: स्थायी संस्करण: v{0} ...',
     specificVersion: 'संस्करण निर्दिष्ट गर्नुहोस्: v{0} ...',
-    upgradingVersion: 'अपग्रेडv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'अपग्रेड{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'मुख्य संस्करण',

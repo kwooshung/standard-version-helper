@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Versiunea actuală este revocată ...',
     revokingVersion: 'Versiune revizibilă: v{0} ...',
     specificVersion: 'Specificați versiunea ca: v{0} ...',
-    upgradingVersion: 'Upgradev{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Upgrade{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Versiunea principală',

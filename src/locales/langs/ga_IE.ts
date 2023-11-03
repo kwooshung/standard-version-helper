@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Tá an leagan reatha á chúlghairm ...',
     revokingVersion: 'Leagan Athbhreithnithe: v{0} ...',
     specificVersion: 'Sonraigh an leagan mar: v{0} ...',
-    upgradingVersion: 'Uasghrádúv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Uasghrádú{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Príomhleagaisc',

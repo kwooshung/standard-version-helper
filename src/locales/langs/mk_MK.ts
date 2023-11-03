@@ -19,7 +19,7 @@ export default {
     revokingCurrent: 'Тековната верзија е отповикана ...',
     revokingVersion: 'Резултатска верзија: v{0} ...',
     specificVersion: 'Наведете ја верзијата како: v{0} ...',
-    upgradingVersion: 'Надградбаv{0}: v{1} > v{2} ...'
+    upgradingVersion: 'Надградба{0}: v{1} > v{2} ...'
   },
   version: {
     major: 'Главна верзија',

@@ -1,8 +1,23 @@
-# Changelog
+## 🎉 v## 0.1.0 `2023-11-03)`
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### ✨ 特性：新的特性
 
-## [0.1.0](https://github.com/kwooshung/standard-version-helper/compare/v0.0.12...v0.1.0) (2023-11-03)
+- 修复bug，优化代码，优化CICD，优化语言包，开始书写README.md ([eb4c8c3](https://github.com/kwooshung/standard-version-helper/commit/eb4c8c3))
+- adjustment pre-testing before official release ([ab585fb](https://github.com/kwooshung/standard-version-helper/commit/ab585fb))
+
+### 🐛 修复：修复Bug
+
+- missing return for formatDate function ([8aa5831](https://github.com/kwooshung/standard-version-helper/commit/8aa5831))
+
+### 🚀 工具：开发工具变动 (构建、脚手架工具等)
+
+- add auto translation for lang packs ([9244328](https://github.com/kwooshung/standard-version-helper/commit/9244328))
+- add types ([8d303ca](https://github.com/kwooshung/standard-version-helper/commit/8d303ca))
+- update normalizeVariables regexp ([e3e4ed1](https://github.com/kwooshung/standard-version-helper/commit/e3e4ed1))
+- update normalizeVariables regexp comments ([7442c83](https://github.com/kwooshung/standard-version-helper/commit/7442c83))
+- update regexp ([e28d246](https://github.com/kwooshung/standard-version-helper/commit/e28d246))
+
+---
 
 ## 🎉 v0.0.12 `2023-11-03`
 
