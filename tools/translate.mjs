@@ -118,10 +118,12 @@ const formatDate = () => {
  * @returns {string} 标准化后的文本
  */
 const normalizeVariables = (text) => {
+  // 保证变量占位符前后有空格
+  text = text.replace(/ *v *\{(\d+)\}/gi, 'v{$1}');
+
   // 替换英文冒号后面跟有n个空格的情况，保留一个空格
-  text = text.replace(/: *v *\{(\d+)\}/gi, ': v{$1}');
-  // 替换中文冒号后面跟有n个空格的情况，去掉空格
-  text = text.replace(/： *v *\{(\d+)\}/gi, '：v{$1}');
+  text = text.replace(/:v\{(\d+)\}/gi, ': v{$1}');
+
   // 使用 $1 > $5 来确保两个表达式之间有空格和大于符号
   text = text.replace(/(v\{.*\})([^\s>])?(>?)([^\s>])?(v\{.*\})/, '$1 > $5');
 
