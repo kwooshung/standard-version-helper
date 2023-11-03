@@ -12,47 +12,48 @@
     "revokingCurrent": "正在撤销当前版本...",
     "revokingVersion": "撤销版本：v{0} ...",
     "specificVersion": "正在将版本指定为：v{0} ...",
-    "upgradingVersion": "正在升级v{0}为：v{1} ..."
+    "upgradingVersion": "正在升级v{0}：v{1} > v{2} ..."
   },
   "version": {
     "major": "主要版本",
     "minor": "次要版本",
     "patch": "补丁版本",
     "tips": {
-      "firstTimePrompt": "由于你还没有发布过版本，需要进行首次发布。",
+      "firstTimePrompt": "由于您还没有发布过版本，需要进行首次发布。",
       "failedToIncrement": "无法增加版本号",
       "invalidVersionField": "package.json 中的版本字段缺失或无效",
-      "enterInitialVersion": "请输入你的初始版本号，默认 0.0.1：",
+      "enterInitialVersion": "请输入您的初始版本号，默认 0.0.1：",
       "error": "请输入一个有效的语义版本号，例如：v{0}"
     }
   },
   "menus": {
     "main": {
-      "prompt": "你打算做什么",
+      "prompt": "您打算做什么呢？",
       "upgradeVersion": "升级版本",
       "specificVersion": "指定版本",
       "revokeVersion": "撤销版本"
     },
     "upgrade": {
-      "prompt": "你打算升级哪个版本",
+      "prompt": "您打算升级哪个版本",
       "confirmPush": "是否推送版本到仓库"
     },
     "specificVersion": {
       "prompt": "请输入版本号：",
-      "confirm": "你当前的版本号为：v{0}，确认打入指定版本号：v{1}"
+      "confirm": "您当前的版本号为：v{0}，确认打入指定版本号：v{1}"
     },
     "revoke": {
-      "prompt": "你打算撤销哪个版本",
+      "prompt": "您打算撤销哪个版本",
       "currentVersion": "当前版本",
       "specificVersion": "指定版本"
     },
     "revokeCurrentVersion": {
-      "prompt": "保留对文件的更改，仅撤销版本号"
+      "retainChanges": "保留对文件的更改，仅撤销版本号",
+      "confirm": "您当前的版本号为：v{0}，撤销后：v{1}，是否继续？"
     },
     "revokeSpecificVersion": {
       "prompt": "请输入要撤销的版本号：",
       "retainChanges": "保留对文件的更改，仅撤销版本号",
-      "confirm": "你当前的版本号为：v{0}，确认撤销：v{1} "
+      "confirm": "您当前的版本号为：v{0}，撤销后：v{1}，是否继续？"
     },
     "revertToPreviousVersion": {
       "updatePackageJson": "是否将 package.json 文件中的版本号：v{0} 更新为撤销后的版本号 v{1}",

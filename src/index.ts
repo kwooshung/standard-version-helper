@@ -6,34 +6,16 @@
  * @author KwooShung
  * @module index
  * @createat 2023-11-02 15:00:00
- * @updateat 2023-11-01 13:21:33
+ * @updateat 2023-11-03 10:42:20
  */
 
 import semver from 'semver';
-import inquirer from 'inquirer';
 
 import { i18n, set as i18nSet } from './locales';
 import { executeCommand, executeCommandWithLoading, getParam } from './command';
 import revertToPreviousVersion from './revertToPreviousVersion';
 import { readPackageJson, writePackageJson } from './packageJson';
-
-/**
- * 验证版本号输入内容
- * @description 验证版本号输入内容是否符合语义版本规范
- * @param {string} input 输入内容
- * @returns {boolean | string} 验证结果
- */
-const versionValidate = (input) => {
-  const semverRegex = /^(\d+)\.(\d+)\.(\d+)(?:-([a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))?(?:\+([a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*))?$/;
-  if (semverRegex.test(input)) {
-    return true;
-  }
-
-  return i18n(
-    'version.tips.error',
-    '\n\t0.0.1\n\t1.2.3\n\t1.0.0-alpha\n\t1.0.0-beta\n\t1.0.0-alpha.1\n\t1.0.0-beta.2\n\t1.0.0-rc.1\n\t1.0.0+001\n\t1.0.0+20130313144700\n\t1.0.0-alpha+001\n\t1.0.0-alpha.1+001\n\t2.1.0-rc.2+build.5'
-  );
-};
+import { questionCommon, questionVersionValidate, questionList, questionInput, questionPush } from './utils';
 
 /**
  * 菜单：撤销指定版本
@@ -43,41 +25,23 @@ const versionValidate = (input) => {
 const revokeSpecificVersionMenu = async (): Promise<void> => {
   const packageJson = readPackageJson();
   const currentVersion = packageJson.data.version;
-
-  const specificVersion = await inquirer.prompt([
-    {
-      type: 'input',
-      name: 'version',
-      message: i18n('menus.revokeSpecificVersion.prompt'),
-      validate: versionValidate
-    }
-  ]);
-
-  const { retainChanges } = await inquirer.prompt([
-    {
-      type: 'confirm',
-      name: 'retainChanges',
-      message: `${i18n('menus.revokeSpecificVersion.retainChanges')}: v${currentVersion}`
-    }
-  ]);
-
-  const { confirmRevoke } = await inquirer.prompt([
-    {
-      type: 'confirm',
-      name: 'confirmRevoke',
-      message: i18n('menus.revokeSpecificVersion.confirm', currentVersion, specificVersion.version)
-    }
-  ]);
+  const { version: specificVersion } = await questionVersionValidate('input', 'version', 'menus.revokeSpecificVersion.prompt');
+  const { retainChanges } = await questionCommon('confirm', 'retainChanges', `${i18n('menus.revokeSpecificVersion.retainChanges')}: v${currentVersion}`);
+  const { confirmRevoke } = await questionCommon('confirm', 'confirmRevoke', i18n('menus.revokeSpecificVersion.confirm', currentVersion, specificVersion));
 
   if (confirmRevoke) {
-    const command = (retainChanges ? `git tag -d v${currentVersion}` : `git reset --hard~1`) + ` && git push --force && git push origin :refs/tags/v${specificVersion.version}`;
-    executeCommandWithLoading(command, i18n('loading.revokingVersion', specificVersion.version));
-
-    // 如果保留更改，则需要将 package.json 中的版本号更新为指定版本的前一个版本
     if (retainChanges) {
-      revertToPreviousVersion(`v${specificVersion.version}~1`, packageJson);
+      // 如果保留更改，回退到指定版本的前一个提交，并更新 package.json 的版本号
+      const command = `git reset v${specificVersion}~1 --hard && git push --force`;
+      executeCommandWithLoading(command, i18n('loading.revokingVersion', specificVersion));
+      revertToPreviousVersion(`v${specificVersion}~1`, packageJson);
     }
+
+    // 删除本地和远程的标签
+    const deleteTagCommand = `git tag -d v${specificVersion} && git push origin :refs/tags/v${specificVersion}`;
+    executeCommandWithLoading(deleteTagCommand, i18n('loading.revokingVersion', specificVersion));
   } else {
+    console.clear();
     await revokeVersionMenu();
   }
 };
@@ -100,40 +64,37 @@ const revokeCurrentVersionMenu = async (): Promise<void> => {
     return;
   }
 
-  const { retainChanges } = await inquirer.prompt([
-    {
-      type: 'confirm',
-      name: 'retainChanges',
-      message: `${i18n('menus.revokeCurrentVersion.prompt')}: v${currentVersion} > v${previousVersion}`
+  const { confirmRevoke } = await questionCommon('confirm', 'confirmRevoke', i18n('menus.revokeCurrentVersion.confirm', currentVersion, previousVersion));
+
+  if (confirmRevoke) {
+    const { retainChanges } = await questionCommon('confirm', 'retainChanges', `${i18n('menus.revokeCurrentVersion.retainChanges')}: v${currentVersion}`);
+
+    const command =
+      (retainChanges ? `git tag -d v${currentVersion}` : `git reset --hard HEAD~1 && git push --force && git push origin :refs/tags/v${currentVersion}`) +
+      (retainChanges ? ` && git push --force && git push origin :refs/tags/v${currentVersion}` : ``);
+    executeCommandWithLoading(command, i18n('loading.revokingCurrent'));
+
+    // 如果保留更改，则需要将 package.json 中的版本号更新为先前的版本
+    if (retainChanges) {
+      revertToPreviousVersion('HEAD~1', packageJsonInfo);
     }
-  ]);
-
-  const command = (retainChanges ? `git tag -d v${currentVersion}` : `git reset --hard~1 && `) + `git push --force && git push origin :refs/tags/v${previousVersion}`;
-  executeCommandWithLoading(command, i18n('loading.revokingCurrent'));
-
-  // 如果保留更改，则需要将 package.json 中的版本号更新为先前的版本
-  if (retainChanges) {
-    revertToPreviousVersion('HEAD~1', packageJsonInfo);
+  } else {
+    console.clear();
+    revokeVersionMenu();
   }
 };
-
 /**
  * 菜单：撤销版本
  * @description 二级 > 撤销版本
  * @returns {Promise<void>} 无返回值
  */
 const revokeVersionMenu = async (): Promise<void> => {
-  const { revokeType } = await inquirer.prompt([
-    {
-      type: 'list',
-      name: 'revokeType',
-      message: i18n('menus.revoke.prompt'),
-      choices: [
-        { name: `1. ${i18n('menus.revoke.currentVersion')}`, value: '1' },
-        { name: `2. ${i18n('menus.revoke.specificVersion')}`, value: '2' },
-        { name: `3. ${i18n('common.backToMenu')}`, value: '3' }
-      ]
-    }
+  const packageJson = readPackageJson();
+  const currentVersion = packageJson.data.version;
+  const { revokeType } = await questionList('revokeType', 'menus.revoke.prompt', [
+    { name: `1. ${i18n('menus.revoke.currentVersion')}: v${currentVersion}`, value: '1' },
+    { name: `2. ${i18n('menus.revoke.specificVersion')}`, value: '2' },
+    { name: `3. ${i18n('common.backToMenu')}`, value: '3' }
   ]);
 
   switch (revokeType) {
@@ -157,33 +118,11 @@ const revokeVersionMenu = async (): Promise<void> => {
 const specificVersionMenu = async (): Promise<void> => {
   const packageJson = readPackageJson();
   const currentVersion = packageJson.data.version;
-
-  const { forcedVersion } = await inquirer.prompt([
-    {
-      type: 'input',
-      name: 'forcedVersion',
-      message: i18n('menus.specificVersion.prompt'),
-      validate: versionValidate
-    }
-  ]);
-
-  const { confirmSpecificVersion } = await inquirer.prompt([
-    {
-      type: 'confirm',
-      name: 'confirmSpecificVersion',
-      message: i18n('menus.specificVersion.confirm', currentVersion, forcedVersion)
-    }
-  ]);
+  const { version: forcedVersion } = await questionVersionValidate('input', 'version', 'menus.specificVersion.prompt');
+  const { confirmSpecificVersion } = await questionCommon('confirm', 'confirmSpecificVersion', i18n('menus.specificVersion.confirm', currentVersion, forcedVersion));
 
   if (confirmSpecificVersion) {
-    const { shouldPush } = await inquirer.prompt([
-      {
-        type: 'confirm',
-        name: 'shouldPush',
-        message: i18n('menus.upgrade.confirmPush')
-      }
-    ]);
-
+    const shouldPush = await questionPush('menus.upgrade.confirmPush');
     packageJson.data.version = forcedVersion;
     writePackageJson(packageJson);
     executeCommandWithLoading(`npx standard-version --release-as ${forcedVersion}${shouldPush ? ' && git push --follow-tags' : ''}`, i18n('loading.specificVersion', forcedVersion));
@@ -209,20 +148,11 @@ const upgradeVersionMenu = async (): Promise<void> => {
     return;
   }
 
-  const prompt = i18n('menus.upgrade.prompt');
-
-  const { upgradeType } = await inquirer.prompt([
-    {
-      type: 'list',
-      name: 'upgradeType',
-      message: prompt,
-      choices: [
-        { name: `1. ${i18n('version.major')}: v${currentVersion} > v${nextMajorVersion}`, value: '1' },
-        { name: `2. ${i18n('version.minor')}: v${currentVersion} > v${nextMinorVersion}`, value: '2' },
-        { name: `3. ${i18n('version.patch')}: v${currentVersion} > v${nextPatchVersion}`, value: '3' },
-        { name: `4. ${i18n('common.backToMenu')}`, value: '4' }
-      ]
-    }
+  const { upgradeType } = await questionList('upgradeType', 'menus.upgrade.prompt', [
+    { name: `1. ${i18n('version.major')}: v${currentVersion} > v${nextMajorVersion}`, value: '1' },
+    { name: `2. ${i18n('version.minor')}: v${currentVersion} > v${nextMinorVersion}`, value: '2' },
+    { name: `3. ${i18n('version.patch')}: v${currentVersion} > v${nextPatchVersion}`, value: '3' },
+    { name: `4. ${i18n('common.backToMenu')}`, value: '4' }
   ]);
 
   let releaseType: string;
@@ -245,17 +175,10 @@ const upgradeVersionMenu = async (): Promise<void> => {
       return;
   }
 
-  const { shouldPush } = await inquirer.prompt([
-    {
-      type: 'confirm',
-      name: 'shouldPush',
-      message: i18n('menus.upgrade.confirmPush')
-    }
-  ]);
-
+  const shouldPush = await questionPush('menus.upgrade.confirmPush');
   const params = getParam('cmds');
   const command = `npx standard-version --release-as ${releaseType}${params && ` && ${params}`}${shouldPush ? ' && git push --follow-tags' : ''}`;
-  executeCommandWithLoading(command, i18n('loading.upgradingVersion', i18n(`version.${releaseType}`), nextVersion));
+  executeCommandWithLoading(command, i18n('loading.upgradingVersion', i18n(`version.${releaseType}`), currentVersion, nextVersion));
 };
 
 /**
@@ -266,18 +189,12 @@ const upgradeVersionMenu = async (): Promise<void> => {
 const publishVersionMenu = async (): Promise<void> => {
   console.clear();
   i18nSet(getParam('locale'));
-  const { action } = await inquirer.prompt([
-    {
-      type: 'list',
-      name: 'action',
-      message: i18n('menus.main.prompt'),
-      choices: [
-        { value: '1', name: i18n('menus.main.upgradeVersion') },
-        { value: '2', name: i18n('menus.main.specificVersion') },
-        { value: '3', name: i18n('menus.main.revokeVersion') },
-        { value: '4', name: i18n('common.exit') }
-      ]
-    }
+
+  const { action } = await questionList('action', 'menus.main.prompt', [
+    { value: '1', name: i18n('menus.main.upgradeVersion') },
+    { value: '2', name: i18n('menus.main.specificVersion') },
+    { value: '3', name: i18n('menus.main.revokeVersion') },
+    { value: '4', name: i18n('common.exit') }
   ]);
 
   switch (action) {
@@ -303,28 +220,14 @@ const publishVersionMenu = async (): Promise<void> => {
  */
 const firstTimePublish = async (): Promise<void> => {
   console.clear();
-  const { initialVersion } = await inquirer.prompt([
-    {
-      type: 'input',
-      name: 'initialVersion',
-      message: i18n('version.tips.enterInitialVersion'),
-      default: '0.0.1'
-    }
-  ]);
+
+  const { initialVersion } = await questionInput('initialVersion', i18n('version.tips.enterInitialVersion'), '0.0.1');
 
   const packageJson = readPackageJson();
   packageJson.data.version = initialVersion;
   writePackageJson(packageJson);
 
-  const { shouldPush } = await inquirer.prompt([
-    {
-      type: 'confirm',
-      name: 'shouldPush',
-      message: i18n('menus.upgrade.confirmPush')
-    }
-  ]);
-
-  if (shouldPush) {
+  if (await questionPush('menus.upgrade.confirmPush')) {
     executeCommandWithLoading(`npx standard-version --release-as ${initialVersion} && git push --follow-tags`, i18n('loading.forcingVersion', initialVersion));
   } else {
     executeCommandWithLoading(`npx standard-version --release-as ${initialVersion}`, i18n('loading.forcingVersion', initialVersion));
