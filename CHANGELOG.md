@@ -2,18 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.1.1](https://github.com/kwooshung/standard-version-helper/compare/v0.1.0...v0.1.1) (2023-11-03)
+### [1.0.1](https://github.com/kwooshung/standard-version-helper/compare/v0.1.1...v1.0.1) (2023-11-03)
 
-## 🎉 v## 0.1.0 `2023-11-03)`
+## [1.0.0](https://github.com/kwooshung/standard-version-helper/compare/v0.1.1...v1.0.0) (2023-11-03)
+
+## 🎉 v0.1.1 `2023-11-03`
+
+### 🐛 修复：修复Bug
+
+- language pack format is wrong ([1bb57d9](https://github.com/kwooshung/standard-version-helper/commit/1bb57d9))
+- missing return for formatDate function ([8aa5831](https://github.com/kwooshung/standard-version-helper/commit/8aa5831))
 
 ### ✨ 特性：新的特性
 
 - 修复bug，优化代码，优化CICD，优化语言包，开始书写README.md ([eb4c8c3](https://github.com/kwooshung/standard-version-helper/commit/eb4c8c3))
 - adjustment pre-testing before official release ([ab585fb](https://github.com/kwooshung/standard-version-helper/commit/ab585fb))
-
-### 🐛 修复：修复Bug
-
-- missing return for formatDate function ([8aa5831](https://github.com/kwooshung/standard-version-helper/commit/8aa5831))
 
 ### 🚀 工具：开发工具变动 (构建、脚手架工具等)
 

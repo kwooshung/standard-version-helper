@@ -3,22 +3,22 @@
 是一个基于 [standard-version](https://github.com/conventional-changelog/standard-version/) 的帮助工具，可以在控制台中提供简单的菜单选择。
 
 ![GitHub License](https://img.shields.io/github/license/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
-![Github CI/CD](https://github.com/kwooshung/standard-version-helper/actions/workflows/ci.yml/badge.svg)
-![Coverage](https://img.shields.io/coveralls/github/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
-[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/standard-version-helper/maintainability)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kwooshung/standard-version-helper?labelColor=272e3b&color=00b42A&logo=github)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
-![Npm.js Downloads/Week](https://img.shields.io/npm/dw/%40kwooshung%2Fstandard-version-helper?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)
-![NPM Version](https://img.shields.io/npm/v/@kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![GitHub top language](https://img.shields.io/github/languages/top/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![GitHub issues](https://img.shields.io/github/issues/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
-[![Gitee Repo](https://img.shields.io/badge/Gitee-standard--version--helper-165dff?logo=gitee)](https://gitee.com/kwooshung/standard-version-helper)
+![NPM Version](https://img.shields.io/npm/v/@kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
+![Npm.js Downloads/Week](https://img.shields.io/npm/dw/%40kwooshung%2Fstandard-version-helper?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)
+[![Github CI/CD](https://github.com/kwooshung/standard-version-helper/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/standard-version-helper/actions/)
+[![Coverage](https://img.shields.io/coveralls/github/kwooshung/standard-version-helper?label=Coverage&labelColor=272e3b&color=00b42A)](https://coveralls.io/github/kwooshung/standard-version-helper/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/standard-version-helper/maintainability/)
+[![Gitee Repo](https://img.shields.io/badge/Gitee-standard--version--helper-165dff?logo=gitee)](https://gitee.com/kwooshung/standard-version-helper/)
 
 <p align="center">
-    <a href="README.md">English</a> |   
+    <a href="/kwooshung/standard-version-helper/">English</a> |   
     <span>中文</span>
 </p>
 </div>
