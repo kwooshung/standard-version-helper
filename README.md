@@ -20,7 +20,7 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 [![Gitee Repo](https://img.shields.io/badge/Gitee-standard--version--helper-165dff?logo=gitee)](https://gitee.com/kwooshung/standard-version-helper/)
 
 <p align="center">
-    <a href="README.md">English</a> | 
+    <a href="README.md" style="font-weight:700;color:#165dff;text-decoration: underline;">English</a> | 
     <a href="README.zh-CN.md">中文</a>
 </p>
 </div>
