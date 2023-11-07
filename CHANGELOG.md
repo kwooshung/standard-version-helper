@@ -1,4 +1,7 @@
-## 🎉 v1.5.0 `2023-11-07`
+## 🎉 v1.5.1 `2023-11-07`
+### 🚀 工具：开发工具变动 (构建、脚手架工具等)
+- update tools ([ea2e1f0](https://github.com/kwooshung/standard-version-helper/commit/ea2e1f0))
+
 ### ✅ 测试：添加或更新测试
 - update ([710af72](https://github.com/kwooshung/standard-version-helper/commit/710af72))
 
