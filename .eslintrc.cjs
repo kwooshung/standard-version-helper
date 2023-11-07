@@ -18,28 +18,9 @@ module.exports = {
     'no-undef': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-var-requires': 'off',
-    semi: ['error', 'always'],
-    quotes: [
-      'error',
-      'single',
-      {
-        avoidEscape: true,
-        allowTemplateLiterals: true
-      }
-    ],
-    indent: [
-      'off',
-      2,
-      {
-        SwitchCase: 1
-      }
-    ],
-    'comma-dangle': ['error', 'never'],
     'no-plusplus': 'off',
     'no-unused-expressions': 'off',
     'no-param-reassign': 'off',
-    '@next/next/no-img-element': 'off',
-    '@typescript-eslint/no-unused-expressions': 'off',
-    'jsx-quotes': ['error', 'prefer-single']
+    '@typescript-eslint/no-unused-expressions': 'off'
   }
 };

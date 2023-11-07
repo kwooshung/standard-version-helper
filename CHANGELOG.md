@@ -1,4 +1,7 @@
-## 🎉 v## 1.3.0 `2023-11-07)`
+## 🎉 v1.3.0 `2023-11-07`
+### 📦️ 发布：发布新版本
+- 1.3.0 ([8e78015](https://github.com/kwooshung/standard-version-helper/commit/8e78015))
+
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 - optimize ([ab3161e](https://github.com/kwooshung/standard-version-helper/commit/ab3161e))
 
