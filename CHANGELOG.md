@@ -1,14 +1,21 @@
+## 🎉 v1.5.2 `2023-11-07`
+### 📚 文档：变更的只有文档
+- update ([ce18029](https://github.com/kwooshung/standard-version-helper/commit/ce18029))
+
+---
+
 ## 🎉 v1.5.1 `2023-11-07`
+### 📦️ 发布：发布新版本
+- 1.5.1 ([f930f2a](https://github.com/kwooshung/standard-version-helper/commit/f930f2a))
+- 1.5.0 ([3584ef4](https://github.com/kwooshung/standard-version-helper/commit/3584ef4))
+- 1.4.0 ([e1fca20](https://github.com/kwooshung/standard-version-helper/commit/e1fca20))
+- 1.3.0 ([8e78015](https://github.com/kwooshung/standard-version-helper/commit/8e78015))
+
 ### 🚀 工具：开发工具变动 (构建、脚手架工具等)
 - update tools ([ea2e1f0](https://github.com/kwooshung/standard-version-helper/commit/ea2e1f0))
 
 ### ✅ 测试：添加或更新测试
 - update ([710af72](https://github.com/kwooshung/standard-version-helper/commit/710af72))
-
-### 📦️ 发布：发布新版本
-- 1.5.0 ([3584ef4](https://github.com/kwooshung/standard-version-helper/commit/3584ef4))
-- 1.4.0 ([e1fca20](https://github.com/kwooshung/standard-version-helper/commit/e1fca20))
-- 1.3.0 ([8e78015](https://github.com/kwooshung/standard-version-helper/commit/8e78015))
 
 ### ⚙️ 配置：配置文件的更改
 - update scripts ([2e6f151](https://github.com/kwooshung/standard-version-helper/commit/2e6f151))

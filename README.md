@@ -15,7 +15,7 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 [![NPM Version](https://img.shields.io/npm/v/@kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/standard-version-helper)
 [![Npm.js Downloads/Week](https://img.shields.io/npm/dw/%40kwooshung%2Fstandard-version-helper?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/standard-version-helper)
 [![Github CI/CD](https://github.com/kwooshung/standard-version-helper/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/standard-version-helper/actions/)
-[![Coverage](https://img.shields.io/coveralls/github/kwooshung/standard-version-helper?label=Coverage&labelColor=272e3b&color=00b42A)](https://app.codecov.io/gh/kwooshung/standard-version-helper)
+[![codecov](https://codecov.io/gh/kwooshung/standard-version-helper/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/standard-version-helper)
 [![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/standard-version-helper/maintainability/)
 [![Gitee Repo](https://img.shields.io/badge/Gitee-standard--version--helper-165dff?logo=gitee)](https://gitee.com/kwooshung/standard-version-helper/)
 
