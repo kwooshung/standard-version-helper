@@ -13,7 +13,7 @@ module.exports = [
   { value: '🔗 deps', name: '依赖更新：更新依赖库或包' },
   { value: '⚙️ config', name: '配置：配置文件的更改' },
   { value: '📡 deploy', name: '部署：与项目部署相关的更改' },
-  { value: '🎉 release', name: '发布：发布新版本' },
+  { value: '📦️ release', name: '发布：发布新版本' },
   { value: '🗄️ migrations', name: '数据迁移：数据库或数据相关的更改' },
   { value: '🖌️ ui', name: '用户界面：调整和更改' },
   { value: '🏷️ i18n', name: '国际化：多语言国际化相关更改' },

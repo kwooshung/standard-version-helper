@@ -2,12 +2,54 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.2.7](https://github.com/kwooshung/standard-version-helper/compare/v1.2.6...v1.2.7) (2023-11-07)
+### [1.2.12](https://github.com/kwooshung/standard-version-helper/compare/v1.2.11...v1.2.12) (2023-11-07)
+
+## 🎉 v1.2.11 `2023-11-07`
+### ⚙️ 配置：配置文件的更改
+- update ([0abaf53](https://github.com/kwooshung/standard-version-helper/commit/0abaf53))
+
+### 📦️ 发布：发布新版本
+- 1.2.11 ([f559f3e](https://github.com/kwooshung/standard-version-helper/commit/f559f3e))
+
+---
+
+## 🎉 v1.2.10 `2023-11-07`
+### ⚙️ 配置：配置文件的更改
+- update ([ab9fea7](https://github.com/kwooshung/standard-version-helper/commit/ab9fea7))
+
+### 📦️ 发布：发布新版本
+- 1.2.10 ([e4c36cc](https://github.com/kwooshung/standard-version-helper/commit/e4c36cc))
+
+---
+
+## 🎉 v1.2.9 `2023-11-07`
+### 📦️ 发布：发布新版本
+- 1.2.9 ([11c45a0](https://github.com/kwooshung/standard-version-helper/commit/11c45a0))
+
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
+- update ([66c0c70](https://github.com/kwooshung/standard-version-helper/commit/66c0c70))
+
+---
+
+## 🎉 v1.2.8 `2023-11-07`
+### ⚙️ 配置：配置文件的更改
+- update release command ([de939e2](https://github.com/kwooshung/standard-version-helper/commit/de939e2))
+
+### 📦️ 发布：发布新版本
+- 1.2.8 ([bb2d63b](https://github.com/kwooshung/standard-version-helper/commit/bb2d63b))
+
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
+- update ([eaf9ff4](https://github.com/kwooshung/standard-version-helper/commit/eaf9ff4))
+
+---
+
+## 🎉 v1.2.7 `2023-11-07`
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
+- update ([d6c4552](https://github.com/kwooshung/standard-version-helper/commit/d6c4552))
+
+---
 
 ## 🎉 v1.2.6 `2023-11-07`
-### 🎉 发布：发布新版本
-- 1.2.6 ([ad0673f](https://github.com/kwooshung/standard-version-helper/commit/ad0673f))
-
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 - update ([241e4da](https://github.com/kwooshung/standard-version-helper/commit/241e4da))
 

@@ -125,7 +125,7 @@ const specificVersionMenu = async (): Promise<void> => {
     const shouldPush = await questionPush('menus.upgrade.confirmPush');
     packageJson.data.version = forcedVersion;
     writePackageJson(packageJson);
-    executeCommandWithLoading(`npx standard-version --release-as ${forcedVersion}${shouldPush ? ' && git push --follow-tags' : ''}`, i18n('loading.specificVersion', forcedVersion));
+    executeCommandWithLoading(`npx standard-version --verbose --release-as ${forcedVersion}${shouldPush ? ' && git push --follow-tags' : ''}`, i18n('loading.specificVersion', forcedVersion));
   } else {
     await mainMenu();
   }
@@ -177,7 +177,7 @@ const upgradeVersionMenu = async (): Promise<void> => {
 
   const shouldPush = await questionPush('menus.upgrade.confirmPush');
   const params = getParam('cmd');
-  const command = `npx standard-version --release-as ${releaseType}${params && ` && ${params}`}${shouldPush ? ' && git push --follow-tags' : ''}`;
+  const command = `npx standard-version --verbose --release-as ${releaseType}${params && ` && ${params}`}${shouldPush ? ' && git push --follow-tags' : ''}`;
   executeCommandWithLoading(command, i18n('loading.upgradingVersion', i18n(`version.${releaseType}`), currentVersion, nextVersion));
 };
 
@@ -228,9 +228,9 @@ const firstTimePublish = async (): Promise<void> => {
   writePackageJson(packageJson);
 
   if (await questionPush('menus.upgrade.confirmPush')) {
-    executeCommandWithLoading(`npx standard-version --release-as ${initialVersion} && git push --follow-tags`, i18n('loading.forcingVersion', initialVersion));
+    executeCommandWithLoading(`npx standard-version --verbose --release-as ${initialVersion} && git push --follow-tags`, i18n('loading.forcingVersion', initialVersion));
   } else {
-    executeCommandWithLoading(`npx standard-version --release-as ${initialVersion}`, i18n('loading.forcingVersion', initialVersion));
+    executeCommandWithLoading(`npx standard-version --verbose --release-as ${initialVersion}`, i18n('loading.forcingVersion', initialVersion));
   }
 };
 
