@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 module.exports = [
   ['components', '组件相关'],
   ['hooks', 'hook 相关'],

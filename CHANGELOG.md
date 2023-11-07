@@ -2,6 +2,9 @@
 ### ⚙️ 配置：配置文件的更改
 - update hooks ([690fc3c](https://github.com/kwooshung/standard-version-helper/commit/690fc3c))
 
+### 📦️ 发布：发布新版本
+- 1.2.13 ([819eb5e](https://github.com/kwooshung/standard-version-helper/commit/819eb5e))
+
 ---
 
 ## 🎉 v1.2.12 `2023-11-07`
