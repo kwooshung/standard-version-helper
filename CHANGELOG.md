@@ -1,3 +1,9 @@
+## 🎉 v1.2.13 `2023-11-07`
+### ⚙️ 配置：配置文件的更改
+- update hooks ([690fc3c](https://github.com/kwooshung/standard-version-helper/commit/690fc3c))
+
+---
+
 ## 🎉 v1.2.12 `2023-11-07`
 ### ⚙️ 配置：配置文件的更改
 - update command ([7312352](https://github.com/kwooshung/standard-version-helper/commit/7312352))
