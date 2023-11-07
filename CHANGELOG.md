@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.2.10](https://github.com/kwooshung/standard-version-helper/compare/v1.2.9...v1.2.10) (2023-11-07)
+
 ## 🎉 v1.2.9 `2023-11-07`
 ### 📦️ 发布：发布新版本
 - 1.2.9 ([11c45a0](https://github.com/kwooshung/standard-version-helper/commit/11c45a0))
@@ -195,4 +201,3 @@
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
-
