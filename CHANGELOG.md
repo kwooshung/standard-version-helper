@@ -1,8 +1,8 @@
-# Changelog
+## 🎉 v1.2.5 `2023-11-07`
+### 📚 文档：变更的只有文档
+- fix description errors ([dd436f5](https://github.com/kwooshung/standard-version-helper/commit/dd436f5))
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [1.2.5](https://github.com/kwooshung/standard-version-helper/compare/v1.2.4...v1.2.5) (2023-11-07)
+---
 
 ## 🎉 v1.2.4 `2023-11-07`
 ### 📚 文档：变更的只有文档
@@ -29,34 +29,24 @@ All notable changes to this project will be documented in this file. See [standa
 ### 📚 文档：变更的只有文档
 - update install code ([64781e6](https://github.com/kwooshung/standard-version-helper/commit/64781e6))
 
-### 🍻 发布：发布新版本
-- tested and found no problems, ready for official use ([b09e365](https://github.com/kwooshung/standard-version-helper/commit/b09e365))
-
 ---
 
 ## 🎉 v1.1.5 `2023-11-03`
-### 🍻 发布：发布新版本
-- fix pnpm.lock bugs ([02edec9](https://github.com/kwooshung/standard-version-helper/commit/02edec9))
+- 没有特别说明
 
 ---
 
 ## 🎉 v1.1.4 `2023-11-03`
-### 🍻 发布：发布新版本
-- update ([20efa4b](https://github.com/kwooshung/standard-version-helper/commit/20efa4b))
-- v1.1.4 ([680e528](https://github.com/kwooshung/standard-version-helper/commit/680e528))
+- 没有特别说明
 
 ---
 
 ## 🎉 v1.1.3 `2023-11-03`
-### 🍻 发布：发布新版本
-- update version ([96e8178](https://github.com/kwooshung/standard-version-helper/commit/96e8178))
+- 没有特别说明
 
 ---
 
 ## 🎉 v1.1.2 `2023-11-03`
-### 🍻 发布：发布新版本
-- update config ([ee7e8aa](https://github.com/kwooshung/standard-version-helper/commit/ee7e8aa))
-
 ### 🐛 修复：修复Bug
 - build ([99bdaa2](https://github.com/kwooshung/standard-version-helper/commit/99bdaa2))
 
@@ -66,19 +56,12 @@ All notable changes to this project will be documented in this file. See [standa
 ---
 
 ## 🎉 v1.1.1 `2023-11-03`
-### 🍻 发布：发布新版本
-- update readme.md link ([0422523](https://github.com/kwooshung/standard-version-helper/commit/0422523))
-- upgrade Version ([7023af6](https://github.com/kwooshung/standard-version-helper/commit/7023af6))
-
 ### 📚 文档：变更的只有文档
 - english Link ([d0543a8](https://github.com/kwooshung/standard-version-helper/commit/d0543a8))
 
 ---
 
 ## 🎉 v1.0.4 `2023-11-03`
-### 🍻 发布：发布新版本
-- upgrade 1.0.4 ([bc7d035](https://github.com/kwooshung/standard-version-helper/commit/bc7d035))
-
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 - update workflows ([c4f4571](https://github.com/kwooshung/standard-version-helper/commit/c4f4571))
 
@@ -179,3 +162,4 @@ All notable changes to this project will be documented in this file. See [standa
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
+
