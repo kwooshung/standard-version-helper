@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.2.11](https://github.com/kwooshung/standard-version-helper/compare/v1.2.10...v1.2.11) (2023-11-07)
+
 ## 🎉 v1.2.10 `2023-11-07`
 ### ⚙️ 配置：配置文件的更改
 - update ([ab9fea7](https://github.com/kwooshung/standard-version-helper/commit/ab9fea7))
@@ -204,4 +210,3 @@
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
-
