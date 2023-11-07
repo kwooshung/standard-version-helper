@@ -1,3 +1,11 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.2.8](https://github.com/kwooshung/standard-version-helper/compare/v1.2.7...v1.2.8) (2023-11-07)
+
+### [1.2.8](https://github.com/kwooshung/standard-version-helper/compare/v1.2.7...v1.2.8) (2023-11-07)
+
 ## 🎉 v1.2.7 `2023-11-07`
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 - update ([d6c4552](https://github.com/kwooshung/standard-version-helper/commit/d6c4552))
@@ -174,4 +182,3 @@
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
-
