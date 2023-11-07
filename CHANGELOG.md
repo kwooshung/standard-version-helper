@@ -1,13 +1,14 @@
 ## 🎉 v1.5.0 `2023-11-07`
-### ✅ 测试：添加一个测试
+### ✅ 测试：添加或更新测试
 - update ([710af72](https://github.com/kwooshung/standard-version-helper/commit/710af72))
+
+### 📦️ 发布：发布新版本
+- 1.5.0 ([3584ef4](https://github.com/kwooshung/standard-version-helper/commit/3584ef4))
+- 1.4.0 ([e1fca20](https://github.com/kwooshung/standard-version-helper/commit/e1fca20))
+- 1.3.0 ([8e78015](https://github.com/kwooshung/standard-version-helper/commit/8e78015))
 
 ### ⚙️ 配置：配置文件的更改
 - update scripts ([2e6f151](https://github.com/kwooshung/standard-version-helper/commit/2e6f151))
-
-### 📦️ 发布：发布新版本
-- 1.4.0 ([e1fca20](https://github.com/kwooshung/standard-version-helper/commit/e1fca20))
-- 1.3.0 ([8e78015](https://github.com/kwooshung/standard-version-helper/commit/8e78015))
 
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 - optimize ([ab3161e](https://github.com/kwooshung/standard-version-helper/commit/ab3161e))

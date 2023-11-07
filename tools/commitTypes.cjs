@@ -17,7 +17,7 @@ module.exports = [
   { value: '🖌️ ui', name: '用户界面：调整和更改' },
   { value: '🏷️ i18n', name: '国际化：多语言国际化相关更改' },
   { value: '♿ a11y', name: '可访问性：提升产品的可访问性' },
-  { value: '✅ test', name: '测试：添加一个测试' },
+  { value: '✅ test', name: '测试：添加或更新测试' },
   { value: '🚧 wip', name: '开发中：尚未完成' },
   { value: '🚀 chore', name: '工具：开发工具变动 (构建、脚手架工具等)' },
   { value: '🔄 workflows', name: '工作流：CI 配置、脚本，等工作流相关文件更改' },
