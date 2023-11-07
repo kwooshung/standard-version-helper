@@ -53,7 +53,7 @@ jobs:
 
       # 自动发布
       - name: Auto Release
-        run: node .github/scripts/auto-release.cjs
+        run: pnpm changelog && node .github/scripts/auto-release.cjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

@@ -1,8 +1,11 @@
-# Changelog
+## 🎉 v1.2.11 `2023-11-07`
+### ⚙️ 配置：配置文件的更改
+- update ([0abaf53](https://github.com/kwooshung/standard-version-helper/commit/0abaf53))
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### 📦️ 发布：发布新版本
+- 1.2.11 ([f559f3e](https://github.com/kwooshung/standard-version-helper/commit/f559f3e))
 
-### [1.2.11](https://github.com/kwooshung/standard-version-helper/compare/v1.2.10...v1.2.11) (2023-11-07)
+---
 
 ## 🎉 v1.2.10 `2023-11-07`
 ### ⚙️ 配置：配置文件的更改
@@ -210,3 +213,4 @@ All notable changes to this project will be documented in this file. See [standa
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
+

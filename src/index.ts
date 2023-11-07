@@ -125,7 +125,7 @@ const specificVersionMenu = async (): Promise<void> => {
     const shouldPush = await questionPush('menus.upgrade.confirmPush');
     packageJson.data.version = forcedVersion;
     writePackageJson(packageJson);
-    executeCommandWithLoading(`npx standard-version --release-as ${forcedVersion}${shouldPush ? ' && git push --follow-tags' : ''}`, i18n('loading.specificVersion', forcedVersion));
+    executeCommandWithLoading(`npx standard-version --verbose --release-as ${forcedVersion}${shouldPush ? ' && git push --follow-tags' : ''}`, i18n('loading.specificVersion', forcedVersion));
   } else {
     await mainMenu();
   }

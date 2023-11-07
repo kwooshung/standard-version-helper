@@ -58,7 +58,7 @@
     "translate": "node ./tools/translate.mjs",
     "commit": "pnpm changelog && git add . && cz-customizable",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 && node plugin-customizable.cjs",
-    "release:dev": "node ./dist/index.mjs -cmd pnpm changelog",
+    "release:dev": "node ./dist/index.mjs",
     "release": "standard-version-helper"
   },
   "config": {
