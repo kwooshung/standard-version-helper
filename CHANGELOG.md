@@ -1,4 +1,7 @@
-## 🎉 v1.4.0 `2023-11-07`
+## 🎉 v1.5.0 `2023-11-07`
+### ✅ 测试：添加一个测试
+- update ([710af72](https://github.com/kwooshung/standard-version-helper/commit/710af72))
+
 ### ⚙️ 配置：配置文件的更改
 - update scripts ([2e6f151](https://github.com/kwooshung/standard-version-helper/commit/2e6f151))
 
