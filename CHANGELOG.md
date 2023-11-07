@@ -1,6 +1,15 @@
+## 🎉 v## 1.3.0 `2023-11-07)`
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
+- optimize ([ab3161e](https://github.com/kwooshung/standard-version-helper/commit/ab3161e))
+
+---
+
 ## 🎉 v1.2.13 `2023-11-07`
 ### ⚙️ 配置：配置文件的更改
 - update hooks ([690fc3c](https://github.com/kwooshung/standard-version-helper/commit/690fc3c))
+
+### 📦️ 发布：发布新版本
+- 1.2.13 ([819eb5e](https://github.com/kwooshung/standard-version-helper/commit/819eb5e))
 
 ---
 
