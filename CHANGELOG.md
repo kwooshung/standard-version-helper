@@ -3,6 +3,7 @@
 - update scripts ([2e6f151](https://github.com/kwooshung/standard-version-helper/commit/2e6f151))
 
 ### 📦️ 发布：发布新版本
+- 1.4.0 ([e1fca20](https://github.com/kwooshung/standard-version-helper/commit/e1fca20))
 - 1.3.0 ([8e78015](https://github.com/kwooshung/standard-version-helper/commit/8e78015))
 
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改

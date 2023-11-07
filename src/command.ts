@@ -38,14 +38,9 @@ const executeCommand = (command: string): Buffer => {
  */
 const executeCommandWithLoading = (command: string, loadingMessage: string): Buffer => {
   const spinner = ora(loadingMessage).start();
-  try {
-    const result = executeCommand(command);
-    spinner.succeed(`${command} ... ${i18n('common.executionSucceeded')}`);
-    return result || Buffer.from('');
-  } catch (error) {
-    spinner.fail(`${command} ... ${i18n('common.executionFailed')}`);
-    return Buffer.from('');
-  }
+  const result = executeCommand(command);
+  spinner.succeed(`${command} ... ${i18n('common.executionSucceeded')}`);
+  return result;
 };
 
 /**
