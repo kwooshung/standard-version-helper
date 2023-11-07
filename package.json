@@ -59,7 +59,7 @@
     "commit": "pnpm changelog && git add . && cz-customizable",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 && node plugin-customizable.cjs",
     "release:dev": "node ./dist/index.mjs -cmd pnpm changelog",
-    "release": "standard-version-helper --cmd pnpm changelog"
+    "release": "pnpm changelog && standard-version-helper"
   },
   "config": {
     "cz-customizable": {
