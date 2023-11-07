@@ -1,16 +1,10 @@
 ## 🎉 v1.2.7 `2023-11-07`
-### 🎉 发布：发布新版本
-- 1.2.7 ([fe7838a](https://github.com/kwooshung/standard-version-helper/commit/fe7838a))
-
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 - update ([d6c4552](https://github.com/kwooshung/standard-version-helper/commit/d6c4552))
 
 ---
 
 ## 🎉 v1.2.6 `2023-11-07`
-### 🎉 发布：发布新版本
-- 1.2.6 ([ad0673f](https://github.com/kwooshung/standard-version-helper/commit/ad0673f))
-
 ### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
 - update ([241e4da](https://github.com/kwooshung/standard-version-helper/commit/241e4da))
 
