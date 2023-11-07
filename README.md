@@ -54,7 +54,7 @@ Assume that your current project version is: `v2.0.0`;
 ```
 - main menu
   ├── Upgraded version
-  │ ├── Which version do you want to undo?
+  │ ├── Which version do you plan to upgrade?
   │ ├── Major version: v2.0.0 > 3.0.0
   │ │ └── Push to the warehouse?
   │ │ │ ├── Y (default): npx standard-version --release-as major && --follow-tags origin master

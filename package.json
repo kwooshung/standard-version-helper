@@ -1,6 +1,6 @@
 {
   "name": "@kwooshung/standard-version-helper",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "title": "Standard Version Helper",
   "description": "'standard-version' is a utility tool that offers a straightforward menu selection in the console.",
   "private": false,
