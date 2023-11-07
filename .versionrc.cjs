@@ -1,5 +1,5 @@
 module.exports = {
-  releaseCommitMessageFormat: "📦️ chore(release): {{currentTag}}",
+  releaseCommitMessageFormat: "📦️ release(tag): {{currentTag}}",
   hooks: {
     'after:changelog': 'pnpm changelog',
   }
