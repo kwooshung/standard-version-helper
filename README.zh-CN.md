@@ -54,7 +54,7 @@
 ```
 - 主菜单
   ├── 升级版本
-  │ ├── 您打算撤销哪个版本？
+  │ ├── 您打算升级哪个版本？
   │ ├── 主要版本：v2.0.0 > 3.0.0
   │ │ └── 是否推送到仓库？
   │ │ │ ├── Y（默认）：npx standard-version --release-as major && --follow-tags origin master

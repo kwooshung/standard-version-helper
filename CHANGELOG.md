@@ -1,8 +1,11 @@
-# Changelog
+## 🎉 v1.2.4 `2023-11-07`
+### 📚 文档：变更的只有文档
+- update ([717302e](https://github.com/kwooshung/standard-version-helper/commit/717302e))
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### 🔄 工作流：CI 配置、脚本，等工作流相关文件更改
+- change coverage to codecove ([f653e55](https://github.com/kwooshung/standard-version-helper/commit/f653e55))
 
-### [1.2.4](https://github.com/kwooshung/standard-version-helper/compare/v1.2.3...v1.2.4) (2023-11-07)
+---
 
 ## 🎉 v1.2.3 `2023-11-03`
 ### 📚 文档：变更的只有文档
@@ -170,3 +173,4 @@ All notable changes to this project will be documented in this file. See [standa
 - 重建lock，否则安装或测试不通过 ([5360823](https://github.com/kwooshung/standard-version-helper/commit/5360823))
 
 ### 🚧 开发中：尚未完成
+
