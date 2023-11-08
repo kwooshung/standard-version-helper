@@ -1,23 +1,14 @@
 module.exports = {
   customSyntax: 'postcss-less',
   processors: [],
-  plugins: [
-    'stylelint-order'
-  ],
+  plugins: ['stylelint-order'],
   extends: ['stylelint-config-standard'],
-  ignoreFiles: [
-    './coverage/**/*.css'
-  ],
+  ignoreFiles: ['./coverage/**/*.css'],
   rules: {
     'at-rule-no-unknown': [
-      true, {
-        ignoreAtRules: [
-          'include',
-          'extends',
-          'ignores',
-          'import',
-          'mixin'
-        ]
+      true,
+      {
+        ignoreAtRules: ['include', 'extends', 'ignores', 'import', 'mixin']
       }
     ],
     indentation: 2,
