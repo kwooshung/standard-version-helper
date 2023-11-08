@@ -2,6 +2,9 @@
 ### 📚 文档：变更的只有文档
 - update ([ce18029](https://github.com/kwooshung/standard-version-helper/commit/ce18029))
 
+### 📦️ 发布：发布新版本
+- 1.5.2 ([003af6b](https://github.com/kwooshung/standard-version-helper/commit/003af6b))
+
 ---
 
 ## 🎉 v1.5.1 `2023-11-07`
