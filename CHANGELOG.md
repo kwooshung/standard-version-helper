@@ -1,3 +1,9 @@
+## 🎉 v1.5.3 `2023-11-08`
+### ⚙️ 配置：配置文件的更改
+- update config ([4bd60ee](https://github.com/kwooshung/standard-version-helper/commit/4bd60ee))
+
+---
+
 ## 🎉 v1.5.2 `2023-11-07`
 ### 📚 文档：变更的只有文档
 - update ([ce18029](https://github.com/kwooshung/standard-version-helper/commit/ce18029))
