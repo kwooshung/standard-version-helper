@@ -221,7 +221,7 @@ const publishVersionMenu = async (): Promise<void> => {
 const firstTimePublish = async (): Promise<void> => {
   console.clear();
 
-  const { initialVersion } = await questionInput('initialVersion', i18n('version.tips.enterInitialVersion'), '0.0.1');
+  const { initialVersion } = await questionInput('initialVersion', i18n('version.tips.enterInitialVersion'), readPackageJson().data.version ?? '0.0.1');
 
   const packageJson = readPackageJson();
   packageJson.data.version = initialVersion;
