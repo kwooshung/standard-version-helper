@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Como non lanzou a versión, ten que lanzala por primeira vez.',
       failedToIncrement: 'Non se pode aumentar o número de versión',
       invalidVersionField: 'Os campos de versión en paquete.json faltan ou non son válidos',
-      enterInitialVersion: 'Insira o seu número de versión inicial, predeterminado 0.0.1:',
+      enterInitialVersion: 'Insira o seu número de versión inicial, predeterminado v{0}:',
       error: 'Insira un número de versión semántica eficaz, por exemplo: v{0}'
     }
   },

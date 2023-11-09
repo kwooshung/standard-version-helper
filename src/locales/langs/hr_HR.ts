@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Budući da niste objavili verziju, prvo je morate objaviti.',
       failedToIncrement: 'Ne mogu povećati broj verzije',
       invalidVersionField: 'Polja verzije u paketu.json nedostaju ili nevažeća',
-      enterInitialVersion: 'Unesite svoj početni broj verzije, zadani 0.0.1:',
+      enterInitialVersion: 'Unesite svoj početni broj verzije, zadani v{0}:',
       error: 'Unesite učinkovit semantički broj verzije, na primjer: v{0}'
     }
   },

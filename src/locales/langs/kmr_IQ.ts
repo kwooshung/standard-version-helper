@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Ji ber ku we guhertoya serbest nekiriye, hûn hewce ne ku ew ji bo cara yekem azad bikin.',
       failedToIncrement: 'NIKARI DIKARIN NUMBER',
       invalidVersionField: 'Zeviyên guhertoyê di pakêtê de.json winda ne an betal in',
-      enterInitialVersion: 'Ji kerema xwe hejmara guhertoya destpêkê, Default 0.0.1 binivîse:',
+      enterInitialVersion: 'Ji kerema xwe hejmara guhertoya destpêkê, Default v{0} binivîse:',
       error: 'Ji kerema xwe hejmarê guhertoyek semantîk a bandor binivîse, ji bo nimûne: v{0}'
     }
   },

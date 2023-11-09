@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Deoarece nu ați lansat versiunea, trebuie să o eliberați pentru prima dată.',
       failedToIncrement: 'Nu se poate crește numărul versiunii',
       invalidVersionField: 'Câmpurile de versiune din pachet.json lipsesc sau sunt invalide',
-      enterInitialVersion: 'Vă rugăm să introduceți numărul de versiune inițială, implicit 0.0.1:',
+      enterInitialVersion: 'Vă rugăm să introduceți numărul de versiune inițială, implicit v{0}:',
       error: 'Vă rugăm să introduceți un număr eficient de versiune semantică, de exemplu: v{0}'
     }
   },

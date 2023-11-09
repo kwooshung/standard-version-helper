@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Da du ikke har frigivet versionen, skal du frigive den for første gang.',
       failedToIncrement: 'Kan ikke øge versionnummeret',
       invalidVersionField: 'Versionsfelterne i Package.json mangler eller ugyldig',
-      enterInitialVersion: 'Indtast dit oprindelige versionnummer, standard 0.0.1:',
+      enterInitialVersion: 'Indtast dit oprindelige versionnummer, standard v{0}:',
       error: 'Indtast for eksempel et effektivt semantisk versionnummer: v{0}'
     }
   },

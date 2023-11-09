@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: '버전을 해제하지 않았으므로 처음으로 버전을 해제해야합니다.',
       failedToIncrement: '버전 번호를 증가시킬 수 없습니다',
       invalidVersionField: 'package.json의 버전 필드가 누락되거나 유효하지 않습니다',
-      enterInitialVersion: '초기 버전 번호, 기본 0.0.1을 입력하십시오.',
+      enterInitialVersion: '초기 버전 번호, 기본 v{0}을 입력하십시오.',
       error: '예를 들어 효과적인 시맨틱 버전 번호를 입력하십시오.v{0}'
     }
   },

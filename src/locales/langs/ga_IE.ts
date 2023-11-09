@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Ós rud é nach bhfuil an leagan scaoilte agat, ní mór duit é a scaoileadh den chéad uair.',
       failedToIncrement: 'Ní féidir uimhir an leagan a mhéadú',
       invalidVersionField: 'Tá na réimsí leagan i bpacáiste.json ar iarraidh nó neamhbhailí',
-      enterInitialVersion: 'Iontráil d’uimhir tosaigh leagan, réamhshocrú 0.0.1:',
+      enterInitialVersion: 'Iontráil d’uimhir tosaigh leagan, réamhshocrú v{0}:',
       error: 'Iontráil uimhir leagan semantic éifeachtach, mar shampla: v{0}'
     }
   },

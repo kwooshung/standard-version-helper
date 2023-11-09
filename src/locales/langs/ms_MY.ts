@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Oleh kerana anda belum mengeluarkan versi, anda perlu melepaskannya untuk kali pertama.',
       failedToIncrement: 'Tidak dapat meningkatkan nombor versi',
       invalidVersionField: 'Bidang versi dalam pakej.json hilang atau tidak sah',
-      enterInitialVersion: 'Sila masukkan nombor versi awal anda, lalai 0.0.1:',
+      enterInitialVersion: 'Sila masukkan nombor versi awal anda, lalai v{0}:',
       error: 'Sila masukkan nombor versi semantik yang berkesan, contohnya: v{0}'
     }
   },

@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Com que no heu publicat la versió, heu de llançar -la per primera vegada.',
       failedToIncrement: 'No es pot augmentar el número de versió',
       invalidVersionField: 'Els camps de versió de Package.json falten o no són vàlids',
-      enterInitialVersion: 'Introduïu el vostre número de versió inicial, predeterminat 0.0.1:',
+      enterInitialVersion: 'Introduïu el vostre número de versió inicial, predeterminat v{0}:',
       error: 'Introduïu un número de versió semàntic efectiu, per exemple: v{0}'
     }
   },

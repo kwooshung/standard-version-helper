@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Omdat je de versie niet hebt uitgebracht, moet je deze voor het eerst uitbrengen.',
       failedToIncrement: 'Kan het versienummer niet verhogen',
       invalidVersionField: 'De versievelden in pakket.json ontbreken of ongeldig',
-      enterInitialVersion: 'Voer uw eerste versienummer in, standaard 0.0.1:',
+      enterInitialVersion: 'Voer uw eerste versienummer in, standaard v{0}:',
       error: 'Voer een effectief semantisch versienummer in, bijvoorbeeld: v{0}'
     }
   },

@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Keďže ste verziu nevydali, musíte ju vydať prvýkrát.',
       failedToIncrement: 'Nemôžem zvýšiť číslo verzie',
       invalidVersionField: 'Polia verzie v balíku.json sú chýbajúce alebo neplatné',
-      enterInitialVersion: 'Zadajte svoje počiatočné číslo verzie, predvolené 0.0.1:',
+      enterInitialVersion: 'Zadajte svoje počiatočné číslo verzie, predvolené v{0}:',
       error: 'Zadajte účinné sémantické číslo verzie, napríklad: v{0}'
     }
   },

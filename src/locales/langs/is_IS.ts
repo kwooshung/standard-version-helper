@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Þar sem þú hefur ekki sent frá sér útgáfuna þarftu að gefa hana út í fyrsta skipti.',
       failedToIncrement: 'Get ekki aukið útgáfunúmerið',
       invalidVersionField: 'Útgáfusviðin í pakka.json vantar eða ógilt',
-      enterInitialVersion: 'Vinsamlegast sláðu inn upphafsnúmerið þitt, sjálfgefið 0.0.1:',
+      enterInitialVersion: 'Vinsamlegast sláðu inn upphafsnúmerið þitt, sjálfgefið v{0}:',
       error: 'Vinsamlegast sláðu inn áhrifaríkt merkingarnúmer, til dæmis: v{0}'
     }
   },

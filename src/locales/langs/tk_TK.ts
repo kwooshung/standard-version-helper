@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Wersiýasyny çykarmadyňyz, ilkinji gezek boşadylmaly.',
       failedToIncrement: 'Wersiýa belgisini köpeldip bilemok',
       invalidVersionField: 'Paketdäki wersiýa meýdanlary .json ýok ýa-da nädogry',
-      enterInitialVersion: 'Başlangyç wersiýanyň belgisini, adaty 0.0.1:',
+      enterInitialVersion: 'Başlangyç wersiýanyň belgisini, adaty v{0}:',
       error: 'Mysal üçin täsirli semantik wersiýa belgisini giriziň, mysal üçin: v{0}'
     }
   },
