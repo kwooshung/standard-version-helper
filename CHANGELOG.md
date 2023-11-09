@@ -2,6 +2,9 @@
 ### ⚙️ 配置：配置文件的更改
 - update config ([4bd60ee](https://github.com/kwooshung/standard-version-helper/commit/4bd60ee))
 
+### 📦️ 发布：发布新版本
+- 1.5.3 ([e81c496](https://github.com/kwooshung/standard-version-helper/commit/e81c496))
+
 ---
 
 ## 🎉 v1.5.2 `2023-11-07`
