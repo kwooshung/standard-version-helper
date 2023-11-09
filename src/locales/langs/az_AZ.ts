@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Version buraxmadığınız üçün ilk dəfə onu buraxmalısınız.',
       failedToIncrement: 'Versiya nömrəsini artıra bilmir',
       invalidVersionField: 'Paketdəki versiya sahələri.jsonda yoxdur və ya etibarsızdır',
-      enterInitialVersion: 'Zəhmət olmasa ilkin versiya nömrənizi daxil edin, standart 0.0.1:',
+      enterInitialVersion: 'Zəhmət olmasa ilkin versiya nömrənizi daxil edin, standart v{0}:',
       error: 'Zəhmət olmasa effektiv semantik versiya nömrəsini daxil edin, məsələn: v{0}'
     }
   },

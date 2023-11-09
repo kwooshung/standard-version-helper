@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Kuna te pole versiooni välja andnud, peate selle esimest korda vabastama.',
       failedToIncrement: 'Ei saa versiooni numbrit suurendada',
       invalidVersionField: 'Paketi.json versiooni väljad puuduvad või on kehtetud',
-      enterInitialVersion: 'Sisestage oma esialgne versiooninumber, vaikimisi 0.0.1:',
+      enterInitialVersion: 'Sisestage oma esialgne versiooninumber, vaikimisi v{0}:',
       error: 'Sisestage tõhus semantiline versiooninumber, näiteks: v{0}'
     }
   },

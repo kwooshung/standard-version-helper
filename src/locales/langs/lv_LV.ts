@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Tā kā jūs neesat izlaidis versiju, jums tā jāatbrīvo pirmo reizi.',
       failedToIncrement: 'Nevar palielināt versijas numuru',
       invalidVersionField: 'Versijas lauki vietnē Package.json trūkst vai ir nederīgi',
-      enterInitialVersion: 'Lūdzu, ievadiet savu sākotnējo versijas numuru, noklusējuma 0.0.1:',
+      enterInitialVersion: 'Lūdzu, ievadiet savu sākotnējo versijas numuru, noklusējuma v{0}:',
       error: 'Lūdzu, ievadiet efektīvu semantiskās versijas numuru, piemēram: v{0}'
     }
   },

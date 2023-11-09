@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Eftersom du inte har släppt versionen måste du släppa den för första gången.',
       failedToIncrement: 'Kan inte öka versionnumret',
       invalidVersionField: 'Versionsfälten i Package.json saknas eller ogiltig',
-      enterInitialVersion: 'Ange ditt första versionnummer, standard 0.0.1:',
+      enterInitialVersion: 'Ange ditt första versionnummer, standard v{0}:',
       error: 'Ange ett effektivt semantiskt versionnummer, till exempel: v{0}'
     }
   },

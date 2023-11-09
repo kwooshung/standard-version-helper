@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: '由于您还没有发布过版本，需要进行首次发布。',
       failedToIncrement: '无法增加版本号',
       invalidVersionField: 'package.json 中的版本字段缺失或无效',
-      enterInitialVersion: '请输入您的初始版本号，默认 0.0.1：',
+      enterInitialVersion: '请输入您的初始版本号，默认 v{0}：',
       error: '请输入一个有效的语义版本号，例如：v{0}'
     }
   },

@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Sürümü yayınlamadığınız için, ilk kez yayınlamanız gerekir.',
       failedToIncrement: 'Sürüm numarasını artıramıyorum',
       invalidVersionField: "Package.json'daki sürüm alanları eksik veya geçersiz",
-      enterInitialVersion: 'Lütfen ilk sürüm numaranızı girin, varsayılan 0.0.1:',
+      enterInitialVersion: 'Lütfen ilk sürüm numaranızı girin, varsayılan v{0}:',
       error: 'Lütfen etkili bir semantik sürüm numarası girin, örneğin: v{0}'
     }
   },

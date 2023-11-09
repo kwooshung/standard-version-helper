@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Protože jste verzi nevydali, musíte ji poprvé uvolnit.',
       failedToIncrement: 'Nelze zvýšit číslo verze',
       invalidVersionField: 'Pole verze v Package.json chybí nebo neplatí',
-      enterInitialVersion: 'Zadejte své počáteční číslo verze, výchozí 0.0.1:',
+      enterInitialVersion: 'Zadejte své počáteční číslo verze, výchozí v{0}:',
       error: 'Zadejte například efektivní číslo sémantické verze: v{0}'
     }
   },

@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Siden du ikke har gitt ut versjonen, må du gi den ut for første gang.',
       failedToIncrement: 'Kan ikke øke versjonsnummeret',
       invalidVersionField: 'Versjonsfeltene i pakken.json mangler eller ugyldig',
-      enterInitialVersion: 'Vennligst skriv inn det første versjonsnummeret, standard 0.0.1:',
+      enterInitialVersion: 'Vennligst skriv inn det første versjonsnummeret, standard v{0}:',
       error: 'Vennligst skriv inn et effektivt semantisk versjonsnummer, for eksempel: v{0}'
     }
   },

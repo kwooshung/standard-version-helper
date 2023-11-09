@@ -2,6 +2,9 @@
 ### 🐛 修复：修复Bug
 - firstTimePublish use default package.json version ([ac2017b](https://github.com/kwooshung/standard-version-helper/commit/ac2017b))
 
+### 📦️ 发布：发布新版本
+- 1.5.4 ([f2df602](https://github.com/kwooshung/standard-version-helper/commit/f2df602))
+
 ---
 
 ## 🎉 v1.5.3 `2023-11-08`

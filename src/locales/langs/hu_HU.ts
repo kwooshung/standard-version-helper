@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Mivel még nem adta ki a verziót, először ki kell engednie.',
       failedToIncrement: 'Nem tudja növelni a verziószámot',
       invalidVersionField: 'A package.json verziómezők hiányoznak vagy érvénytelenek',
-      enterInitialVersion: 'Kérjük, írja be a kezdeti verziószámát, az alapértelmezett 0.0.1:',
+      enterInitialVersion: 'Kérjük, írja be a kezdeti verziószámát, az alapértelmezett v{0}:',
       error: 'Kérjük, adjon meg egy hatékony szemantikai verziószámot, például: v{0}'
     }
   },

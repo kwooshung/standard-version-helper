@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Karena Anda belum merilis versi, Anda perlu merilisnya untuk pertama kalinya.',
       failedToIncrement: 'Tidak dapat meningkatkan nomor versi',
       invalidVersionField: 'Bidang versi dalam package.json hilang atau tidak valid',
-      enterInitialVersion: 'Harap masukkan nomor versi awal Anda, default 0.0.1:',
+      enterInitialVersion: 'Harap masukkan nomor versi awal Anda, default v{0}:',
       error: 'Harap masukkan nomor versi semantik yang efektif, misalnya: v{0}'
     }
   },

@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'バージョンをリリースしていないため、初めてリリースする必要があります。',
       failedToIncrement: 'バージョン番号を増やすことはできません',
       invalidVersionField: 'package.jsonのバージョンフィールドは欠落または無効です',
-      enterInitialVersion: '最初のバージョン番号、デフォルト0.0.1を入力してください。',
+      enterInitialVersion: '最初のバージョン番号、デフォルトv{0}を入力してください。',
       error: 'たとえば、効果的なセマンティックバージョン番号を入力してください：v{0}'
     }
   },

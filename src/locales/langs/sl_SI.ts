@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Ker različice niste izdali, jo morate prvič izdati.',
       failedToIncrement: 'Ne morem povečati številke različice',
       invalidVersionField: 'Polja različice v packalu.json manjkajo ali neveljavna',
-      enterInitialVersion: 'Vnesite svojo prvotno številko različice, privzeto 0.0.1:',
+      enterInitialVersion: 'Vnesite svojo prvotno številko različice, privzeto v{0}:',
       error: 'Vnesite učinkovito semantično številko različice, na primer: v{0}'
     }
   },

@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Vì bạn chưa phát hành phiên bản, bạn cần phát hành nó lần đầu tiên.',
       failedToIncrement: 'Không thể tăng số phiên bản',
       invalidVersionField: 'Các trường phiên bản trong pack.json bị thiếu hoặc không hợp lệ',
-      enterInitialVersion: 'Vui lòng nhập số phiên bản ban đầu của bạn, mặc định 0.0.1:',
+      enterInitialVersion: 'Vui lòng nhập số phiên bản ban đầu của bạn, mặc định v{0}:',
       error: 'Vui lòng nhập số phiên bản ngữ nghĩa hiệu quả, ví dụ: v{0}'
     }
   },

@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Dato che non hai rilasciato la versione, devi rilasciarla per la prima volta.',
       failedToIncrement: 'Non può aumentare il numero di versione',
       invalidVersionField: 'I campi della versione in pack.json sono mancanti o non validi',
-      enterInitialVersion: 'Inserisci il numero di versione iniziale, predefinito 0.0.1:',
+      enterInitialVersion: 'Inserisci il numero di versione iniziale, predefinito v{0}:',
       error: 'Inserisci un numero di versione semantica efficace, ad esempio: v{0}'
     }
   },

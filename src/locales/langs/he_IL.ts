@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'מכיוון שלא הוצאת את הגרסה, עליך לשחרר אותה לראשונה.',
       failedToIncrement: 'לא ניתן להגדיל את מספר הגרסה',
       invalidVersionField: 'שדות הגרסה ב- Packation.json חסרים או לא חוקיים',
-      enterInitialVersion: 'אנא הזן את מספר הגרסה הראשוני שלך, ברירת מחדל 0.0.1:',
+      enterInitialVersion: 'אנא הזן את מספר הגרסה הראשוני שלך, ברירת מחדל v{0}:',
       error: 'אנא הזן מספר גרסה סמנטי יעיל, לדוגמה: v{0}'
     }
   },

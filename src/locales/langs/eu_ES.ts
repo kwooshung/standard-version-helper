@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Bertsioa kaleratu ez zenuenez, lehen aldiz askatu behar duzu.',
       failedToIncrement: 'Ezin da bertsio zenbakia handitu',
       invalidVersionField: 'Paketearen bertsio eremuak falta dira edo baliogabeak dira',
-      enterInitialVersion: 'Mesedez, sartu zure hasierako bertsio zenbakia, lehenetsia 0.0.1:',
+      enterInitialVersion: 'Mesedez, sartu zure hasierako bertsio zenbakia, lehenetsia v{0}:',
       error: 'Mesedez, idatzi bertsio semantikoaren zenbaki eraginkorra, adibidez: v{0}'
     }
   },

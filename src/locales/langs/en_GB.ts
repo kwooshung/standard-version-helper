@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Since you have not released the version, you need to release it for the first time.',
       failedToIncrement: "Can't increase the version number",
       invalidVersionField: 'The version fields in Package.json are missing or invalid',
-      enterInitialVersion: 'Please enter your initial version number, default 0.0.1:',
+      enterInitialVersion: 'Please enter your initial version number, default v{0}:',
       error: 'Please enter an effective semantic version number, for example: v{0}'
     }
   },

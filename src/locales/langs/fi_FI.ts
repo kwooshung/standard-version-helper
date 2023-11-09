@@ -29,7 +29,7 @@ export default {
       firstTimePrompt: 'Koska et ole julkaissut versiota, sinun on julkaistava se ensimmäistä kertaa.',
       failedToIncrement: 'Versionumeroa ei voi lisätä',
       invalidVersionField: 'Package.jsonin versiokentät puuttuvat tai virheelliset',
-      enterInitialVersion: 'Anna alkuperäinen versionumerosi, oletus 0.0.1:',
+      enterInitialVersion: 'Anna alkuperäinen versionumerosi, oletus v{0}:',
       error: 'Anna esimerkiksi tehokas semanttinen versionumero: v{0}'
     }
   },
