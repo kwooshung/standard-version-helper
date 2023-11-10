@@ -1,3 +1,9 @@
+## 🎉 v1.5.6 `2023-11-10`
+### 📚 文档：变更的只有文档
+- update link ([d1ce8a7](https://github.com/kwooshung/standard-version-helper/commit/d1ce8a7))
+
+---
+
 ## 🎉 v1.5.5 `2023-11-09`
 ### 🏷️ 国际化：多语言国际化相关更改
 - update version.tips.enterInitialVersion ([d0474c8](https://github.com/kwooshung/standard-version-helper/commit/d0474c8))
