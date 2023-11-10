@@ -1,6 +1,9 @@
-## 🎉 v1.5.8 `2023-11-10`
+## 🎉 v1.6.0 `2023-11-10`
 ### 📚 文档：变更的只有文档
 - update styles ([2947a34](https://github.com/kwooshung/standard-version-helper/commit/2947a34))
+
+### 🔗 依赖更新：更新依赖库或包
+- update @kwooshung/standard-version-helper ([66b8d51](https://github.com/kwooshung/standard-version-helper/commit/66b8d51))
 
 ---
 
