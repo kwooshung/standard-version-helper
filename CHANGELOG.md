@@ -2,6 +2,9 @@
 ### 🏷️ 国际化：多语言国际化相关更改
 - update version.tips.enterInitialVersion ([d0474c8](https://github.com/kwooshung/standard-version-helper/commit/d0474c8))
 
+### 📦️ 发布：发布新版本
+- 1.5.5 ([2370d33](https://github.com/kwooshung/standard-version-helper/commit/2370d33))
+
 ---
 
 ## 🎉 v1.5.4 `2023-11-09`
