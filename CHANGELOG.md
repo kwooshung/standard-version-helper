@@ -1,4 +1,7 @@
-## 🎉 v1.6.0 `2023-11-10`
+## 🎉 v1.6.1 `2023-11-10`
+### ⚙️ config
+- update ([75c92fe](https://github.com/kwooshung/standard-version-helper/commit/75c92fe))
+
 ### 📚 docs
 - update styles ([2947a34](https://github.com/kwooshung/standard-version-helper/commit/2947a34))
 
