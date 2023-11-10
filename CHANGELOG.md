@@ -1,3 +1,9 @@
+## 🎉 v1.5.8 `2023-11-10`
+### 📚 文档：变更的只有文档
+- update styles ([2947a34](https://github.com/kwooshung/standard-version-helper/commit/2947a34))
+
+---
+
 ## 🎉 v1.5.6 `2023-11-10`
 ### 📚 文档：变更的只有文档
 - update link ([d1ce8a7](https://github.com/kwooshung/standard-version-helper/commit/d1ce8a7))
