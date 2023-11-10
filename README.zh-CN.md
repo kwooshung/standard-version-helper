@@ -13,7 +13,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 ![Github Stars](https://img.shields.io/github/stars/kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)
 [![NPM Version](https://img.shields.io/npm/v/@kwooshung/standard-version-helper?labelColor=272e3b&color=165dff)](https://www.npmjs.com/package/@kwooshung/standard-version-helper)
-[![Npm.js Downloads/Week](https://img.shields.io/npm/dw/%40kwooshung%2Fstandard-version-helper?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/standard-version-helper)
+[![Npm.js Downloads/Week](https://img.shields.io/npm/dw/@kwooshung/standard-version-helper?labelColor=272e3b&labelColor=272e3b&color=165dff&logo=npm)](https://www.npmjs.com/package/@kwooshung/standard-version-helper)
 [![Github CI/CD](https://github.com/kwooshung/standard-version-helper/actions/workflows/ci.yml/badge.svg)](https://github.com/kwooshung/standard-version-helper/actions/)
 [![codecov](https://codecov.io/gh/kwooshung/standard-version-helper/graph/badge.svg?token=VVZJE7H0KD)](https://codecov.io/gh/kwooshung/standard-version-helper)
 [![Maintainability](https://api.codeclimate.com/v1/badges/325d0881b1ca19165d35/maintainability)](https://codeclimate.com/github/kwooshung/standard-version-helper/maintainability/)
@@ -21,7 +21,7 @@
 
 <p align="center">
     <a href="README.md">English</a> | 
-    <a href="README.zh-CN.md" style="font-weight:700;color:#165dff;text-decoration: underline;">中文</a>
+    <a href="README.zh-CN.md" style="font-weight:700;color:#165dff;text-decoration:underline;">中文</a>
 </p>
 </div>
 

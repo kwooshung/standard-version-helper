@@ -1,6 +1,27 @@
+## 🎉 v1.6.0 `2023-11-10`
+### 📚 文档：变更的只有文档
+- update styles ([2947a34](https://github.com/kwooshung/standard-version-helper/commit/2947a34))
+
+### 🔗 依赖更新：更新依赖库或包
+- update @kwooshung/standard-version-helper ([66b8d51](https://github.com/kwooshung/standard-version-helper/commit/66b8d51))
+
+---
+
+## 🎉 v1.5.6 `2023-11-10`
+### 📚 文档：变更的只有文档
+- update link ([d1ce8a7](https://github.com/kwooshung/standard-version-helper/commit/d1ce8a7))
+
+### 📦️ 发布：发布新版本
+- 1.5.6 ([e14df5b](https://github.com/kwooshung/standard-version-helper/commit/e14df5b))
+
+---
+
 ## 🎉 v1.5.5 `2023-11-09`
 ### 🏷️ 国际化：多语言国际化相关更改
 - update version.tips.enterInitialVersion ([d0474c8](https://github.com/kwooshung/standard-version-helper/commit/d0474c8))
+
+### 📦️ 发布：发布新版本
+- 1.5.5 ([2370d33](https://github.com/kwooshung/standard-version-helper/commit/2370d33))
 
 ---
 
