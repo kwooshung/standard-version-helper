@@ -2,11 +2,12 @@
 ### ⚙️ config
 - update ([75c92fe](https://github.com/kwooshung/standard-version-helper/commit/75c92fe))
 
+### 📦️ release
+- 1.6.1 ([db54dfd](https://github.com/kwooshung/standard-version-helper/commit/db54dfd))
+- 1.6.0 ([0d0d439](https://github.com/kwooshung/standard-version-helper/commit/0d0d439))
+
 ### 📚 docs
 - update styles ([2947a34](https://github.com/kwooshung/standard-version-helper/commit/2947a34))
-
-### 📦️ release
-- 1.6.0 ([0d0d439](https://github.com/kwooshung/standard-version-helper/commit/0d0d439))
 
 ### 🔗 deps
 - update @kwooshung/standard-version-helper ([66b8d51](https://github.com/kwooshung/standard-version-helper/commit/66b8d51))
