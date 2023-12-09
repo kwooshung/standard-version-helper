@@ -25,6 +25,10 @@
 </p>
 </div>
 
+## 停止更新，推荐使用 [cvlar](https://github.com/kwooshung/cvlar)
+
+本工具已停止更新，推荐使用功能更强大的 [cvlar](https://github.com/kwooshung/cvlar)
+
 ## 为什么开发它？
 
 - 我厌倦了命令行式的版本升级，每次都要记住命令，记住参数，记住各种规则，这些都是我不想记住的，我只想专注于业务开发，所以我开发了这个工具。
