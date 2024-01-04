@@ -25,6 +25,10 @@ It is based on [standard version](https://github.com/conventional-changelog/stan
 </p>
 </div>
 
+## Discontinued, Recommend Using [Cvlar](https://github.com/kwooshung/cvlar)
+
+This tool is no longer updated. It is recommended to use the more powerful [Cvlar](https://github.com/kwooshung/cvlar) instead.
+
 ## Why?
 
 - I am tired of command line version upgrades and have to remember commands, parameters, and various rules every time. These are all things I don't want to remember. I just want to focus on business development, so I developed this tool.
