@@ -1,3 +1,7 @@
+## 🎉 1.8.0 `2024-01-04`
+### 🐛 Fix
+- 更改為CVLAR釋放 ([#6d6f828](https://github.com/kwooshung/cvlar/commit/6d6f828f2f6a20f988e34d6551cdc8cbaed609cf))
+
 ## 🎉 1.7.0 `2024-01-04`
 ### 📚 Docs
 - 該項目不再更新，請使用更強大的`@kwooshung/cvlar` ([#ab43c63](https://github.com/kwooshung/cvlar/commit/ab43c63ef37e8e195afb85067af90178a4b1c552))
