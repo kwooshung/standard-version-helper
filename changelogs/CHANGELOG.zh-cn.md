@@ -1,3 +1,7 @@
+## 🎉 1.8.1 `2024-01-04`
+### 🐛 Fix
+- 更新新写作NPX CVLAR -R ([#be49468](https://github.com/kwooshung/cvlar/commit/be494682589d5c4b25c5c7000c116210a153d771))
+
 ## 🎉 1.8.0 `2024-01-04`
 ### 🐛 Fix
 - 更改为CVLAR释放 ([#6d6f828](https://github.com/kwooshung/cvlar/commit/6d6f828f2f6a20f988e34d6551cdc8cbaed609cf))
